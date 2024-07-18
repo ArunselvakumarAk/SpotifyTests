@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spotify.web.tests.SearchTests">
+      <class name="com.spotify.web.tests.PlaylistTests">
         <methods>
+          <include name="createNewPlaylistTest"/>
           <include name="tearDown"/>
-          <include name="searchedSongInResultsTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.spotify.web.tests.SearchTests -->
+      </class> <!-- com.spotify.web.tests.PlaylistTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

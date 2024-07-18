@@ -1,0 +1,8 @@
+com\spotify\web\pageobjects\common\ContextMenu.class
+com\spotify\web\pageobjects\pages\LoginPage.class
+com\spotify\web\pageobjects\pages\SearchPage.class
+com\spotify\web\pageobjects\base\BasePage.class
+com\spotify\web\pageobjects\pages\PlaylistPage.class
+com\spotify\web\pageobjects\common\NavigationMenu.class
+com\spotify\web\utils\UtilityMethods.class
+com\spotify\web\pageobjects\pages\HomePage.class

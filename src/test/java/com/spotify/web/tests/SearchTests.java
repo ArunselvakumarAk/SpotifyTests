@@ -9,12 +9,12 @@ import org.testng.annotations.Test;
 import com.spotify.web.base.BaseTest;
 import com.spotify.web.pageobjects.pages.SearchPage;
 import com.spotify.web.pojo.Track;
-import com.spotify.web.utils.TestdataUtils;
+import com.spotify.web.utils.UtilityMethods;
 
 
 public class SearchTests extends BaseTest{
 	
-	@Test(dataProvider="searchSongTestData")
+	@Test(enabled=true,dataProvider="searchSongTestData")
 	public void searchedSongInResultsTest(String song, String artist) {	
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
@@ -24,7 +24,7 @@ public class SearchTests extends BaseTest{
 			.assertSongInTopResults(song, artist);
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void searchPlaylistInResultsTest() {
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
@@ -33,11 +33,10 @@ public class SearchTests extends BaseTest{
 			.clickPlaylistsFilterBtn()
 			.assertPlaylistInTopResults("Jailer");
 	}
-	
+		
 	@DataProvider
 	public Object[][] searchSongTestData(){
-		List<Track> tracks = Arrays.asList(TestdataUtils.getJsonData("com//spotify//web//testdata//searchSong.json", Track[].class));
-		
+		List<Track> tracks = Arrays.asList(UtilityMethods.getJsonData("searchSong.json", Track[].class));		
 		return tracks.stream()
                 .map(track -> new Object[] { track.getSongTitle(), track.getArtist() })
                 .toArray(Object[][]::new);

@@ -11,25 +11,25 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import com.spotify.web.driver.Driver;
 import com.spotify.web.driver.DriverManager;
 import com.spotify.web.pageobjects.pages.LoginPage;
 
 public class BaseTest {
 	protected WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeMethod(enabled=true)
 	public void setUp() {
-		driver = new DriverManager().createDriver();
+		driver = new DriverManager().createDriver(Driver.getDriverByName(System.getProperty("browser")));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		login();		
 	}
 	
-	@AfterMethod
+	@AfterMethod(enabled=true)
 	public void tearDown() {
 		driver.quit();
 	}
-	
 	
 	public void login() {
 		LoginPage login = new LoginPage(driver);
