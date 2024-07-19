@@ -5,4 +5,5 @@ C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pag
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\LoginPage.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\PlaylistPage.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\SearchPage.java
-C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\utils\UtilityMethods.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\utils\ElementUtils.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\utils\TestUtils.java

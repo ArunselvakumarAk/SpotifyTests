@@ -40,15 +40,16 @@ public class NavigationMenu extends BasePage{
 	}
 	
 	public NavigationMenu createNewPlaylist() {
+		wait.waitForVisibilityOfElement(createPlaylistOrFolder_btn);
 		clickCreatePlaylistOrFolderBtn();
-		waitForElementToBeClickable(createPlaylist_btn);
+		wait.waitForElementToBeClickable(createPlaylist_btn);
 		clickCreatePlaylistBtn();
 		return this;
 	}
 		
 	public boolean isPlaylistpresent(String playlistTitle) {
 		boolean isPresent = false;
-		if(isElementPresent(createFirstPlaylist_Btn)) {
+		if(wait.isElementPresent(createFirstPlaylist_Btn)) {
 			return isPresent;
 		}
 		List<WebElement> elements = driver.findElements(totalPlaylistsLocator);

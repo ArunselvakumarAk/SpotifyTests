@@ -1,6 +1,9 @@
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\annotations\AuthenticationRequired.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\base\BaseTest.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\driver\Driver.java
-C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\driver\DriverManager.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\driver\WebDriverManager.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\pojo\Playlist.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\pojo\Track.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\tests\GoogleTests.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\tests\PlaylistTests.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\test\java\com\spotify\web\tests\SearchTests.java

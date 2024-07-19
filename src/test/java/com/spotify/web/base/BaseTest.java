@@ -1,42 +1,41 @@
 package com.spotify.web.base;
 
-import java.time.Duration;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+import java.lang.reflect.Method;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
+import com.spotify.web.annotations.AuthenticationRequired;
 import com.spotify.web.driver.Driver;
-import com.spotify.web.driver.DriverManager;
+import com.spotify.web.driver.WebDriverManager;
 import com.spotify.web.pageobjects.pages.LoginPage;
+import com.spotify.web.utils.ResourceUtils;
 
 public class BaseTest {
-	protected WebDriver driver;
+	public WebDriver driver; 
 	
-	@BeforeMethod(enabled=true)
-	public void setUp() {
-		driver = new DriverManager().createDriver(Driver.getDriverByName(System.getProperty("browser")));
+	@BeforeMethod
+	public void setUp(Method method) {
+		String browserName = ResourceUtils.getProperty("configuration//browser_config.properties", "browserName");
+		driver = WebDriverManager.getInstance(Driver.getDriverByName(System.getProperty("browser", browserName))).getDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		login();		
+		if(method.isAnnotationPresent(AuthenticationRequired.class)) {
+			login();
+		}
 	}
 	
-	@AfterMethod(enabled=true)
+	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+		WebDriverManager.quitDriver();
 	}
 	
 	public void login() {
 		LoginPage login = new LoginPage(driver);
+		String username = ResourceUtils.getProperty("configuration//authentication_config.properties", "username");
+		String password = ResourceUtils.getProperty("configuration//authentication_config.properties", "password");
 		
 		login
 			.navigateToLoginPage()
-			.handleLogin("31c7nnw6yqbzysucb5w45i6g6zjy", "UserPassword008");
+			.handleLogin(username, password);
 	}
 
 }

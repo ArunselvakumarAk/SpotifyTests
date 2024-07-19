@@ -17,7 +17,7 @@ public class PlaylistPage extends BasePage{
 	}
 	
 	public ContextMenu clickMoreOptionsBtn() {
-		waitForPresenceOfElement(moreOptions_btn);
+		wait.waitForVisibilityOfElement(moreOptions_btn);
 		driver.findElement(moreOptions_btn).click();
 		return new ContextMenu(driver);
 	}

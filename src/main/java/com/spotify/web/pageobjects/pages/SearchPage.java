@@ -44,16 +44,19 @@ public class SearchPage extends BasePage{
 	}
 		
 	public SearchPage clickSongsFilterBtn() {
+		wait.waitForElementToBeClickable(songsFilter_btn);
 		driver.findElement(songsFilter_btn).click();
 		return this;
 	}
 	
 	public SearchPage clickPlaylistsFilterBtn() {
+		wait.waitForElementToBeClickable(playlistsFilter_btn);
 		driver.findElement(playlistsFilter_btn).click();
 		return this;
 	}
 	
 	public SearchPage assertSongInTopResults(String song, String artist) {
+		wait.waitForVisibilityOfAllElements(ResultedSongsListLocator);
 		List<WebElement> resultedSongsList = driver.findElements(ResultedSongsListLocator);
 		String[][] resultedSongsInfo =  new String[10][2];
 		
@@ -81,6 +84,7 @@ public class SearchPage extends BasePage{
 	}
 	
 	public SearchPage assertPlaylistInTopResults(String playlist) {
+		wait.waitForVisibilityOfAllElements(ResultedPlaylistssListLocator);
 		List<WebElement> resultedSongsList = driver.findElements(ResultedPlaylistssListLocator);
 		String[] resultedPlaylistsInfo =  new String[10];
 		
@@ -95,6 +99,5 @@ public class SearchPage extends BasePage{
 		
 		Assert.assertTrue(isPlaylistReturned);
 		return this;
-		
 	}
 }

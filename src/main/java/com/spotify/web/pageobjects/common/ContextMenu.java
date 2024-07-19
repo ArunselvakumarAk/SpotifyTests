@@ -18,22 +18,26 @@ public class ContextMenu extends BasePage{
 	}
 	
 	public ContextMenu clickDeleteBtn() {
+		wait.waitForVisibilityOfElement(delete_btn);
 		driver.findElement(delete_btn).click();
 		return this;
 	}
 	
-	public ContextMenu clickeditDetailsBtn() {
+	public ContextMenu clickEditDetailsBtn() {
+		wait.waitForVisibilityOfElement(editDetails_btn);
 		driver.findElement(editDetails_btn).click();
 		return this;
 	}
 	
 	public ContextMenu editPlaylistName(String playlistName) {
+		wait.waitForVisibilityOfElement(editPlaylistName_txt);
 		driver.findElement(editPlaylistName_txt).clear();
 		driver.findElement(editPlaylistName_txt).sendKeys(playlistName);;
 		return this;
 	}
 	
 	public ContextMenu clickConfirmationDeleteBtn() {
+		wait.waitForVisibilityOfElement(confirmationDelete_btn);
 		driver.findElement(confirmationDelete_btn).click();
 		return this;
 	}

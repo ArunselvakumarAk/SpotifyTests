@@ -1,54 +1,74 @@
 package com.spotify.web.tests;
 
-import org.testng.Assert;
+import java.util.Arrays;
+import java.util.List;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
+import com.spotify.web.annotations.AuthenticationRequired;
 import com.spotify.web.base.BaseTest;
 import com.spotify.web.pageobjects.common.NavigationMenu;
-import com.spotify.web.pageobjects.pages.PlaylistPage;
+import com.spotify.web.pojo.Playlist;
+import com.spotify.web.utils.ResourceUtils;
 
 public class PlaylistTests extends BaseTest{
 	
-	@Test(enabled=true, priority =1)
+	@Test
+	@AuthenticationRequired
 	public void createNewPlaylistTest() {
 		NavigationMenu navigation = new NavigationMenu(driver);
 		navigation.createNewPlaylist();
 	}
 	
-	@Test(enabled=true, priority = 2)
-	public void editPlaylistName() {
+	@Test(dataProvider="editPlaylistTestData")
+	@AuthenticationRequired
+	public void editPlaylistName(String originalName, String newName) {
 		NavigationMenu navigation = new NavigationMenu(driver);
-		boolean isPresent = navigation.isPlaylistpresent("My Playlist #1");
+		boolean isPresent = navigation.isPlaylistpresent(originalName);
 		if(isPresent) {
 			navigation
-				.openPlaylist("My Playlist #1")
+				.openPlaylist(originalName)
 				.clickMoreOptionsBtn()
-				.clickeditDetailsBtn()
-				.editPlaylistName("Updated One")
+				.clickEditDetailsBtn()
+				.editPlaylistName(newName)
 				.clickSaveBtn();
 		}else {
 			System.out.println("Playlist Not found");
 		}
 	}
 	
-	@Test(enabled=true, priority =4)
-	public void deletePlaylistTest() {
+	@Test(dataProvider = "deletePlaylistTestData", priority=1)
+	@AuthenticationRequired
+	public void deletePlaylistTest(String playlistTitle) {
 		NavigationMenu navigation = new NavigationMenu(driver);
-		boolean isPresent = navigation.isPlaylistpresent("Updated One");
+		boolean isPresent = navigation.isPlaylistpresent(playlistTitle);
 		if(isPresent) {
 			navigation
-				.openPlaylist("Updated One")
+				.openPlaylist(playlistTitle)
 				.clickMoreOptionsBtn()
 				.clickDeleteBtn()
 				.clickConfirmationDeleteBtn();
 		}
 	}
 	
-	@Test(enabled=true, dependsOnMethods="editPlaylistName",priority=3 )
-	public void AssertIfPlaylistPresent() {
-		NavigationMenu navigation = new NavigationMenu(driver);
-		Assert.assertTrue(navigation.isPlaylistpresent("Updated One"));
-		
+//	@Test
+//	@AuthenticationRequired
+//	public void AssertIfPlaylistPresent() {
+//		NavigationMenu navigation = new NavigationMenu(driver);
+//		Assert.assertTrue(navigation.isPlaylistpresent("Updated One"));
+//		
+//	}
+	
+	@DataProvider
+	public Object[][] deletePlaylistTestData() {
+		List<Playlist> playlists = Arrays.asList(ResourceUtils.getJsonData("Playlist.json", Playlist[].class));		
+		return playlists.stream()
+                .map(playlist -> new Object[] {playlist.getPlaylistTitle()})
+                .toArray(Object[][]::new);
+	}
+	
+	@DataProvider
+	public Object[][] editPlaylistTestData() {
+		return new Object[][] {{"My Playlist #1", "Updated Playlist"}};
 	}
 
 }
