@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.spotify.web.utils.ResourceUtils;
+
 public class WebDriverManager {
 	
 	public static volatile WebDriverManager instance;
@@ -16,15 +18,19 @@ public class WebDriverManager {
         switch (browser) {
             case CHROME:
                 driver.set(new ChromeDriver());
+                ResourceUtils.log.info("New {} driver created", browser);
                 break;
             case FIREFOX:
                 driver.set(new FirefoxDriver());
+                ResourceUtils.log.info("New {} driver created", browser);
                 break;
             case EDGE:
                 driver.set(new EdgeDriver());
+                ResourceUtils.log.info("New {} driver created", browser);
                 break;
             default:
             	driver.set(new ChromeDriver());
+            	ResourceUtils.log.info("New {} driver created", browser);
         }
     }
 	

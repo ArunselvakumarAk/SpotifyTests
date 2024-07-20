@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="4" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="3">
-  <test thread-count="4" parallel="classes" name="Test(failed)" verbose="3">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="classes" name="Test(failed)" verbose="3">
     <classes>
-      <class name="com.spotify.web.tests.PlaylistTests">
+      <class name="com.spotify.web.tests.AlbumTests">
         <methods>
-          <include name="createNewPlaylistTest"/>
           <include name="tearDown"/>
-          <include name="editPlaylistName"/>
-          <include name="deletePlaylistTest"/>
+          <include name="RemoveAlbumFromLibraryTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.spotify.web.tests.PlaylistTests -->
+      </class> <!-- com.spotify.web.tests.AlbumTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

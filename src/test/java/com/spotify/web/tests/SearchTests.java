@@ -1,32 +1,51 @@
 package com.spotify.web.tests;
 
 import org.testng.annotations.Test;
+
 import com.spotify.web.base.BaseTest;
-import com.spotify.web.dataproviders.PlaylistDataProvider;
-import com.spotify.web.dataproviders.SongDataProvider;
+import com.spotify.web.dataproviders.SearchTestsDataProviders;
 import com.spotify.web.pageobjects.pages.SearchPage;
 
 
 public class SearchTests extends BaseTest{
 	
-	@Test(dataProvider="getSongTestData", dataProviderClass=SongDataProvider.class)
-	public void searchedSongInResultsTest(String song, String artist) {	
+	@Test(dataProvider="getTracksTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedTrackInResultsTest(String song, String artist) {	
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
-			.navigateToSearchPage()
+			.openSearchPage()
 			.enterSearchText(song, artist)
-			.clickSongsFilterBtn()
+			.clickFilterBtn("Songs")
 			.assertSongInTopResults(song, artist);
 	}
 	
-	@Test(dataProvider = "getPlaylistTestData", dataProviderClass=PlaylistDataProvider.class)
-	public void searchPlaylistInResultsTest(String playlistTitle) {
+	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedPlaylistsInResultsTest(String playlistTitle) {
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
-			.navigateToSearchPage()
+			.openSearchPage()
 			.enterSearchText(playlistTitle)
-			.clickPlaylistsFilterBtn()
-			.assertPlaylistInTopResults(playlistTitle);
+			.clickFilterBtn("Playlists")
+			.assertInTopResults(playlistTitle);
 	}
-		
+	
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedAlbumnInResultsTest(String albumnName) {
+		SearchPage searchPage = new SearchPage(driver);
+		searchPage
+			.openSearchPage()
+			.enterSearchText(albumnName)
+			.clickFilterBtn("Albums")
+			.assertInTopResults(albumnName);
+	}
+	
+	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedArtistInResultsTest(String artistName) {
+		SearchPage searchPage = new SearchPage(driver);
+		searchPage
+			.openSearchPage()
+			.enterSearchText(artistName)
+			.clickFilterBtn("Artists")
+			.assertInTopResults(artistName);
+	}
 }

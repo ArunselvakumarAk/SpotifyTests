@@ -1,14 +1,13 @@
 package com.spotify.web.pojo;
 
 public class Track {
-	private String songTitle;
+	private String trackTitle;
 	private String artist;
-	
-	public String getSongTitle() {
-		return songTitle;
+	public String getTrackTitle() {
+		return trackTitle;
 	}
-	public void setSongTitle(String songTitle) {
-		this.songTitle = songTitle;
+	public void setTrackTitle(String trackTitle) {
+		this.trackTitle = trackTitle;
 	}
 	public String getArtist() {
 		return artist;
@@ -16,4 +15,6 @@ public class Track {
 	public void setArtist(String artist) {
 		this.artist = artist;
 	}
+	
+	
 }

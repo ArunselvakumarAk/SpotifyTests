@@ -1,4 +1,6 @@
 com\spotify\web\pageobjects\common\ContextMenu.class
+com\spotify\web\pageobjects\pages\AlbumPage.class
+com\spotify\web\pageobjects\pages\LibraryPage.class
 com\spotify\web\pageobjects\pages\LoginPage.class
 com\spotify\web\pageobjects\pages\SearchPage.class
 com\spotify\web\utils\ResourceUtils.class

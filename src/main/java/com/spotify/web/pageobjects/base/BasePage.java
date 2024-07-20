@@ -14,8 +14,9 @@ public class BasePage{
 		wait = new WebElementUtils(driver, 10);
 	}
 	
-	public void navigateTo(String endPoint) {
+	public BasePage openPage(String endPoint) {
 		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl") + endPoint);
+		return this;
 	}
 		
 }

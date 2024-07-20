@@ -11,7 +11,7 @@ public class HomePage extends BasePage{
 	}
 	
 	public HomePage navigateToHomePage() {
-		navigateTo("");
+		openPage("");
 		return this;
 	}
 }

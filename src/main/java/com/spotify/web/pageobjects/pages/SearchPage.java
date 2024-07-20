@@ -10,51 +10,51 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.spotify.web.pageobjects.base.BasePage;
+import com.spotify.web.utils.ResourceUtils;
 
 public class SearchPage extends BasePage{
 	
 	private By search_txt = By.xpath("//input[@data-testid='search-input']");
-	private By songsFilter_btn = By.xpath("//span[text()='Songs']");
-	private By playlistsFilter_btn = By.xpath("//a[contains(@href,'/search')]//span[text()='Playlists']");
 	private By ResultedSongsListLocator = By.xpath("//div[@data-testid='tracklist-row']");
-	private By ResultedPlaylistssListLocator = By.xpath("//div[contains(@data-testid,'search-category-card')]");
+	private By ResultedListLocator = By.xpath("//div[contains(@data-testid,'search-category-card')]");
 	private By songTitleLocator = By.xpath(".//div[@class='_iQpvk1c9OgRAc8KRTlH']/a/div");
 	private By songArtistsLocator = By.xpath(".//div[@class='_iQpvk1c9OgRAc8KRTlH']//a[contains(@href,'/artist')]");
-	private By playlistTitleLocator = By.xpath(".//span[contains(@class,'CardTitle__LineClamp')]");
+	private By TitleLocator = By.xpath(".//span[contains(@class,'CardTitle__LineClamp')]");
 	
 	public SearchPage(WebDriver driver) {
 		super(driver);
 	}
 	
-	public SearchPage navigateToSearchPage() {
-		navigateTo("/search");
+	public SearchPage openSearchPage() {
+		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl") + "/search");
 		return this;
 	}
 	
+	public By getLocatorForFilterBtn(String filter) {
+		return By.xpath("//a[contains(@href,'/search')]//span[text()='"+filter+"']");
+	}
+	
+	
 	public SearchPage enterSearchText(String song, String artist) {
+		wait.waitForElementToBeClickable(search_txt);
 		driver.findElement(search_txt).sendKeys(song + " " + artist);
 		driver.findElement(search_txt).sendKeys(Keys.ENTER);
 		return this;
 	}
 	
 	public SearchPage enterSearchText(String song) {
+		wait.waitForElementToBeClickable(search_txt);
 		driver.findElement(search_txt).sendKeys(song);
 		driver.findElement(search_txt).sendKeys(Keys.ENTER);
 		return this;
 	}
-		
-	public SearchPage clickSongsFilterBtn() {
-		wait.waitForElementToBeClickable(songsFilter_btn);
-		driver.findElement(songsFilter_btn).click();
+	
+	public SearchPage clickFilterBtn(String filter) {
+		wait.waitForElementToBeClickable(getLocatorForFilterBtn(filter));
+		driver.findElement(getLocatorForFilterBtn(filter)).click();
 		return this;
 	}
-	
-	public SearchPage clickPlaylistsFilterBtn() {
-		wait.waitForElementToBeClickable(playlistsFilter_btn);
-		driver.findElement(playlistsFilter_btn).click();
-		return this;
-	}
-	
+			
 	public SearchPage assertSongInTopResults(String song, String artist) {
 		wait.waitForVisibilityOfAllElements(ResultedSongsListLocator);
 		List<WebElement> resultedSongsList = driver.findElements(ResultedSongsListLocator);
@@ -83,17 +83,17 @@ public class SearchPage extends BasePage{
 		
 	}
 	
-	public SearchPage assertPlaylistInTopResults(String playlist) {
-		wait.waitForVisibilityOfAllElements(ResultedPlaylistssListLocator);
-		List<WebElement> resultedSongsList = driver.findElements(ResultedPlaylistssListLocator);
-		String[] resultedPlaylistsInfo =  new String[10];
+	public SearchPage assertInTopResults(String playlist) {
+		wait.waitForVisibilityOfAllElements(ResultedListLocator);
+		List<WebElement> resultedList = driver.findElements(ResultedListLocator);
+		String[] resultedInfo =  new String[10];
 		
 		for(int i =0;i<10;i++) {
-			String playlistTitle = resultedSongsList.get(i).findElement(playlistTitleLocator).getText();
-			resultedPlaylistsInfo[i]= playlistTitle;
+			String title = resultedList.get(i).findElement(TitleLocator).getText();
+			resultedInfo[i]= title;
 		}
 				
-		boolean isPlaylistReturned = Arrays.stream(resultedPlaylistsInfo)
+		boolean isPlaylistReturned = Arrays.stream(resultedInfo)
 				.filter(Objects::nonNull)
 				.anyMatch(n->n.contains(playlist));
 		
