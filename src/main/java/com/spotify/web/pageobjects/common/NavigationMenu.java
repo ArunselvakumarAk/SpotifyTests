@@ -29,49 +29,4 @@ public class NavigationMenu extends BasePage{
 		return this;
 	}
 	
-	private NavigationMenu clickCreatePlaylistOrFolderBtn() {
-		driver.findElement(createPlaylistOrFolder_btn).click();
-		return this;
-	}
-	
-	private NavigationMenu clickCreatePlaylistBtn() {
-		driver.findElement(createPlaylist_btn).click();
-		return this;
-	}
-	
-	public NavigationMenu createNewPlaylist() {
-		clickCreatePlaylistOrFolderBtn();
-		waitForElementToBeClickable(createPlaylist_btn);
-		clickCreatePlaylistBtn();
-		return this;
-	}
-		
-	public boolean isPlaylistpresent(String playlistTitle) {
-		boolean isPresent = false;
-		if(isElementPresent(createFirstPlaylist_Btn)) {
-			return isPresent;
-		}
-		List<WebElement> elements = driver.findElements(totalPlaylistsLocator);
-		for(WebElement element: elements) {
-			isPresent = element.findElement(playlistTitleLocator).getText().trim().equalsIgnoreCase(playlistTitle);
-			if(isPresent) {
-				break;
-			}	
-		}
-		return isPresent;
-	}
-	
-	public PlaylistPage openPlaylist(String playlistTitle) {
-		List<WebElement> elements = driver.findElements(totalPlaylistsLocator);
-		boolean isPresent = false;
-		for(WebElement element: elements) {
-			isPresent = element.findElement(playlistTitleLocator).getText().trim().equalsIgnoreCase(playlistTitle);
-			if(isPresent) {
-				element.click();
-				break;
-			}
-				
-		}
-		return new PlaylistPage(driver);
-	}	
 }

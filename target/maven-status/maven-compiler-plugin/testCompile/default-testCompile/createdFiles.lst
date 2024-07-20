@@ -1,7 +1,0 @@
-com\spotify\web\driver\Driver.class
-com\spotify\web\tests\SearchTests.class
-com\spotify\web\driver\DriverManager$1.class
-com\spotify\web\tests\PlaylistTests.class
-com\spotify\web\pojo\Track.class
-com\spotify\web\driver\DriverManager.class
-com\spotify\web\base\BaseTest.class

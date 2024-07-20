@@ -1,8 +1,11 @@
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\base\BasePage.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\common\ContextMenu.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\common\NavigationMenu.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\AlbumPage.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\HomePage.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\LibraryPage.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\LoginPage.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\PlaylistPage.java
 C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\pageobjects\pages\SearchPage.java
-C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\utils\UtilityMethods.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\utils\ResourceUtils.java
+C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\src\main\java\com\spotify\web\utils\WebElementUtils.java

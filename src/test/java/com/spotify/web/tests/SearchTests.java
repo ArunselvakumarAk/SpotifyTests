@@ -1,44 +1,51 @@
 package com.spotify.web.tests;
 
-import java.util.Arrays;
-import java.util.List;
-
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.spotify.web.base.BaseTest;
+import com.spotify.web.dataproviders.SearchTestsDataProviders;
 import com.spotify.web.pageobjects.pages.SearchPage;
-import com.spotify.web.pojo.Track;
-import com.spotify.web.utils.UtilityMethods;
 
 
 public class SearchTests extends BaseTest{
 	
-	@Test(enabled=true,dataProvider="searchSongTestData")
-	public void searchedSongInResultsTest(String song, String artist) {	
+	@Test(dataProvider="getTracksTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedTrackInResultsTest(String song, String artist) {	
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
-			.navigateToSearchPage()
+			.openSearchPage()
 			.enterSearchText(song, artist)
-			.clickSongsFilterBtn()
+			.clickFilterBtn("Songs")
 			.assertSongInTopResults(song, artist);
 	}
 	
-	@Test(enabled=true)
-	public void searchPlaylistInResultsTest() {
+	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedPlaylistsInResultsTest(String playlistTitle) {
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
-			.navigateToSearchPage()
-			.enterSearchText("Jailer")
-			.clickPlaylistsFilterBtn()
-			.assertPlaylistInTopResults("Jailer");
+			.openSearchPage()
+			.enterSearchText(playlistTitle)
+			.clickFilterBtn("Playlists")
+			.assertInTopResults(playlistTitle);
 	}
-		
-	@DataProvider
-	public Object[][] searchSongTestData(){
-		List<Track> tracks = Arrays.asList(UtilityMethods.getJsonData("searchSong.json", Track[].class));		
-		return tracks.stream()
-                .map(track -> new Object[] { track.getSongTitle(), track.getArtist() })
-                .toArray(Object[][]::new);
+	
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedAlbumnInResultsTest(String albumnName) {
+		SearchPage searchPage = new SearchPage(driver);
+		searchPage
+			.openSearchPage()
+			.enterSearchText(albumnName)
+			.clickFilterBtn("Albums")
+			.assertInTopResults(albumnName);
+	}
+	
+	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	public void searchedArtistInResultsTest(String artistName) {
+		SearchPage searchPage = new SearchPage(driver);
+		searchPage
+			.openSearchPage()
+			.enterSearchText(artistName)
+			.clickFilterBtn("Artists")
+			.assertInTopResults(artistName);
 	}
 }

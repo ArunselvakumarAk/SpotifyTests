@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.spotify.web.pageobjects.base.BasePage;
+import com.spotify.web.utils.ResourceUtils;
 
 public class LoginPage extends BasePage{
 	
@@ -37,12 +38,15 @@ public class LoginPage extends BasePage{
 	}
 	
 	public LoginPage handleLogin(String username, String password) {
-		enterUsername(username).enterPassword(password).clickLoginBtn().clickWebplayerBtn();
+		enterUsername(username).enterPassword(password)
+		.clickLoginBtn()
+		.wait.waitForVisibilityOfElement(web_player_btn);
+		clickWebplayerBtn();
 		return this;
 	}
 	
 	public LoginPage navigateToLoginPage() {
-		driver.get("https://accounts.spotify.com/en/login");
+		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "accountsUrl"));
 		return this;
 	}
 }
