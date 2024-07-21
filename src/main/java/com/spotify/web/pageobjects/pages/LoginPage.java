@@ -38,9 +38,9 @@ public class LoginPage extends BasePage{
 	}
 	
 	public LoginPage handleLogin(String username, String password) {
-		enterUsername(username).enterPassword(password)
-		.clickLoginBtn()
-		.wait.waitForVisibilityOfElement(web_player_btn);
+		utils.srollIntoView(driver.findElement(logInBtn));
+		enterUsername(username).enterPassword(password).clickLoginBtn();
+		utils.waitForVisibilityOfElement(web_player_btn);
 		clickWebplayerBtn();
 		return this;
 	}

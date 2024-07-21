@@ -1,25 +1,32 @@
 package com.spotify.web.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.spotify.web.annotations.AuthenticationRequired;
 import com.spotify.web.base.BaseTest;
 import com.spotify.web.pageobjects.common.ContextMenu;
 import com.spotify.web.pageobjects.pages.LibraryPage;
 import com.spotify.web.pageobjects.pages.PlaylistPage;
+import com.spotify.web.utils.ResourceUtils;
+import io.qameta.allure.Description;
 
 public class LibraryTests extends BaseTest{
 	
+	@Description("This test checks the functionality of creating a new playlist in the library")
 	@Test
 	@AuthenticationRequired
 	public void createNewPlaylistInLibraryTest() throws InterruptedException {
 		LibraryPage libraryPage = new LibraryPage(driver);
+		ContextMenu contextMenu = new ContextMenu(driver);
 		libraryPage
 			.verifyLibraryBtnIsVisible()
 			.createNewPlaylist();
+		
+		Assert.assertTrue(contextMenu.verifyAddedToLibrarySuccessMsg());
 	}
 	
+	@Description("This test verifies that the playlist name in the library can be successfully edited")
 	@Test(dataProvider="changePlaylistNameTestData")
 	@AuthenticationRequired
 	public void changePlaylistNameinLibraryTest(String originalName, String newName) {
@@ -38,11 +45,13 @@ public class LibraryTests extends BaseTest{
 			playlistPage
 				.editPlaylistName(newName)
 				.clickSaveBtn();
+			Assert.assertTrue(libraryPage.isPlaylistpresent(newName));
 		}else {
-			System.out.println("Playlist Not found");
+			ResourceUtils.log.info("{} is not found in your library");
 		}
 	}
 	
+	@Description("This test confirms that the playlist can be deleted")
 	@Test(dataProvider = "deletePlaylistTestData")
 	@AuthenticationRequired
 	public void deletePlaylistInLibraryTest(String playlistTitle) {
@@ -57,13 +66,16 @@ public class LibraryTests extends BaseTest{
 				.clickContextMenuBtn()
 				.clickDeleteBtn()
 				.clickConfirmationDeleteBtn();
+			Assert.assertTrue(contextMenu.verifyRemovedFromLibrarySuccessMsg());
+		}else {
+			ResourceUtils.log.info("{} is not found in your library");
 		}
 	}
 	
 	 @DataProvider(name = "changePlaylistNameTestData")
 	 public Object[][] changePlaylistNameTestData() {
 		 return new Object[][] {
-	           {"My Playlist #1", "Updated Playlist #1"},
+	           {"My Playlist #1", "Updated Playlist"},
 	        };
 	    }
 	

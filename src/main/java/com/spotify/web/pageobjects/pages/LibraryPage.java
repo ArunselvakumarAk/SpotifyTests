@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.spotify.web.pageobjects.base.BasePage;
+import com.spotify.web.utils.ResourceUtils;
 
 public class LibraryPage extends BasePage{
 	
@@ -17,14 +18,13 @@ public class LibraryPage extends BasePage{
 	private By createPlaylist_btn = By.xpath("//div[@id='context-menu']//span[contains(text(),'Create a new playlist')]");
 	private By totalPlaylistsLocator = By.xpath("//div[@data-testid='top-sentinel']/following-sibling::div[contains(@style,'transform')]/li");
 	private By playlistTitleLocator = By.xpath(".//p/span[contains(@class,'ListRowTitle')]");
-//	private By sortAndView_btn = By.xpath("//button[@role='combobox' and @aria-controls='sort-and-view-picker']");
 
 	public LibraryPage(WebDriver driver) {
 		super(driver);
 	}
 	
 	public LibraryPage verifyLibraryBtnIsVisible() {
-		wait.waitForVisibilityOfElement(library_Btn);
+		utils.waitForVisibilityOfElement(library_Btn);
 		Assert.assertTrue(driver.findElement(library_Btn).isDisplayed());
 		return this;
 	}
@@ -40,25 +40,29 @@ public class LibraryPage extends BasePage{
 	}
 	
 	public LibraryPage createNewPlaylist(){
-		wait.waitForVisibilityOfElement(createPlaylistOrFolder_btn);
+		utils.waitForVisibilityOfElement(createPlaylistOrFolder_btn);
 		clickCreatePlaylistOrFolderBtn();
-		wait.waitForElementToBeClickable(createPlaylist_btn);
+		utils.waitForElementToBeClickable(createPlaylist_btn);
 		clickCreatePlaylistBtn();
+		ResourceUtils.log.info("Created new playlist in the library");
 		return this;
 	}
 		
 	public boolean isPlaylistpresent(String playlistTitle) {
 		boolean isPresent = false;
-		if(wait.isElementPresent(createFirstPlaylist_Btn)) {
+		if(utils.isElementPresent(createFirstPlaylist_Btn)) {
 			return isPresent;
 		}
 		List<WebElement> elements = driver.findElements(totalPlaylistsLocator);
+		ResourceUtils.log.info("Locating {} in the library", playlistTitle);
 		for(WebElement element: elements) {
 			isPresent = element.findElement(playlistTitleLocator).getText().trim().contains(playlistTitle);
 			if(isPresent) {
+				ResourceUtils.log.info("{} found in the library", playlistTitle);
 				break;
 			}	
 		}
+		ResourceUtils.log.info("{} not found in the library", playlistTitle);
 		return isPresent;
 	}
 	
@@ -69,6 +73,7 @@ public class LibraryPage extends BasePage{
 			isPresent = element.findElement(playlistTitleLocator).getText().trim().contains(playlistTitle);
 			if(isPresent) {
 				element.click();
+				ResourceUtils.log.info("Opening {}", playlistTitle);
 				break;
 			}
 				

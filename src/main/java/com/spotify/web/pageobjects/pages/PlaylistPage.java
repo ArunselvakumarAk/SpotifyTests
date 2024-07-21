@@ -6,6 +6,7 @@ import org.testng.Assert;
 
 import com.spotify.web.pageobjects.base.BasePage;
 import com.spotify.web.pageobjects.common.ContextMenu;
+import com.spotify.web.utils.ResourceUtils;
 
 public class PlaylistPage extends BasePage{
 	
@@ -18,25 +19,28 @@ public class PlaylistPage extends BasePage{
 	}
 	
 	public PlaylistPage verifyConfirmationDeleteBtn() {
-		wait.waitForVisibilityOfElement(confirmationDelete_btn);
+		utils.waitForVisibilityOfElement(confirmationDelete_btn);
 		Assert.assertTrue(driver.findElement(confirmationDelete_btn).isDisplayed());
 		return this;
 	}
 	
 	public PlaylistPage clickConfirmationDeleteBtn() {
 		driver.findElement(confirmationDelete_btn).click();
+		ResourceUtils.log.info("Playlist deleted successfully");
 		return this;
 	}
 	
 	public PlaylistPage editPlaylistName(String playlistName) {
-		wait.waitForVisibilityOfElement(editPlaylistName_txt);
+		utils.waitForVisibilityOfElement(editPlaylistName_txt);
 		driver.findElement(editPlaylistName_txt).clear();
-		driver.findElement(editPlaylistName_txt).sendKeys(playlistName);;
+		driver.findElement(editPlaylistName_txt).sendKeys(playlistName);
+		ResourceUtils.log.info("Editing the playlist name");
 		return this;
 	}
 
 	public PlaylistPage clickSaveBtn() {
 		driver.findElement(save_btn).click();
+		ResourceUtils.log.info("Playlist details edited successfully");
 		return this;
 	}
 

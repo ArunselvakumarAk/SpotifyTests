@@ -1,24 +1,13 @@
 package com.spotify.web.pageobjects.common;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
-
 import com.spotify.web.pageobjects.base.BasePage;
-import com.spotify.web.pageobjects.pages.PlaylistPage;
 
 public class NavigationMenu extends BasePage{
 	
+	private By home_btn = By.xpath("//a[@aria-label='Home']//span[text()='Home']");
 	private By search_btn = By.xpath("//span[contains(text(),'Search')]");
-	private By createFirstPlaylist_Btn = By.xpath("//span[text()='Create playlist']");
-	private By createPlaylistOrFolder_btn = By.xpath("//button[@aria-label='Create playlist or folder']//*[local-name()='svg']");
-	private By createPlaylist_btn = By.xpath("//div[@id='context-menu']//span[contains(text(),'Create a new playlist')]");
-	private By totalPlaylistsLocator = By.xpath("//div[@data-testid='top-sentinel']/following-sibling::div[contains(@style,'transform')]/li");
-	private By playlistTitleLocator = By.xpath(".//p/span[contains(@class,'ListRowTitle')]");
 	
 	public NavigationMenu(WebDriver driver) {
 		super(driver);
@@ -29,4 +18,8 @@ public class NavigationMenu extends BasePage{
 		return this;
 	}
 	
+	public NavigationMenu clickHomeBtn() {
+		driver.findElement(home_btn).click();
+		return this;
+	}
 }
