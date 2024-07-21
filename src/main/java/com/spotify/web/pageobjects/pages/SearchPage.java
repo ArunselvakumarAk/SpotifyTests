@@ -36,27 +36,27 @@ public class SearchPage extends BasePage{
 	
 	
 	public SearchPage enterSearchText(String song, String artist) {
-		wait.waitForElementToBeClickable(search_txt);
+		utils.waitForElementToBeClickable(search_txt);
 		driver.findElement(search_txt).sendKeys(song + " " + artist);
 		driver.findElement(search_txt).sendKeys(Keys.ENTER);
 		return this;
 	}
 	
 	public SearchPage enterSearchText(String song) {
-		wait.waitForElementToBeClickable(search_txt);
+		utils.waitForElementToBeClickable(search_txt);
 		driver.findElement(search_txt).sendKeys(song);
 		driver.findElement(search_txt).sendKeys(Keys.ENTER);
 		return this;
 	}
 	
 	public SearchPage clickFilterBtn(String filter) {
-		wait.waitForElementToBeClickable(getLocatorForFilterBtn(filter));
+		utils.waitForElementToBeClickable(getLocatorForFilterBtn(filter));
 		driver.findElement(getLocatorForFilterBtn(filter)).click();
 		return this;
 	}
 			
 	public SearchPage assertSongInTopResults(String song, String artist) {
-		wait.waitForVisibilityOfAllElements(ResultedSongsListLocator);
+		utils.waitForVisibilityOfAllElements(ResultedSongsListLocator);
 		List<WebElement> resultedSongsList = driver.findElements(ResultedSongsListLocator);
 		String[][] resultedSongsInfo =  new String[10][2];
 		
@@ -84,7 +84,7 @@ public class SearchPage extends BasePage{
 	}
 	
 	public SearchPage assertInTopResults(String playlist) {
-		wait.waitForVisibilityOfAllElements(ResultedListLocator);
+		utils.waitForVisibilityOfAllElements(ResultedListLocator);
 		List<WebElement> resultedList = driver.findElements(ResultedListLocator);
 		String[] resultedInfo =  new String[10];
 		

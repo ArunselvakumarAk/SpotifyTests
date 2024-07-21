@@ -8,12 +8,75 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">61,322</td><td></td><td></td></tr>
+<tr><th colspan="8">Regression</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">129,302</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.spotify.web.tests.AlbumTests</td><td><a href="#m0">RemoveAlbumFromLibraryTest</a></td><td rowspan="1">1721502022775</td><td rowspan="1">16299</td></tr><tr class="passedeven"><td><a href="#m1">addAlbumToLibraryTest</a></td><td rowspan="1">1721502051255</td><td rowspan="1">16296</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.spotify.web.tests.AlbumTests</td><td><a href="#m0">addAlbumToLibraryTest</a></td><td rowspan="2">1721580979970</td><td rowspan="2">14181</td></tr><tr class="failedeven"><td><a href="#m1">addAlbumToLibraryTest</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.spotify.web.tests.AlbumTests</td><td><a href="#m2">removeAlbumFromLibraryTest</a></td><td rowspan="2">1721581027477</td><td rowspan="2">4639</td></tr><tr class="passedeven"><td><a href="#m3">removeAlbumFromLibraryTest</a></td></tr><tr class="passedodd"><td rowspan="3">com.spotify.web.tests.LibraryTests</td><td><a href="#m4">changePlaylistNameinLibraryTest</a></td><td rowspan="1">1721580948159</td><td rowspan="1">10268</td></tr><tr class="passedodd"><td><a href="#m5">createNewPlaylistInLibraryTest</a></td><td rowspan="1">1721580970346</td><td rowspan="1">6729</td></tr><tr class="passedodd"><td><a href="#m6">deletePlaylistInLibraryTest</a></td><td rowspan="1">1721580989803</td><td rowspan="1">16216</td></tr><tr class="passedeven"><td rowspan="8">com.spotify.web.tests.SearchTests</td><td><a href="#m7">searchedAlbumnInResultsTest</a></td><td rowspan="2">1721580945988</td><td rowspan="2">16300</td></tr><tr class="passedeven"><td><a href="#m8">searchedAlbumnInResultsTest</a></td></tr><tr class="passedeven"><td><a href="#m9">searchedArtistInResultsTest</a></td><td rowspan="2">1721580963766</td><td rowspan="2">9555</td></tr><tr class="passedeven"><td><a href="#m10">searchedArtistInResultsTest</a></td></tr><tr class="passedeven"><td><a href="#m11">searchedPlaylistsInResultsTest</a></td><td rowspan="2">1721580999683</td><td rowspan="2">8997</td></tr><tr class="passedeven"><td><a href="#m12">searchedPlaylistsInResultsTest</a></td></tr><tr class="passedeven"><td><a href="#m13">searchedTrackInResultsTest</a></td><td rowspan="2">1721581010359</td><td rowspan="2">11102</td></tr><tr class="passedeven"><td><a href="#m14">searchedTrackInResultsTest</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.spotify.web.tests.AlbumTests#RemoveAlbumFromLibraryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.spotify.web.tests.AlbumTests#addAlbumToLibraryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.spotify.web.tests.AlbumTests#addAlbumToLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0EzDV9L2TAYuQNO5NVos5F</td><td>Billa</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.spotify.web.pageobjects.common.ContextMenu.verifyAddToLibraryBtn(ContextMenu.java:40)
+	at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.spotify.web.tests.AlbumTests#addAlbumToLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>354TJOapvmkc4JCxi9vJHh</td><td>Dangal</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.spotify.web.pageobjects.common.ContextMenu.verifyAddToLibraryBtn(ContextMenu.java:40)
+	at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.spotify.web.tests.AlbumTests#removeAlbumFromLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0EzDV9L2TAYuQNO5NVos5F</td><td>Billa</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.spotify.web.tests.AlbumTests#removeAlbumFromLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>354TJOapvmkc4JCxi9vJHh</td><td>Dangal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.spotify.web.tests.LibraryTests#changePlaylistNameinLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>My Playlist #1</td><td>Updated Playlist</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.spotify.web.tests.LibraryTests#createNewPlaylistInLibraryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.spotify.web.tests.LibraryTests#deletePlaylistInLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Updated Playlist</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.spotify.web.tests.SearchTests#searchedAlbumnInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Billa</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.spotify.web.tests.SearchTests#searchedAlbumnInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Dangal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.spotify.web.tests.SearchTests#searchedArtistInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Anirudh</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.spotify.web.tests.SearchTests#searchedArtistInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Yuvan</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.spotify.web.tests.SearchTests#searchedPlaylistsInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Beast</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.spotify.web.tests.SearchTests#searchedPlaylistsInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Jailer</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.spotify.web.tests.SearchTests#searchedTrackInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Vaathi Coming</td><td>Anirudh Ravichander</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.spotify.web.tests.SearchTests#searchedTrackInResultsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Ordinary Person</td><td>Anirudh Ravichander</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

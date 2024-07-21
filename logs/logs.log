@@ -1,122 +1,132 @@
-00:37:49.303 [TestNG-test-Test-3] INFO  - Setting up the test: RemoveAlbumFromLibraryTest
-00:37:49.303 [TestNG-test-Test-2] INFO  - Setting up the test: changePlaylistNameinLibraryTest
-00:37:49.308 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
-00:37:49.308 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
-00:37:49.456 [TestNG-test-Test-1] INFO  - Reading JSON data from file: albums.json
-00:37:49.541 [TestNG-test-Test-1] INFO  - Setting up the test: searchedAlbumnInResultsTest
-00:37:49.542 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:37:51.303 [TestNG-test-Test-3] INFO  - New CHROME driver created
-00:37:51.303 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:37:51.303 [TestNG-test-Test-2] INFO  - New CHROME driver created
-00:37:51.303 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (481b34c2cc8396807f22c1c31cc4f86c)
-00:37:51.303 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome on windows (945cfd732520669d1122dc3f53a03ff2)
-00:37:51.303 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome on windows (905c4c1ea01fbc986ac1f0e6f057ffd6)
-00:37:51.400 [TestNG-test-Test-3] INFO  - Browser window maximized
-00:37:51.401 [TestNG-test-Test-3] INFO  - Authentication required for the test: RemoveAlbumFromLibraryTest
-00:37:51.402 [TestNG-test-Test-3] INFO  - Performing login
-00:37:51.411 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:37:51.412 [TestNG-test-Test-2] INFO  - Browser window maximized
-00:37:51.412 [TestNG-test-Test-2] INFO  - Authentication required for the test: changePlaylistNameinLibraryTest
-00:37:51.412 [TestNG-test-Test-2] INFO  - Performing login
-00:37:51.418 [TestNG-test-Test-2] INFO  - Navigating to Login Page
-00:37:51.418 [TestNG-test-Test-3] INFO  - Navigating to Login Page
-00:37:59.818 [TestNG-test-Test-3] INFO  - Login handled successfully
-00:38:00.049 [TestNG-test-Test-2] INFO  - Login handled successfully
-00:38:00.254 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:38:00.531 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:38:00.537 [TestNG-test-Test-1] INFO  - Setting up the test: searchedAlbumnInResultsTest
-00:38:00.538 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:38:02.133 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:38:02.133 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (558fb7eee1825d3bc57d62f6a96011e2)
-00:38:02.216 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:38:10.899 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:38:11.210 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:38:11.215 [TestNG-test-Test-1] INFO  - Setting up the test: searchedAlbumnInResultsTest
-00:38:11.216 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:38:12.589 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:38:12.589 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (522e7b264e743300b8c081fb184a5c57)
-00:38:12.635 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:38:13.038 [TestNG-test-Test-2] INFO  - Quitting the driver
-00:38:13.295 [TestNG-test-Test-2] INFO  - Driver quited successfully
-00:38:13.299 [TestNG-test-Test-2] INFO  - Setting up the test: createNewPlaylistInLibraryTest
-00:38:13.299 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
-00:38:14.457 [TestNG-test-Test-2] INFO  - New CHROME driver created
-00:38:14.457 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome on windows (5694348a7190b05a8c3a5e9ebdd78341)
-00:38:14.506 [TestNG-test-Test-2] INFO  - Browser window maximized
-00:38:14.506 [TestNG-test-Test-2] INFO  - Authentication required for the test: createNewPlaylistInLibraryTest
-00:38:14.506 [TestNG-test-Test-2] INFO  - Performing login
-00:38:14.506 [TestNG-test-Test-2] INFO  - Navigating to Login Page
-00:38:17.218 [TestNG-test-Test-3] INFO  - Quitting the driver
-00:38:17.462 [TestNG-test-Test-3] INFO  - Driver quited successfully
-00:38:17.462 [TestNG-test-Test-3] INFO  - Setting up the test: addAlbumToLibraryTest
-00:38:17.462 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
-00:38:18.620 [TestNG-test-Test-3] INFO  - New CHROME driver created
-00:38:18.620 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome on windows (65c9f73cc1d5b2a3af5e2dc6e2453b90)
-00:38:18.667 [TestNG-test-Test-3] INFO  - Browser window maximized
-00:38:18.667 [TestNG-test-Test-3] INFO  - Authentication required for the test: addAlbumToLibraryTest
-00:38:18.667 [TestNG-test-Test-3] INFO  - Performing login
-00:38:18.667 [TestNG-test-Test-3] INFO  - Navigating to Login Page
-00:38:21.444 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:38:21.703 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:38:21.709 [TestNG-test-Test-1] INFO  - Reading JSON data from file: artists.json
-00:38:21.711 [TestNG-test-Test-1] INFO  - Setting up the test: searchedArtistInResultsTest
-00:38:21.711 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:38:22.642 [TestNG-test-Test-2] INFO  - Login handled successfully
-00:38:22.904 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:38:22.904 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (851128a1a4ad669af88e141af94cf423)
-00:38:22.936 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:38:26.400 [TestNG-test-Test-2] INFO  - Quitting the driver
-00:38:26.657 [TestNG-test-Test-2] INFO  - Driver quited successfully
-00:38:26.659 [TestNG-test-Test-2] INFO  - Setting up the test: deletePlaylistInLibraryTest
-00:38:26.659 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
-00:38:27.509 [TestNG-test-Test-3] INFO  - Login handled successfully
-00:38:28.038 [TestNG-test-Test-2] INFO  - New CHROME driver created
-00:38:28.038 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome on windows (b1af3cfbfe12ede2304bb9b0d080d02d)
-00:38:28.104 [TestNG-test-Test-2] INFO  - Browser window maximized
-00:38:28.104 [TestNG-test-Test-2] INFO  - Authentication required for the test: deletePlaylistInLibraryTest
-00:38:28.104 [TestNG-test-Test-2] INFO  - Performing login
-00:38:28.104 [TestNG-test-Test-2] INFO  - Navigating to Login Page
-00:38:31.204 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:38:31.484 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:38:31.488 [TestNG-test-Test-1] INFO  - Setting up the test: searchedArtistInResultsTest
-00:38:31.488 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:38:32.639 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:38:32.639 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (b057958554d219b30072209b6e0af1ae)
-00:38:32.686 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:38:35.768 [TestNG-test-Test-2] INFO  - Login handled successfully
-00:38:41.500 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:38:41.747 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:38:41.747 [TestNG-test-Test-1] INFO  - Reading JSON data from file: playlists.json
-00:38:41.747 [TestNG-test-Test-1] INFO  - Setting up the test: searchedPlaylistsInResultsTest
-00:38:41.747 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:38:42.935 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:38:42.935 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (42d5335b4b39438a2a8e4bb126423166)
-00:38:42.987 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:38:43.991 [TestNG-test-Test-3] INFO  - Quitting the driver
-00:38:44.194 [TestNG-test-Test-3] INFO  - Driver quited successfully
-00:38:46.302 [TestNG-test-Test-2] INFO  - Quitting the driver
-00:38:46.561 [TestNG-test-Test-2] INFO  - Driver quited successfully
-00:38:51.624 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:38:51.966 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:38:51.966 [TestNG-test-Test-1] INFO  - Setting up the test: searchedPlaylistsInResultsTest
-00:38:51.966 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:38:53.157 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:38:53.157 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (5660a2252030f904dccdff5404663bc8)
-00:38:53.215 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:39:00.364 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:39:00.786 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:39:00.788 [TestNG-test-Test-1] INFO  - Reading JSON data from file: tracks.json
-00:39:00.792 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
-00:39:00.792 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:39:02.075 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:39:02.075 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (2daf1bebe1efb4fdcffc361bd69c17bb)
-00:39:02.108 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:39:11.340 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:39:11.671 [TestNG-test-Test-1] INFO  - Driver quited successfully
-00:39:11.673 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
-00:39:11.673 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-00:39:12.869 [TestNG-test-Test-1] INFO  - New CHROME driver created
-00:39:12.869 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (e59f29b00306a2a5fd291d6b64cb3512)
-00:39:12.924 [TestNG-test-Test-1] INFO  - Browser window maximized
-00:39:22.608 [TestNG-test-Test-1] INFO  - Quitting the driver
-00:39:23.027 [TestNG-test-Test-1] INFO  - Driver quited successfully
+23:30:53.607 [TestNG-test-Test-2] INFO  - Setting up the test: changePlaylistNameinLibraryTest
+23:30:53.614 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
+23:30:53.730 [TestNG-test-Test-3] INFO  - Reading JSON data from file: albums.json
+23:30:53.730 [TestNG-test-Test-1] INFO  - Reading JSON data from file: albums.json
+23:30:53.804 [TestNG-test-Test-3] INFO  - Setting up the test: addAlbumToLibraryTest
+23:30:53.806 [TestNG-test-Test-1] INFO  - Setting up the test: searchedAlbumnInResultsTest
+23:30:53.807 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
+23:30:53.807 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:30:58.688 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:30:58.688 [TestNG-test-Test-3] INFO  - New CHROME driver created in headless mode
+23:30:58.688 [TestNG-test-Test-2] INFO  - New CHROME driver created in headless mode
+23:30:58.689 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (47ae20664e70584a5cdbd012ac86402c)
+23:30:58.689 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (3e81ca9539e7eb090864f54d4a4a6b8c)
+23:30:58.689 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (8e442a54ab47ac7a3081b7624fa855f1)
+23:30:58.716 [TestNG-test-Test-2] INFO  - Browser window maximized
+23:30:58.716 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:30:58.716 [TestNG-test-Test-3] INFO  - Browser window maximized
+23:30:58.717 [TestNG-test-Test-2] INFO  - Authentication required for the test: changePlaylistNameinLibraryTest
+23:30:58.717 [TestNG-test-Test-3] INFO  - Authentication required for the test: addAlbumToLibraryTest
+23:30:58.717 [TestNG-test-Test-2] INFO  - Performing login
+23:30:58.717 [TestNG-test-Test-3] INFO  - Performing login
+23:30:58.726 [TestNG-test-Test-3] INFO  - Navigating to Login Page
+23:30:58.726 [TestNG-test-Test-2] INFO  - Navigating to Login Page
+23:31:10.348 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:31:10.429 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:31:10.432 [TestNG-test-Test-1] INFO  - Setting up the test: searchedAlbumnInResultsTest
+23:31:10.434 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:31:11.381 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:31:11.383 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (a66009196e709b07b1a385aad496f964)
+23:31:11.416 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:31:18.550 [TestNG-test-Test-3] INFO  - Login handled successfully
+23:31:18.561 [TestNG-test-Test-3] INFO  - Opening Album page with 354TJOapvmkc4JCxi9vJHh
+23:31:20.772 [TestNG-test-Test-2] INFO  - Login handled successfully
+23:31:24.103 [TestNG-test-Test-2] INFO  - {} is not found in your library
+23:31:24.106 [TestNG-test-Test-2] INFO  - Quitting the driver
+23:31:24.187 [TestNG-test-Test-2] INFO  - Driver quitted successfully
+23:31:24.190 [TestNG-test-Test-2] INFO  - Setting up the test: createNewPlaylistInLibraryTest
+23:31:24.191 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
+23:31:24.254 [TestNG-test-Test-3] INFO  - Quitting the driver
+23:31:24.328 [TestNG-test-Test-3] INFO  - Driver quitted successfully
+23:31:24.330 [TestNG-test-Test-3] INFO  - Setting up the test: addAlbumToLibraryTest
+23:31:24.332 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
+23:31:25.205 [TestNG-test-Test-2] INFO  - New CHROME driver created in headless mode
+23:31:25.205 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (aa9f0a0f5370fd1fb819e5df732bd9fe)
+23:31:25.241 [TestNG-test-Test-2] INFO  - Browser window maximized
+23:31:25.241 [TestNG-test-Test-2] INFO  - Authentication required for the test: createNewPlaylistInLibraryTest
+23:31:25.241 [TestNG-test-Test-2] INFO  - Performing login
+23:31:25.241 [TestNG-test-Test-2] INFO  - Navigating to Login Page
+23:31:25.339 [TestNG-test-Test-3] INFO  - New CHROME driver created in headless mode
+23:31:25.340 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (98cba783c080c7ec0017061c1601bc52)
+23:31:25.360 [TestNG-test-Test-3] INFO  - Browser window maximized
+23:31:25.360 [TestNG-test-Test-3] INFO  - Authentication required for the test: addAlbumToLibraryTest
+23:31:25.360 [TestNG-test-Test-3] INFO  - Performing login
+23:31:25.360 [TestNG-test-Test-3] INFO  - Navigating to Login Page
+23:31:34.061 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:31:34.153 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:31:34.155 [TestNG-test-Test-1] INFO  - Reading JSON data from file: artists.json
+23:31:34.158 [TestNG-test-Test-1] INFO  - Setting up the test: searchedArtistInResultsTest
+23:31:34.160 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:31:35.092 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:31:35.092 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (5d56b1b5dd1944bf32397ac2ab9b1059)
+23:31:35.114 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:31:43.937 [TestNG-test-Test-2] INFO  - Login handled successfully
+23:31:44.201 [TestNG-test-Test-3] INFO  - Login handled successfully
+23:31:44.206 [TestNG-test-Test-3] INFO  - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
+23:31:45.672 [TestNG-test-Test-2] INFO  - Created new playlist in the library
+23:31:49.759 [TestNG-test-Test-3] INFO  - Quitting the driver
+23:31:49.848 [TestNG-test-Test-3] INFO  - Driver quitted successfully
+23:31:49.851 [TestNG-test-Test-3] INFO  - Reading JSON data from file: albums.json
+23:31:49.854 [TestNG-test-Test-3] INFO  - Setting up the test: removeAlbumFromLibraryTest
+23:31:49.855 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
+23:31:49.914 [TestNG-test-Test-2] INFO  - Quitting the driver
+23:31:50.032 [TestNG-test-Test-2] INFO  - Driver quitted successfully
+23:31:50.035 [TestNG-test-Test-2] INFO  - Setting up the test: deletePlaylistInLibraryTest
+23:31:50.036 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
+23:31:50.941 [TestNG-test-Test-3] INFO  - New CHROME driver created in headless mode
+23:31:50.941 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (c9b051ce4e13e78e206540feb1afd5d8)
+23:31:50.960 [TestNG-test-Test-3] INFO  - Browser window maximized
+23:31:50.961 [TestNG-test-Test-3] INFO  - Authentication required for the test: removeAlbumFromLibraryTest
+23:31:50.961 [TestNG-test-Test-3] INFO  - Performing login
+23:31:50.961 [TestNG-test-Test-3] INFO  - Navigating to Login Page
+23:31:51.082 [TestNG-test-Test-2] INFO  - New CHROME driver created in headless mode
+23:31:51.083 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (408095412564bb4f0f69399062784f8d)
+23:31:51.102 [TestNG-test-Test-2] INFO  - Browser window maximized
+23:31:51.103 [TestNG-test-Test-2] INFO  - Authentication required for the test: deletePlaylistInLibraryTest
+23:31:51.103 [TestNG-test-Test-2] INFO  - Performing login
+23:31:51.103 [TestNG-test-Test-2] INFO  - Navigating to Login Page
+23:31:57.601 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:31:57.681 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:31:57.683 [TestNG-test-Test-1] INFO  - Setting up the test: searchedArtistInResultsTest
+23:31:57.685 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:31:58.652 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:31:58.653 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (b85653431d7493098890fa93393de885)
+23:31:58.684 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:32:08.201 [TestNG-test-Test-2] INFO  - Login handled successfully
+23:32:14.991 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:32:15.089 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:32:15.092 [TestNG-test-Test-1] INFO  - Reading JSON data from file: playlists.json
+23:32:15.094 [TestNG-test-Test-1] INFO  - Setting up the test: searchedPlaylistsInResultsTest
+23:32:15.095 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:32:16.090 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:32:16.091 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (9e5f4c86e2c9125a042810686966a142)
+23:32:16.125 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:32:18.695 [TestNG-test-Test-2] INFO  - Locating Updated Playlist in the library
+23:32:18.752 [TestNG-test-Test-2] INFO  - Updated Playlist not found in the library
+23:32:18.752 [TestNG-test-Test-2] INFO  - {} is not found in your library
+23:32:18.754 [TestNG-test-Test-2] INFO  - Quitting the driver
+23:32:18.842 [TestNG-test-Test-2] INFO  - Driver quitted successfully
+23:32:24.499 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:32:24.580 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:32:24.582 [TestNG-test-Test-1] INFO  - Setting up the test: searchedPlaylistsInResultsTest
+23:32:24.583 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:32:25.506 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:32:25.506 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (b9c75f8c2bf3b37444e690c5ed89f156)
+23:32:25.527 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:32:37.696 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:32:37.763 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:32:37.765 [TestNG-test-Test-1] INFO  - Reading JSON data from file: tracks.json
+23:32:37.768 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
+23:32:37.769 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:32:38.716 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:32:38.716 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (3e89a78a2bf903c17fb31c8116462d68)
+23:32:38.741 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:32:50.043 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:32:50.116 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:32:50.118 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
+23:32:50.119 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:32:51.091 [TestNG-test-Test-1] INFO  - New CHROME driver created in headless mode
+23:32:51.091 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome-headless-shell on windows (84389c8440b0dfebf25c7e7cf508c5fb)
+23:32:51.113 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:33:00.163 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:33:00.233 [TestNG-test-Test-1] INFO  - Driver quitted successfully
