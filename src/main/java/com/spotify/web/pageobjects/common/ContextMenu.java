@@ -25,7 +25,7 @@ public class ContextMenu extends BasePage{
 	
 	public ContextMenu verifycontextMenuBtn() {
 		utils.waitForVisibilityOfElement(contextMenu_btn);
-		Assert.assertTrue(driver.findElement(contextMenu_btn).isDisplayed());
+		Assert.assertTrue(driver.findElement(contextMenu_btn).isDisplayed() && driver.findElement(contextMenu_btn).isDisplayed());
 		return this;
 	}
 	
