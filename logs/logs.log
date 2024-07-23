@@ -1,79 +1,27 @@
-20:37:15.013 [TestNG-test-Test-2] INFO  - Setting up the test: createNewPlaylistInLibraryTest
-20:37:15.018 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
-20:37:15.134 [TestNG-test-Test-3] INFO  - Reading JSON data from file: albums.json
-20:37:15.134 [TestNG-test-Test-1] INFO  - Reading JSON data from file: tracks.json
-20:37:15.199 [TestNG-test-Test-3] INFO  - Setting up the test: addAlbumToLibraryTest
-20:37:15.199 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
-20:37:15.201 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
-20:37:15.201 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-20:37:16.771 [TestNG-test-Test-1] INFO  - New CHROME driver created
-20:37:16.771 [TestNG-test-Test-2] INFO  - New CHROME driver created
-20:37:16.771 [TestNG-test-Test-3] INFO  - New CHROME driver created
-20:37:16.771 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (3412f67f95741bf02efdf1bbda3a40b6)
-20:37:16.771 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome on windows (5e3ca21f03552bfc282bd7c207dad11d)
-20:37:16.771 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome on windows (9056233439d256c0b8da93db4014f37a)
-20:37:16.861 [TestNG-test-Test-3] INFO  - Browser window maximized
-20:37:16.863 [TestNG-test-Test-3] INFO  - Authentication required for the test: addAlbumToLibraryTest
-20:37:16.863 [TestNG-test-Test-3] INFO  - Performing login
-20:37:16.875 [TestNG-test-Test-1] INFO  - Browser window maximized
-20:37:16.875 [TestNG-test-Test-2] INFO  - Browser window maximized
-20:37:16.875 [TestNG-test-Test-2] INFO  - Authentication required for the test: createNewPlaylistInLibraryTest
-20:37:16.876 [TestNG-test-Test-2] INFO  - Performing login
-20:37:16.878 [TestNG-test-Test-3] INFO  - Navigating to Login Page
-20:37:16.878 [TestNG-test-Test-2] INFO  - Navigating to Login Page
-20:37:43.342 [TestNG-test-Test-3] INFO  - Login handled successfully
-20:37:43.356 [TestNG-test-Test-3] INFO  - Opening Album page with 354TJOapvmkc4JCxi9vJHh
-20:37:44.569 [TestNG-test-Test-1] INFO  - Quitting the driver
-20:37:44.765 [TestNG-test-Test-1] INFO  - Driver quitted successfully
-20:37:44.769 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
-20:37:44.770 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
-20:37:45.845 [TestNG-test-Test-1] INFO  - New CHROME driver created
-20:37:45.845 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (ff17379f0fec476d5e8222a1def95bf3)
-20:37:45.872 [TestNG-test-Test-1] INFO  - Browser window maximized
-20:37:46.666 [TestNG-test-Test-2] INFO  - Login handled successfully
-20:37:49.134 [TestNG-test-Test-2] INFO  - Created new playlist in the library
-20:37:52.955 [TestNG-test-Test-3] INFO  - Quitting the driver
-20:37:53.126 [TestNG-test-Test-3] INFO  - Driver quitted successfully
-20:37:53.128 [TestNG-test-Test-3] INFO  - Setting up the test: addAlbumToLibraryTest
-20:37:53.128 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
-20:37:54.149 [TestNG-test-Test-3] INFO  - New CHROME driver created
-20:37:54.149 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome on windows (a43c3d1ddceb9e12cbf08fbd9ea96ff9)
-20:37:54.194 [TestNG-test-Test-3] INFO  - Browser window maximized
-20:37:54.194 [TestNG-test-Test-3] INFO  - Authentication required for the test: addAlbumToLibraryTest
-20:37:54.196 [TestNG-test-Test-3] INFO  - Performing login
-20:37:54.196 [TestNG-test-Test-3] INFO  - Navigating to Login Page
-20:37:59.587 [TestNG-test-Test-2] INFO  - Quitting the driver
-20:37:59.891 [TestNG-test-Test-2] INFO  - Screenshot saved: target\screenshots\createNewPlaylistInLibraryTest.png
-20:37:59.899 [TestNG-test-Test-2] INFO  - Screenshot has been taken for the failed test case.
-20:38:00.207 [TestNG-test-Test-2] INFO  - Driver quitted successfully
-20:38:21.985 [TestNG-test-Test-3] INFO  - Login handled successfully
-20:38:21.989 [TestNG-test-Test-3] INFO  - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
-20:38:22.295 [TestNG-test-Test-1] INFO  - Quitting the driver
-20:38:22.477 [TestNG-test-Test-1] INFO  - Driver quitted successfully
-20:38:26.902 [TestNG-test-Test-3] INFO  - Quitting the driver
-20:38:27.242 [TestNG-test-Test-3] INFO  - Driver quitted successfully
-20:38:27.246 [TestNG-test-Test-3] INFO  - Reading JSON data from file: albums.json
-20:38:27.248 [TestNG-test-Test-3] INFO  - Setting up the test: removeAlbumFromLibraryTest
-20:38:27.248 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
-20:38:28.216 [TestNG-test-Test-3] INFO  - New CHROME driver created
-20:38:28.216 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome on windows (da51e8b4429c67239986aff6347c31d5)
-20:38:28.245 [TestNG-test-Test-3] INFO  - Browser window maximized
-20:38:28.245 [TestNG-test-Test-3] INFO  - Authentication required for the test: removeAlbumFromLibraryTest
-20:38:28.245 [TestNG-test-Test-3] INFO  - Performing login
-20:38:28.245 [TestNG-test-Test-3] INFO  - Navigating to Login Page
-20:38:36.454 [TestNG-test-Test-3] INFO  - Login handled successfully
-20:38:36.460 [TestNG-test-Test-3] INFO  - Opening Album page with 354TJOapvmkc4JCxi9vJHh
-20:38:39.756 [TestNG-test-Test-3] INFO  - Quitting the driver
-20:38:40.083 [TestNG-test-Test-3] INFO  - Driver quitted successfully
-20:38:40.084 [TestNG-test-Test-3] INFO  - Setting up the test: removeAlbumFromLibraryTest
-20:38:40.086 [TestNG-test-Test-3] INFO  - Browser name from properties: chrome
-20:38:41.128 [TestNG-test-Test-3] INFO  - New CHROME driver created
-20:38:41.129 [TestNG-test-Test-3] INFO  - Driver instantiated: ChromeDriver: chrome on windows (5350811c2e0444449938630d2a4abf07)
-20:38:41.153 [TestNG-test-Test-3] INFO  - Browser window maximized
-20:38:41.153 [TestNG-test-Test-3] INFO  - Authentication required for the test: removeAlbumFromLibraryTest
-20:38:41.153 [TestNG-test-Test-3] INFO  - Performing login
-20:38:41.153 [TestNG-test-Test-3] INFO  - Navigating to Login Page
-20:38:49.753 [TestNG-test-Test-3] INFO  - Login handled successfully
-20:38:49.762 [TestNG-test-Test-3] INFO  - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
-20:38:53.663 [TestNG-test-Test-3] INFO  - Quitting the driver
-20:38:53.954 [TestNG-test-Test-3] INFO  - Driver quitted successfully
+23:35:52.768 [TestNG-test-Test-2] INFO  - Setting up the test: createNewPlaylistInLibraryTest
+23:35:52.774 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
+23:35:52.891 [TestNG-test-Test-1] INFO  - Reading JSON data from file: tracks.json
+23:35:52.953 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
+23:35:52.955 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:35:54.346 [TestNG-test-Test-1] INFO  - New CHROME driver created
+23:35:54.346 [TestNG-test-Test-2] INFO  - New CHROME driver created
+23:35:54.346 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (7ed84f651e151c18df96bb34d70d0290)
+23:35:54.346 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome on windows (e6012a513c5c9c013aa9357b7ff6cb8b)
+23:35:54.403 [TestNG-test-Test-2] INFO  - Browser window maximized
+23:35:54.403 [TestNG-test-Test-2] INFO  - Authentication required for the test: createNewPlaylistInLibraryTest
+23:35:54.403 [TestNG-test-Test-2] INFO  - Performing login
+23:35:54.406 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:35:54.415 [TestNG-test-Test-2] INFO  - Navigating to Login Page
+23:36:02.392 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:36:02.640 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+23:36:02.645 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
+23:36:02.647 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+23:36:03.616 [TestNG-test-Test-1] INFO  - New CHROME driver created
+23:36:03.616 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (2452de0207176dbe83cf7e7a51ccced7)
+23:36:03.650 [TestNG-test-Test-1] INFO  - Browser window maximized
+23:36:04.226 [TestNG-test-Test-2] INFO  - Login handled successfully
+23:36:06.519 [TestNG-test-Test-2] INFO  - Created new playlist in the library
+23:36:09.609 [TestNG-test-Test-2] INFO  - Quitting the driver
+23:36:09.869 [TestNG-test-Test-2] INFO  - Driver quitted successfully
+23:36:15.398 [TestNG-test-Test-1] INFO  - Quitting the driver
+23:36:15.787 [TestNG-test-Test-1] INFO  - Driver quitted successfully
