@@ -10,7 +10,7 @@ import io.qameta.allure.Description;
 public class SearchTests extends BaseTest{
 	
 	@Description("This test checks the functionality of Spotify's song search feature to ensure it works accurately and efficiently.")
-	@Test(dataProvider="getTracksTestData", dataProviderClass=SearchTestsDataProviders.class)
+	@Test(dataProvider="getTracksTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression", "smoke"})
 	public void searchedTrackInResultsTest(String song, String artist) {	
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
@@ -21,7 +21,7 @@ public class SearchTests extends BaseTest{
 	}
 	
 	@Description("This test checks the functionality of Spotify's playlist search feature to ensure it works accurately and efficiently.")
-	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
 	public void searchedPlaylistsInResultsTest(String playlistTitle) {
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
@@ -32,7 +32,7 @@ public class SearchTests extends BaseTest{
 	}
 	
 	@Description("This test checks the functionality of Spotify's album search feature to ensure it works accurately and efficiently.")
-	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
 	public void searchedAlbumnInResultsTest(String albumnName) {
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage
@@ -43,7 +43,7 @@ public class SearchTests extends BaseTest{
 	}
 	
 	@Description("This test checks the functionality of Spotify's artist search feature to ensure it works accurately and efficiently.")
-	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class)
+	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
 	public void searchedArtistInResultsTest(String artistName) {
 		SearchPage searchPage = new SearchPage(driver);
 		searchPage

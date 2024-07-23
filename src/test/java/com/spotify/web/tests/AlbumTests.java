@@ -12,7 +12,7 @@ import io.qameta.allure.Description;
 public class AlbumTests extends BaseTest{
 	
 	@Description("This test checks the functionality of adding an album to the library")
-	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class)
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class, groups= {"regression", "smoke"})
 	@AuthenticationRequired
 	public void addAlbumToLibraryTest(String albumId, String albumName){
 		AlbumPage albumPage = new AlbumPage(driver);
@@ -32,7 +32,7 @@ public class AlbumTests extends BaseTest{
 	}
 	
 	@Description("This test verifies that the album can be successfully removed from the library")
-	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class)
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class, groups= {"regression", "smoke"})
 	@AuthenticationRequired
 	public void removeAlbumFromLibraryTest(String albumId, String albumName){
 		AlbumPage albumPage = new AlbumPage(driver);

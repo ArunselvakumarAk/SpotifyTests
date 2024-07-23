@@ -5,8 +5,8 @@
     <classes>
       <class name="com.spotify.web.tests.AlbumTests">
         <methods>
-          <include name="addAlbumToLibraryTest" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="removeAlbumFromLibraryTest" invocation-numbers="1"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.spotify.web.tests.AlbumTests -->
