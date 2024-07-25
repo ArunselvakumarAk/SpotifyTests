@@ -4,29 +4,28 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 import com.spotify.web.utils.ResourceUtils;
 
-public class WebDriverManager {
+public class BrowserFactory {
 	
-	public static volatile WebDriverManager instance;
-	public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-	
-	private WebDriverManager() {}
-	
-	public void createDriver(Driver browser, boolean isHeadlessEnabled) {
+	public WebDriver createDriver(Driver browser, boolean isHeadlessEnabled) {
+		
+		WebDriver driver =null;
+		
         switch (browser) {
             case CHROME:
 				if (isHeadlessEnabled) {
 					ChromeOptions options = new ChromeOptions();
 					options.addArguments("--headless");
 					options.addArguments("window-size=1920x1080");
-					driver.set(new ChromeDriver(options));
+					driver = new ChromeDriver(options);
 					ResourceUtils.log.info("New {} driver created in headless mode", browser);
 				} else {
-					driver.set(new ChromeDriver());
+					driver = new ChromeDriver();
 					ResourceUtils.log.info("New {} driver created", browser);
 				}
                 break;
@@ -35,49 +34,29 @@ public class WebDriverManager {
 				if (isHeadlessEnabled) {
 					FirefoxOptions options = new FirefoxOptions();
 					options.addArguments("-headless");
-					driver.set(new FirefoxDriver(options));
+					driver = new FirefoxDriver(options);
 					ResourceUtils.log.info("New {} driver created in headless mode", browser);
 				} else {
-					driver.set(new FirefoxDriver());
+					driver = new FirefoxDriver();
 					ResourceUtils.log.info("New {} driver created", browser);
 				}
 				break;
 				
             case EDGE:
             	if (isHeadlessEnabled) {
-					ResourceUtils.log.info("Headless is currently not supported for edge browser", browser);
+            		EdgeOptions options = new EdgeOptions();
+            		options.addArguments("-headless");
+            		driver = new EdgeDriver(options);
+					ResourceUtils.log.info("New {} driver created in headless mode", browser);
 				}
-                driver.set(new EdgeDriver());
+                driver = new EdgeDriver();
                 ResourceUtils.log.info("New {} driver created", browser);
                 break;
                 
             default:
             	throw new IllegalArgumentException("Unsupported or invalid browser name provided");
         }
+        
+        return driver;
     }
-	
-	public static WebDriverManager getInstance(Driver browser, boolean isHeadlessEnabled) {
-		if(instance==null) {
-			synchronized(WebDriverManager.class){
-				if(instance==null) {
-					instance = new WebDriverManager();
-				}
-			}
-		}
-		if(driver.get()==null) {
-			instance.createDriver(browser, isHeadlessEnabled);
-		}
-		return instance;
-	}
-	
-	public WebDriver getDriver() {
-		return driver.get();
-	}
-	
-	public static void quitDriver() {
-		if(driver.get()!=null) {
-			driver.get().quit();
-			driver.remove();
-		}
-	}
 }
