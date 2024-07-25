@@ -1,24 +1,23 @@
 package com.spotify.web.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.spotify.web.annotations.AuthenticationRequired;
 import com.spotify.web.base.BaseTest;
+import com.spotify.web.dataproviders.LibraryTestsDataProviders;
+import com.spotify.web.driver.DriverManager;
 import com.spotify.web.pageobjects.common.ContextMenu;
 import com.spotify.web.pageobjects.pages.LibraryPage;
 import com.spotify.web.pageobjects.pages.PlaylistPage;
 import com.spotify.web.utils.ResourceUtils;
-import io.qameta.allure.Description;
 
 public class LibraryTests extends BaseTest{
 	
-	@Description("This test checks the functionality of creating a new playlist in the library")
-	@Test
+	@Test(groups= {"regression", "smoke"})
 	@AuthenticationRequired
 	public void createNewPlaylistInLibraryTest() throws InterruptedException {
-		LibraryPage libraryPage = new LibraryPage(driver);
-		ContextMenu contextMenu = new ContextMenu(driver);
+		LibraryPage libraryPage = new LibraryPage(DriverManager.getInstance().getDriver());
+		ContextMenu contextMenu = new ContextMenu(DriverManager.getInstance().getDriver());
 		libraryPage
 			.verifyLibraryBtnIsVisible()
 			.createNewPlaylist();
@@ -26,13 +25,12 @@ public class LibraryTests extends BaseTest{
 		Assert.assertTrue(contextMenu.verifyAddedToLibrarySuccessMsg());
 	}
 	
-	@Description("This test verifies that the playlist name in the library can be successfully edited")
-	@Test(dataProvider="changePlaylistNameTestData")
+	@Test(dataProvider="changePlaylistNameTestData", dataProviderClass=LibraryTestsDataProviders.class, groups= {"regression"})
 	@AuthenticationRequired
 	public void changePlaylistNameinLibraryTest(String originalName, String newName) {
-		LibraryPage libraryPage = new LibraryPage(driver);
-		ContextMenu contextMenu = new ContextMenu(driver);
-		PlaylistPage playlistPage = new PlaylistPage(driver);
+		LibraryPage libraryPage = new LibraryPage(DriverManager.getInstance().getDriver());
+		ContextMenu contextMenu = new ContextMenu(DriverManager.getInstance().getDriver());
+		PlaylistPage playlistPage = new PlaylistPage(DriverManager.getInstance().getDriver());
 		
 		boolean isPresent = libraryPage.isPlaylistpresent(originalName);
 		if(isPresent) {
@@ -51,12 +49,11 @@ public class LibraryTests extends BaseTest{
 		}
 	}
 	
-	@Description("This test confirms that the playlist can be deleted")
-	@Test(dataProvider = "deletePlaylistTestData")
+	@Test(dataProvider = "deletePlaylistTestData", dataProviderClass=LibraryTestsDataProviders.class, groups= {"regression"})
 	@AuthenticationRequired
 	public void deletePlaylistInLibraryTest(String playlistTitle) {
-		LibraryPage libraryPage = new LibraryPage(driver);
-		ContextMenu contextMenu = new ContextMenu(driver);
+		LibraryPage libraryPage = new LibraryPage(DriverManager.getInstance().getDriver());
+		ContextMenu contextMenu = new ContextMenu(DriverManager.getInstance().getDriver());
 		boolean isPresent = libraryPage.isPlaylistpresent(playlistTitle);
 		if(isPresent) {
 			libraryPage
@@ -71,17 +68,4 @@ public class LibraryTests extends BaseTest{
 			ResourceUtils.log.info("{} is not found in your library");
 		}
 	}
-	
-	 @DataProvider(name = "changePlaylistNameTestData")
-	 public Object[][] changePlaylistNameTestData() {
-		 return new Object[][] {
-	           {"My Playlist #1", "Updated Playlist"},
-	        };
-	    }
-	
-	@DataProvider
-	public Object[] deletePlaylistTestData() {
-		return new Object[] {"Updated Playlist"};
-	}
-
 }

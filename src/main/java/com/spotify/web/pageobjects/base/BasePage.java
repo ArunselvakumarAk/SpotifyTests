@@ -10,7 +10,7 @@ public class BasePage{
 	
 	public BasePage(WebDriver driver) {
 		this.driver=driver;
-		utils = new WebElementUtils(driver, 10);
+		utils = new WebElementUtils(driver, 15);
 	}
 	
 	public BasePage openPage(String endPoint) {

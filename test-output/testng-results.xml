@@ -1,156 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-21T22:25:13 IST" name="Regression" finished-at="2024-07-21T22:27:23 IST" duration-ms="129302">
+  <suite started-at="2024-07-26T02:04:22 IST" name="Regression" finished-at="2024-07-26T02:05:41 IST" duration-ms="78449">
     <groups>
+      <group name="regression">
+        <method signature="AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" name="addAlbumToLibraryTest" class="com.spotify.web.tests.AlbumTests"/>
+        <method signature="AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" name="removeAlbumFromLibraryTest" class="com.spotify.web.tests.AlbumTests"/>
+        <method signature="LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" name="changePlaylistNameinLibraryTest" class="com.spotify.web.tests.LibraryTests"/>
+        <method signature="LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" name="createNewPlaylistInLibraryTest" class="com.spotify.web.tests.LibraryTests"/>
+        <method signature="LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" name="deletePlaylistInLibraryTest" class="com.spotify.web.tests.LibraryTests"/>
+        <method signature="SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" name="verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched" class="com.spotify.web.tests.SearchTests"/>
+        <method signature="SearchTests.verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" name="verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched" class="com.spotify.web.tests.SearchTests"/>
+        <method signature="SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" name="verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched" class="com.spotify.web.tests.SearchTests"/>
+        <method signature="SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" name="verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched" class="com.spotify.web.tests.SearchTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" name="addAlbumToLibraryTest" class="com.spotify.web.tests.AlbumTests"/>
+        <method signature="AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" name="removeAlbumFromLibraryTest" class="com.spotify.web.tests.AlbumTests"/>
+        <method signature="LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" name="createNewPlaylistInLibraryTest" class="com.spotify.web.tests.LibraryTests"/>
+        <method signature="SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" name="verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched" class="com.spotify.web.tests.SearchTests"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-07-21T22:25:13 IST" name="Test" finished-at="2024-07-21T22:27:23 IST" duration-ms="129302">
+    <test started-at="2024-07-26T02:04:22 IST" name="Test" finished-at="2024-07-26T02:05:41 IST" duration-ms="78449">
       <class name="com.spotify.web.tests.SearchTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:25:14 IST" name="setUp" finished-at="2024-07-21T22:25:26 IST" duration-ms="11846" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:24 IST" name="setUp" finished-at="2024-07-26T02:04:35 IST" duration-ms="11620" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedAlbumnInResultsTest(java.lang.String)]]>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchedAlbumnInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:25:26 IST" name="searchedAlbumnInResultsTest" data-provider="getAlbumsTestData" finished-at="2024-07-21T22:25:44 IST" duration-ms="17565" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:24 IST" name="setUp" finished-at="2024-07-26T02:04:26 IST" duration-ms="2674" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Dangal]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchedAlbumnInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:25:44 IST" name="tearDown" finished-at="2024-07-21T22:25:44 IST" duration-ms="319" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchedAlbumnInResultsTest status=SUCCESS method=SearchTests.searchedAlbumnInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:25:44 IST" name="setUp" finished-at="2024-07-21T22:25:45 IST" duration-ms="1391" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedAlbumnInResultsTest(java.lang.String)]]>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchedAlbumnInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:25:45 IST" name="searchedAlbumnInResultsTest" data-provider="getAlbumsTestData" finished-at="2024-07-21T22:26:02 IST" duration-ms="16300" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:24 IST" name="setUp" finished-at="2024-07-26T02:04:26 IST" duration-ms="2657" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Billa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchedAlbumnInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:02 IST" name="tearDown" finished-at="2024-07-21T22:26:02 IST" duration-ms="262" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchedAlbumnInResultsTest status=SUCCESS method=SearchTests.searchedAlbumnInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:02 IST" name="setUp" finished-at="2024-07-21T22:26:03 IST" duration-ms="1206" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedArtistInResultsTest(java.lang.String)]]>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchedArtistInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:03 IST" name="searchedArtistInResultsTest" data-provider="getartistsTestData" finished-at="2024-07-21T22:26:13 IST" duration-ms="9555" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:24 IST" name="setUp" finished-at="2024-07-26T02:04:26 IST" duration-ms="2675" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Anirudh]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchedArtistInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:13 IST" name="tearDown" finished-at="2024-07-21T22:26:13 IST" duration-ms="280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchedArtistInResultsTest status=SUCCESS method=SearchTests.searchedArtistInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:13 IST" name="setUp" finished-at="2024-07-21T22:26:14 IST" duration-ms="1319" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedArtistInResultsTest(java.lang.String)]]>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchedArtistInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:14 IST" name="searchedArtistInResultsTest" data-provider="getartistsTestData" finished-at="2024-07-21T22:26:23 IST" duration-ms="8972" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Yuvan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchedArtistInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:23 IST" name="tearDown" finished-at="2024-07-21T22:26:24 IST" duration-ms="249" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchedArtistInResultsTest status=SUCCESS method=SearchTests.searchedArtistInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:24 IST" name="setUp" finished-at="2024-07-21T22:26:25 IST" duration-ms="1271" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedPlaylistsInResultsTest(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchedPlaylistsInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:25 IST" name="searchedPlaylistsInResultsTest" data-provider="getPlaylistsTestData" finished-at="2024-07-21T22:26:38 IST" duration-ms="12814" status="PASS">
+        <test-method signature="verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:26 IST" name="verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getPlaylistsTestData" finished-at="2024-07-26T02:04:34 IST" duration-ms="7934" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,63 +78,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchedPlaylistsInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:38 IST" name="tearDown" finished-at="2024-07-21T22:26:38 IST" duration-ms="270" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchedPlaylistsInResultsTest status=SUCCESS method=SearchTests.searchedPlaylistsInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:38 IST" name="setUp" finished-at="2024-07-21T22:26:39 IST" duration-ms="1163" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedPlaylistsInResultsTest(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchedPlaylistsInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:39 IST" name="searchedPlaylistsInResultsTest" data-provider="getPlaylistsTestData" finished-at="2024-07-21T22:26:48 IST" duration-ms="8997" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Beast]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchedPlaylistsInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:48 IST" name="tearDown" finished-at="2024-07-21T22:26:48 IST" duration-ms="298" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchedPlaylistsInResultsTest status=SUCCESS method=SearchTests.searchedPlaylistsInResultsTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:48 IST" name="setUp" finished-at="2024-07-21T22:26:50 IST" duration-ms="1372" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedTrackInResultsTest(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchedTrackInResultsTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:26:50 IST" name="searchedTrackInResultsTest" data-provider="getTracksTestData" finished-at="2024-07-21T22:27:01 IST" duration-ms="11102" status="PASS">
+        </test-method> <!-- verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method signature="verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:26 IST" name="verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getTracksTestData" finished-at="2024-07-26T02:04:43 IST" duration-ms="16733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,30 +94,129 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchedTrackInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:27:01 IST" name="tearDown" finished-at="2024-07-21T22:27:01 IST" duration-ms="293" status="PASS">
+        </test-method> <!-- verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method signature="verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:26 IST" name="verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getAlbumsTestData" finished-at="2024-07-26T02:04:34 IST" duration-ms="8182" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchedTrackInResultsTest status=SUCCESS method=SearchTests.searchedTrackInResultsTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
+                <![CDATA[Dangal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:34 IST" name="tearDown" finished-at="2024-07-26T02:04:34 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:27:01 IST" name="setUp" finished-at="2024-07-21T22:27:03 IST" duration-ms="1246" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:34 IST" name="tearDown" finished-at="2024-07-26T02:04:35 IST" duration-ms="234" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.spotify.web.tests.SearchTests.searchedTrackInResultsTest(java.lang.String,java.lang.String)]]>
+                <![CDATA[[TestResult name=verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:34 IST" name="setUp" finished-at="2024-07-26T02:04:36 IST" duration-ms="1424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchedTrackInResultsTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:27:03 IST" name="searchedTrackInResultsTest" data-provider="getTracksTestData" finished-at="2024-07-21T22:27:22 IST" duration-ms="19679" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:35 IST" name="setUp" finished-at="2024-07-26T02:04:36 IST" duration-ms="1365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:35 IST" name="verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getartistsTestData" finished-at="2024-07-26T02:04:44 IST" duration-ms="9095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anirudh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method signature="verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:36 IST" name="verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getPlaylistsTestData" finished-at="2024-07-26T02:04:46 IST" duration-ms="9713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method signature="verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:36 IST" name="verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getAlbumsTestData" finished-at="2024-07-26T02:04:45 IST" duration-ms="9079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Billa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:43 IST" name="tearDown" finished-at="2024-07-26T02:04:43 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:43 IST" name="setUp" finished-at="2024-07-26T02:04:45 IST" duration-ms="1470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:44 IST" name="tearDown" finished-at="2024-07-26T02:04:45 IST" duration-ms="683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:45 IST" name="verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getTracksTestData" finished-at="2024-07-26T02:04:59 IST" duration-ms="13814" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -269,12 +231,67 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchedTrackInResultsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f]" started-at="2024-07-21T22:27:22 IST" name="tearDown" finished-at="2024-07-21T22:27:23 IST" duration-ms="331" status="PASS">
+        </test-method> <!-- verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:45 IST" name="setUp" finished-at="2024-07-26T02:04:46 IST" duration-ms="1338" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchedTrackInResultsTest status=SUCCESS method=SearchTests.searchedTrackInResultsTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@210ab13f] output={null}]]]>
+                <![CDATA[public void com.spotify.web.tests.SearchTests.verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:45 IST" name="tearDown" finished-at="2024-07-26T02:04:45 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:46 IST" name="tearDown" finished-at="2024-07-26T02:04:46 IST" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:46 IST" name="verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched" data-provider="getartistsTestData" finished-at="2024-07-26T02:04:59 IST" duration-ms="13184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yuvan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:59 IST" name="tearDown" finished-at="2024-07-26T02:04:59 IST" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484]" started-at="2024-07-26T02:04:59 IST" name="tearDown" finished-at="2024-07-26T02:05:00 IST" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=SearchTests.verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@128d2484] output={null}]]]>
               </value>
             </param>
           </params>
@@ -283,7 +300,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.spotify.web.tests.SearchTests -->
       <class name="com.spotify.web.tests.AlbumTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:25:14 IST" name="setUp" finished-at="2024-07-21T22:25:51 IST" duration-ms="37143" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:00 IST" name="setUp" finished-at="2024-07-26T02:05:15 IST" duration-ms="14882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -294,7 +311,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:25:51 IST" name="addAlbumToLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-21T22:26:06 IST" duration-ms="14258" status="FAIL">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:09 IST" name="setUp" finished-at="2024-07-26T02:05:18 IST" duration-ms="8879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:15 IST" name="addAlbumToLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-26T02:05:23 IST" duration-ms="7901" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -307,136 +335,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.spotify.web.pageobjects.common.ContextMenu.verifyAddToLibraryBtn(ContextMenu.java:40)
-at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAlbumToLibraryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:06 IST" name="tearDown" finished-at="2024-07-21T22:26:06 IST" duration-ms="622" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addAlbumToLibraryTest status=FAILURE method=AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:06 IST" name="setUp" finished-at="2024-07-21T22:26:19 IST" duration-ms="13211" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:19 IST" name="addAlbumToLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-21T22:26:34 IST" duration-ms="14181" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0EzDV9L2TAYuQNO5NVos5F]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Billa]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.spotify.web.pageobjects.common.ContextMenu.verifyAddToLibraryBtn(ContextMenu.java:40)
-at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addAlbumToLibraryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:34 IST" name="tearDown" finished-at="2024-07-21T22:26:34 IST" duration-ms="694" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addAlbumToLibraryTest status=FAILURE method=AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:34 IST" name="setUp" finished-at="2024-07-21T22:26:46 IST" duration-ms="11473" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:46 IST" name="removeAlbumFromLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-21T22:26:52 IST" duration-ms="6286" status="PASS">
+        <test-method signature="removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:18 IST" name="removeAlbumFromLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-26T02:05:22 IST" duration-ms="4196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,18 +354,18 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeAlbumFromLibraryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:52 IST" name="tearDown" finished-at="2024-07-21T22:26:52 IST" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:22 IST" name="tearDown" finished-at="2024-07-26T02:05:22 IST" duration-ms="243" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65] output={null}]]]>
+                <![CDATA[[TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:26:52 IST" name="setUp" finished-at="2024-07-21T22:27:07 IST" duration-ms="14657" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:22 IST" name="setUp" finished-at="2024-07-26T02:05:35 IST" duration-ms="12577" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -474,7 +376,29 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:27:07 IST" name="removeAlbumFromLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-21T22:27:12 IST" duration-ms="4639" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:23 IST" name="tearDown" finished-at="2024-07-26T02:05:23 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAlbumToLibraryTest status=SUCCESS method=AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:23 IST" name="setUp" finished-at="2024-07-26T02:05:36 IST" duration-ms="13091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:35 IST" name="removeAlbumFromLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-26T02:05:39 IST" duration-ms="4230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -490,11 +414,38 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeAlbumFromLibraryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65]" started-at="2024-07-21T22:27:12 IST" name="tearDown" finished-at="2024-07-21T22:27:12 IST" duration-ms="211" status="PASS">
+        <test-method signature="addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:36 IST" name="addAlbumToLibraryTest" data-provider="getAlbumsTestData" finished-at="2024-07-26T02:05:40 IST" duration-ms="4264" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@37313c65] output={null}]]]>
+                <![CDATA[0EzDV9L2TAYuQNO5NVos5F]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Billa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAlbumToLibraryTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:39 IST" name="tearDown" finished-at="2024-07-26T02:05:39 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28]" started-at="2024-07-26T02:05:40 IST" name="tearDown" finished-at="2024-07-26T02:05:41 IST" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAlbumToLibraryTest status=SUCCESS method=AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@557caf28] output={null}]]]>
               </value>
             </param>
           </params>
@@ -503,7 +454,7 @@ at java.base/java.lang.Thread.run(Thread.java:842)
         </test-method> <!-- tearDown -->
       </class> <!-- com.spotify.web.tests.AlbumTests -->
       <class name="com.spotify.web.tests.LibraryTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:25:13 IST" name="setUp" finished-at="2024-07-21T22:25:48 IST" duration-ms="34330" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:04:45 IST" name="setUp" finished-at="2024-07-26T02:05:01 IST" duration-ms="15425" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -514,7 +465,29 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:25:48 IST" name="changePlaylistNameinLibraryTest" data-provider="changePlaylistNameTestData" finished-at="2024-07-21T22:25:58 IST" duration-ms="10268" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:04:46 IST" name="setUp" finished-at="2024-07-26T02:05:03 IST" duration-ms="17141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.web.tests.LibraryTests.createNewPlaylistInLibraryTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:04:59 IST" name="setUp" finished-at="2024-07-26T02:05:13 IST" duration-ms="14677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.web.tests.LibraryTests.deletePlaylistInLibraryTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:05:01 IST" name="changePlaylistNameinLibraryTest" data-provider="changePlaylistNameTestData" finished-at="2024-07-26T02:05:16 IST" duration-ms="15299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -530,55 +503,22 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePlaylistNameinLibraryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:25:58 IST" name="tearDown" finished-at="2024-07-21T22:25:58 IST" duration-ms="340" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=changePlaylistNameinLibraryTest status=SUCCESS method=LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:25:58 IST" name="setUp" finished-at="2024-07-21T22:26:10 IST" duration-ms="11562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.LibraryTests.createNewPlaylistInLibraryTest() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:26:10 IST" name="createNewPlaylistInLibraryTest" finished-at="2024-07-21T22:26:17 IST" duration-ms="6729" status="PASS">
+        <test-method signature="createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:05:03 IST" name="createNewPlaylistInLibraryTest" finished-at="2024-07-26T02:05:09 IST" duration-ms="5659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewPlaylistInLibraryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:26:17 IST" name="tearDown" finished-at="2024-07-21T22:26:17 IST" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:05:09 IST" name="tearDown" finished-at="2024-07-26T02:05:09 IST" duration-ms="279" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createNewPlaylistInLibraryTest status=SUCCESS method=LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c] output={null}]]]>
+                <![CDATA[[TestResult name=createNewPlaylistInLibraryTest status=SUCCESS method=LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:26:17 IST" name="setUp" finished-at="2024-07-21T22:26:29 IST" duration-ms="12451" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.web.tests.LibraryTests.deletePlaylistInLibraryTest(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:26:29 IST" name="deletePlaylistInLibraryTest" data-provider="deletePlaylistTestData" finished-at="2024-07-21T22:26:46 IST" duration-ms="16216" status="PASS">
+        <test-method signature="deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:05:13 IST" name="deletePlaylistInLibraryTest" data-provider="deletePlaylistTestData" finished-at="2024-07-26T02:05:33 IST" duration-ms="19262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -589,11 +529,22 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePlaylistInLibraryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c]" started-at="2024-07-21T22:26:46 IST" name="tearDown" finished-at="2024-07-21T22:26:46 IST" duration-ms="378" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:05:16 IST" name="tearDown" finished-at="2024-07-26T02:05:16 IST" duration-ms="323" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=deletePlaylistInLibraryTest status=SUCCESS method=LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@1e4f4a5c] output={null}]]]>
+                <![CDATA[[TestResult name=changePlaylistNameinLibraryTest status=SUCCESS method=LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2]" started-at="2024-07-26T02:05:33 IST" name="tearDown" finished-at="2024-07-26T02:05:33 IST" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletePlaylistInLibraryTest status=SUCCESS method=LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@75d4a5c2] output={null}]]]>
               </value>
             </param>
           </params>
