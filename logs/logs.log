@@ -1,41 +1,27 @@
-23:51:16.936 [main] INFO  - Setting up the test: changePlaylistNameinLibraryTest
-23:51:16.942 [main] INFO  - Browser name from properties: chrome
-23:51:18.334 [main] INFO  - New CHROME driver created
-23:51:18.335 [main] INFO  - Driver instantiated: ChromeDriver: chrome on windows (2a45836840ad16f6539091317ee405eb)
-23:51:18.408 [main] INFO  - Browser window maximized
-23:51:18.409 [main] INFO  - Authentication required for the test: changePlaylistNameinLibraryTest
-23:51:18.409 [main] INFO  - Performing login
-23:51:18.414 [main] INFO  - Navigating to Login Page
-23:51:26.328 [main] INFO  - Login handled successfully
-23:51:41.705 [main] INFO  - Locating My Playlist #1 in the library
-23:51:41.768 [main] INFO  - My Playlist #1 not found in the library
-23:51:41.768 [main] INFO  - {} is not found in your library
-23:51:41.787 [main] INFO  - Quitting the driver
-23:51:42.034 [main] INFO  - Driver quitted successfully
-23:51:42.042 [main] INFO  - Setting up the test: createNewPlaylistInLibraryTest
-23:51:42.043 [main] INFO  - Browser name from properties: chrome
-23:51:43.105 [main] INFO  - New CHROME driver created
-23:51:43.105 [main] INFO  - Driver instantiated: ChromeDriver: chrome on windows (ec890a32b682075f6c3a9a7d4e97130d)
-23:51:43.152 [main] INFO  - Browser window maximized
-23:51:43.152 [main] INFO  - Authentication required for the test: createNewPlaylistInLibraryTest
-23:51:43.152 [main] INFO  - Performing login
-23:51:43.152 [main] INFO  - Navigating to Login Page
-23:51:52.696 [main] INFO  - Login handled successfully
-23:51:55.046 [main] INFO  - Created new playlist in the library
-23:51:57.626 [main] INFO  - Quitting the driver
-23:51:58.006 [main] INFO  - Driver quitted successfully
-23:51:58.011 [main] INFO  - Setting up the test: deletePlaylistInLibraryTest
-23:51:58.013 [main] INFO  - Browser name from properties: chrome
-23:51:59.110 [main] INFO  - New CHROME driver created
-23:51:59.111 [main] INFO  - Driver instantiated: ChromeDriver: chrome on windows (ae15f18a5cea468daee850582e042492)
-23:51:59.196 [main] INFO  - Browser window maximized
-23:51:59.196 [main] INFO  - Authentication required for the test: deletePlaylistInLibraryTest
-23:51:59.196 [main] INFO  - Performing login
-23:51:59.197 [main] INFO  - Navigating to Login Page
-23:52:10.781 [main] INFO  - Login handled successfully
-23:52:26.050 [main] INFO  - Locating Updated Playlist in the library
-23:52:26.147 [main] INFO  - Updated Playlist found in the library
-23:52:26.147 [main] INFO  - Updated Playlist not found in the library
-23:52:26.433 [main] INFO  - Opening Updated Playlist
-23:52:29.555 [main] INFO  - Quitting the driver
-23:52:29.779 [main] INFO  - Driver quitted successfully
+11:56:32.330 [TestNG-test-Test-2] INFO  - Setting up the test: createNewPlaylistInLibraryTest
+11:56:32.335 [TestNG-test-Test-2] INFO  - Browser name from properties: chrome
+11:56:32.444 [TestNG-test-Test-1] INFO  - Reading JSON data from file: tracks.json
+11:56:32.499 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
+11:56:32.501 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+11:56:33.861 [TestNG-test-Test-1] INFO  - New CHROME driver created
+11:56:33.861 [TestNG-test-Test-2] INFO  - New CHROME driver created
+11:56:33.861 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (b34c23f952cbc961abbe87381c485551)
+11:56:33.861 [TestNG-test-Test-2] INFO  - Driver instantiated: ChromeDriver: chrome on windows (119fe24eb9f913f36d94cd4b3925c367)
+11:56:33.920 [TestNG-test-Test-2] INFO  - Browser window maximized
+11:56:33.920 [TestNG-test-Test-1] INFO  - Browser window maximized
+11:56:33.920 [TestNG-test-Test-2] INFO  - Authentication required for the test: createNewPlaylistInLibraryTest
+11:56:33.920 [TestNG-test-Test-2] INFO  - Performing login
+11:56:33.926 [TestNG-test-Test-2] INFO  - Navigating to Login Page
+11:56:42.577 [TestNG-test-Test-1] INFO  - Quitting the driver
+11:56:42.757 [TestNG-test-Test-1] INFO  - Driver quitted successfully
+11:56:42.761 [TestNG-test-Test-1] INFO  - Setting up the test: searchedTrackInResultsTest
+11:56:42.761 [TestNG-test-Test-1] INFO  - Browser name from properties: chrome
+11:56:43.772 [TestNG-test-Test-1] INFO  - New CHROME driver created
+11:56:43.773 [TestNG-test-Test-1] INFO  - Driver instantiated: ChromeDriver: chrome on windows (03062e122b0ec84a2a932ece54072ad6)
+11:56:43.803 [TestNG-test-Test-1] INFO  - Browser window maximized
+11:56:44.492 [TestNG-test-Test-2] INFO  - Login handled successfully
+11:56:46.086 [TestNG-test-Test-2] INFO  - Created new playlist in the library
+11:56:49.439 [TestNG-test-Test-2] INFO  - Quitting the driver
+11:56:49.654 [TestNG-test-Test-2] INFO  - Driver quitted successfully
+11:56:58.720 [TestNG-test-Test-1] INFO  - Quitting the driver
+11:56:58.938 [TestNG-test-Test-1] INFO  - Driver quitted successfully
