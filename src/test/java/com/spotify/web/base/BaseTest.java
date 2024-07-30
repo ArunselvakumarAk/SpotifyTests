@@ -45,8 +45,7 @@ public class BaseTest {
 	
 	@AfterMethod
 	public void tearDown(ITestResult result) {
-		ResourceUtils.log.info("Quitting the driver");
-				
+		ResourceUtils.log.info("Quitting the driver");		
 		DriverManager.getInstance().quitDriver();
 		ResourceUtils.log.info("Driver quitted successfully");
 	}

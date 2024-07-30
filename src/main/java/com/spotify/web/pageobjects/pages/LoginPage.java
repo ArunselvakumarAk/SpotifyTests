@@ -61,11 +61,12 @@ public class LoginPage extends BasePage{
 		return this;
 	}
 		
-	private LoginPage clickVerifyCaptchaChkbox() {
+	public LoginPage clickVerifyCaptchaChkbox() {
 		driver.findElement(verifyCaptcha_chkbox).click();
 		return this;
 	}
-	private LoginPage clickConfirmCaptchaBtn() {
+	
+	public  LoginPage clickConfirmCaptchaBtn() {
 		driver.findElement(confirmCaptcha_btn).click();
 		return this;
 	}
