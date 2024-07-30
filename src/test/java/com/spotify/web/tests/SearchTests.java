@@ -20,7 +20,7 @@ public class SearchTests extends BaseTest{
 	}
 	
 	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
-	public void verifyPlaylistIsDisplayedInSearchResults_WhenTrackIsSearched(String playlistTitle) {
+	public void verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(String playlistTitle) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
 			.openSearchPage()
@@ -30,7 +30,7 @@ public class SearchTests extends BaseTest{
 	}
 	
 	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
-	public void verifyAlbumIsDisplayedInSearchResults_WhenTrackIsSearched(String albumnName) {
+	public void verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(String albumnName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
 			.openSearchPage()
@@ -40,7 +40,7 @@ public class SearchTests extends BaseTest{
 	}
 	
 	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
-	public void verifyArtistIsDisplayedInSearchResults_WhenTrackIsSearched(String artistName) {
+	public void verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(String artistName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
 			.openSearchPage()
