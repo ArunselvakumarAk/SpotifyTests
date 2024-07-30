@@ -46,19 +46,7 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDown(ITestResult result) {
 		ResourceUtils.log.info("Quitting the driver");
-		
-//		if(result.getStatus()==ITestResult.FAILURE) {
-//			File screenshotFile = takeScreenshot(result.getMethod().getMethodName());
-//			
-//            try {
-//				Allure.attachment("Page Screenshot", FileUtils.openInputStream(screenshotFile));
-//			} catch (IOException e) {
-//				ResourceUtils.log.info("Failed to add Screenshot to the report");
-//			}
-//            
-//			ResourceUtils.log.info("Screenshot has been taken for the failed test case.");
-//		}
-		
+				
 		DriverManager.getInstance().quitDriver();
 		ResourceUtils.log.info("Driver quitted successfully");
 	}
