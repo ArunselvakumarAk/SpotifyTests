@@ -43,7 +43,7 @@ public class TestListener implements ITestListener{
 		
 		File scrFile = ((TakesScreenshot) DriverManager.getInstance().getDriver()).getScreenshotAs(OutputType.FILE);
 		LocalDateTime dateAndTime = LocalDateTime.now();
-		String formattedDate = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(dateAndTime);
+		String formattedDate = DateTimeFormatter.ofPattern("ddMMyyyy_HHmmss").format(dateAndTime);
         String filePath = System.getProperty("user.dir") + "/reports/Screenshots/"+ result.getMethod().getMethodName()  + formattedDate+".png";
         try {
             FileUtils.copyFile(scrFile, new File(filePath));
