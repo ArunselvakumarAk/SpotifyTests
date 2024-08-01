@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import com.spotify.web.pageobjects.base.BasePage;
 import com.spotify.web.utils.ResourceUtils;
@@ -14,8 +15,6 @@ public class LoginPage extends BasePage{
 	private By password_txt = By.id("login-password");
 	private By logInBtn = By.xpath("//span[text()='Log In']");
 	private By web_player_btn = By.xpath("//span[text()='Web Player']");
-	private By verifyCaptcha_chkbox = By.xpath("//div[@class='recaptcha-checkbox-border']");
-	private By confirmCaptcha_btn = By.xpath("//span[text()='Continue']");
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
@@ -42,9 +41,8 @@ public class LoginPage extends BasePage{
 			driver.findElement(web_player_btn).click();
 		}catch(NoSuchElementException | TimeoutException e) {
 			ResourceUtils.log.info("Found captcha");
-			clickVerifyCaptchaChkbox();
-			clickConfirmCaptchaBtn();
-			ResourceUtils.log.info("Captcha handled");
+			ResourceUtils.log.info("Failing test intentionally");
+			Assert.assertTrue(false);
 		}
 		return this;
 	}
@@ -61,12 +59,4 @@ public class LoginPage extends BasePage{
 		return this;
 	}
 		
-	private LoginPage clickVerifyCaptchaChkbox() {
-		driver.findElement(verifyCaptcha_chkbox).click();
-		return this;
-	}
-	private LoginPage clickConfirmCaptchaBtn() {
-		driver.findElement(confirmCaptcha_btn).click();
-		return this;
-	}
 }

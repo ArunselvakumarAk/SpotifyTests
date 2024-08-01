@@ -14,11 +14,13 @@ public class ExtentReport {
 	public static ExtentReports setupExtentReport() {
 		
 		LocalDateTime dateAndTime = LocalDateTime.now();
-		String formattedDate = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(dateAndTime);
+		String formattedDate = DateTimeFormatter.ofPattern("ddMMyyyy_HHmmss").format(dateAndTime);
 		
 		String reportPath = System.getProperty("user.dir") + "/reports/Report_" + formattedDate + ".html";
 		
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath);
+		
+		sparkReporter.config().setReportName("Spotify Test Suite Results");
 		sparkReporter.config().setDocumentTitle("Spotify Tests Report");
 		sparkReporter.config().setTheme(Theme.DARK);
 		

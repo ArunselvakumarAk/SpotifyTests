@@ -1,11 +1,6 @@
 package com.spotify.web.base;
 
-import java.io.File;
-import java.io.IOException;
 import java.lang.reflect.Method;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -45,20 +40,7 @@ public class BaseTest {
 	
 	@AfterMethod
 	public void tearDown(ITestResult result) {
-		ResourceUtils.log.info("Quitting the driver");
-		
-//		if(result.getStatus()==ITestResult.FAILURE) {
-//			File screenshotFile = takeScreenshot(result.getMethod().getMethodName());
-//			
-//            try {
-//				Allure.attachment("Page Screenshot", FileUtils.openInputStream(screenshotFile));
-//			} catch (IOException e) {
-//				ResourceUtils.log.info("Failed to add Screenshot to the report");
-//			}
-//            
-//			ResourceUtils.log.info("Screenshot has been taken for the failed test case.");
-//		}
-		
+		ResourceUtils.log.info("Quitting the driver");		
 		DriverManager.getInstance().quitDriver();
 		ResourceUtils.log.info("Driver quitted successfully");
 	}
@@ -78,18 +60,4 @@ public class BaseTest {
 		
 		ResourceUtils.log.info("Login handled successfully");
 	}
-	
-	public File takeScreenshot(String methodName) {
-		
-		System.out.println(DriverManager.getInstance().getDriver());
-        File scrFile = ((TakesScreenshot) DriverManager.getInstance().getDriver()).getScreenshotAs(OutputType.FILE);
-        String filePath = "target"+ File.separator+"screenshots"+File.separator + methodName + ".png";
-        try {
-            FileUtils.copyFile(scrFile, new File(filePath));
-            ResourceUtils.log.info("Screenshot saved: " + filePath);
-        } catch (IOException e) {
-            ResourceUtils.log.error("Failed to save screenshot: ", e);
-        }
-        return scrFile;
-    }
 }

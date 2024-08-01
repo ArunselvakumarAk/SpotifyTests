@@ -8,7 +8,7 @@
 		<classes>
 			<class name="com.spotify.web.tests.SearchTests">
 				<methods>
-					<include name="searchedTrackInResultsTest" />
+					<include name="verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched" />
 				</methods>
 			</class>
 			<class name="com.spotify.web.tests.LibraryTests">

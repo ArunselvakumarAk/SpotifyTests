@@ -34,7 +34,6 @@ public class SearchPage extends BasePage{
 		return By.xpath("//a[contains(@href,'/search')]//span[text()='"+filter+"']");
 	}
 	
-	
 	public SearchPage enterSearchText(String song, String artist) {
 		utils.waitForElementToBeClickable(search_txt);
 		driver.findElement(search_txt).sendKeys(song + " " + artist);

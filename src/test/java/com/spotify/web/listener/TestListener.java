@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -44,7 +43,7 @@ public class TestListener implements ITestListener{
 		
 		File scrFile = ((TakesScreenshot) DriverManager.getInstance().getDriver()).getScreenshotAs(OutputType.FILE);
 		LocalDateTime dateAndTime = LocalDateTime.now();
-		String formattedDate = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(dateAndTime);
+		String formattedDate = DateTimeFormatter.ofPattern("ddMMyyyy_HHmmss").format(dateAndTime);
         String filePath = System.getProperty("user.dir") + "/reports/Screenshots/"+ result.getMethod().getMethodName()  + formattedDate+".png";
         try {
             FileUtils.copyFile(scrFile, new File(filePath));
