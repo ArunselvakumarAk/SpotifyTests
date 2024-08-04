@@ -8,8 +8,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
 import com.spotify.web.pageobjects.base.BasePage;
+import com.spotify.web.utils.EventLogger;
 import com.spotify.web.utils.ResourceUtils;
 
 public class SearchPage extends BasePage{
@@ -26,6 +26,7 @@ public class SearchPage extends BasePage{
 	}
 	
 	public SearchPage openSearchPage() {
+		EventLogger.info("Opening search page");
 		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl") + "/search");
 		return this;
 	}
@@ -34,23 +35,26 @@ public class SearchPage extends BasePage{
 		return By.xpath("//a[contains(@href,'/search')]//span[text()='"+filter+"']");
 	}
 	
-	public SearchPage enterSearchText(String song, String artist) {
+	public SearchPage enterSearchText(String songName, String artistName) {
 		utils.waitForElementToBeClickable(search_txt);
-		driver.findElement(search_txt).sendKeys(song + " " + artist);
+		driver.findElement(search_txt).sendKeys(songName + " " + artistName);
 		driver.findElement(search_txt).sendKeys(Keys.ENTER);
+		EventLogger.info("searching for "+songName +" song with artist name " + artistName);
 		return this;
 	}
 	
-	public SearchPage enterSearchText(String song) {
+	public SearchPage enterSearchText(String searchKey) {
 		utils.waitForElementToBeClickable(search_txt);
-		driver.findElement(search_txt).sendKeys(song);
+		driver.findElement(search_txt).sendKeys(searchKey);
 		driver.findElement(search_txt).sendKeys(Keys.ENTER);
+		EventLogger.info("searching for "+searchKey);
 		return this;
 	}
 	
 	public SearchPage clickFilterBtn(String filter) {
 		utils.waitForElementToBeClickable(getLocatorForFilterBtn(filter));
 		driver.findElement(getLocatorForFilterBtn(filter)).click();
+		EventLogger.info("Clicked on " + filter + " filter button successfully" );
 		return this;
 	}
 			
@@ -78,11 +82,12 @@ public class SearchPage extends BasePage{
 				.anyMatch(n->n[0].contains(song)&&n[1].contains(artist));
 		
 		Assert.assertTrue(isSongReturned);
+		EventLogger.info(song+" found in top results");
 		return this;
 		
 	}
 	
-	public SearchPage assertInTopResults(String playlist) {
+	public SearchPage assertInTopResults(String key) {
 		utils.waitForVisibilityOfAllElements(ResultedListLocator);
 		List<WebElement> resultedList = driver.findElements(ResultedListLocator);
 		String[] resultedInfo =  new String[10];
@@ -94,9 +99,10 @@ public class SearchPage extends BasePage{
 				
 		boolean isPlaylistReturned = Arrays.stream(resultedInfo)
 				.filter(Objects::nonNull)
-				.anyMatch(n->n.contains(playlist));
+				.anyMatch(n->n.contains(key));
 		
 		Assert.assertTrue(isPlaylistReturned);
+		EventLogger.info(key+" found in top results");
 		return this;
 	}
 }

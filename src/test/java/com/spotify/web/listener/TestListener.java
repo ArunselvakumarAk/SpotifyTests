@@ -42,20 +42,23 @@ public class TestListener implements ITestListener{
 		ExtentManager.getInstance().getExtent().log(Status.FAIL, "Test failed");
 		
 		File scrFile = ((TakesScreenshot) DriverManager.getInstance().getDriver()).getScreenshotAs(OutputType.FILE);
+		
 		LocalDateTime dateAndTime = LocalDateTime.now();
-		String formattedDate = DateTimeFormatter.ofPattern("ddMMyyyy_HHmmss").format(dateAndTime);
+		String formattedDate = DateTimeFormatter.ofPattern("dd-MM-yyyy_HHmmss").format(dateAndTime);
+		
         String filePath = System.getProperty("user.dir") + "/reports/Screenshots/"+ result.getMethod().getMethodName()  + formattedDate+".png";
+        
         try {
             FileUtils.copyFile(scrFile, new File(filePath));
-            ResourceUtils.log.info("Screenshot saved: " + filePath);
+            //ResourceUtils.log.info("Screenshot saved: " + filePath);
         } catch (IOException e) {
-            ResourceUtils.log.error("Failed to save screenshot: ", e);
+            //ResourceUtils.log.error("Failed to save screenshot: ", e);
         }
         
         ExtentManager.getInstance().getExtent().addScreenCaptureFromPath(filePath, "Screenshot of failed test case");
         ExtentManager.getInstance().closeExtent();
         
-		ResourceUtils.log.info("Screenshot has been taken for the failed test case.");
+		//ResourceUtils.log.info("Screenshot has been taken for the failed test case.");
 	}
 
 	@Override

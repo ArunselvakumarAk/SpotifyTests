@@ -8,65 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Regression</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">52,281</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,903</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.spotify.web.tests.AlbumTests</td><td><a href="#m0">addAlbumToLibraryTest</a></td><td rowspan="2">1722484168775</td><td rowspan="2">4584</td></tr><tr class="failedeven"><td><a href="#m1">addAlbumToLibraryTest</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.spotify.web.tests.AlbumTests</td><td><a href="#m2">removeAlbumFromLibraryTest</a></td><td rowspan="2">1722484207714</td><td rowspan="2">3082</td></tr><tr class="passedeven"><td><a href="#m3">removeAlbumFromLibraryTest</a></td></tr><tr class="passedodd"><td rowspan="1">com.spotify.web.tests.LibraryTests</td><td><a href="#m4">createNewPlaylistInLibraryTest</a></td><td rowspan="1">1722484174333</td><td rowspan="1">5055</td></tr><tr class="passedeven"><td rowspan="2">com.spotify.web.tests.SearchTests</td><td><a href="#m5">verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</a></td><td rowspan="2">1722484174226</td><td rowspan="2">11016</td></tr><tr class="passedeven"><td><a href="#m6">verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.spotify.web.tests.SearchTests</td><td><a href="#m0">verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</a></td><td rowspan="2">1722778106658</td><td rowspan="2">9345</td></tr><tr class="passedeven"><td><a href="#m1">verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</a></td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.spotify.web.tests.AlbumTests#addAlbumToLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>354TJOapvmkc4JCxi9vJHh</td><td>Dangal</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.spotify.web.tests.AlbumTests#addAlbumToLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0EzDV9L2TAYuQNO5NVos5F</td><td>Billa</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.spotify.web.tests.AlbumTests#removeAlbumFromLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0EzDV9L2TAYuQNO5NVos5F</td><td>Billa</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.spotify.web.tests.AlbumTests#removeAlbumFromLibraryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>354TJOapvmkc4JCxi9vJHh</td><td>Dangal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.spotify.web.tests.LibraryTests#createNewPlaylistInLibraryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.spotify.web.tests.SearchTests#verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Ordinary Person</td><td>Anirudh Ravichander</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.spotify.web.tests.SearchTests#verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Vaathi Coming</td><td>Anirudh Ravichander</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.spotify.web.tests.SearchTests#verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Vaathi Coming</td><td>Anirudh Ravichander</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.spotify.web.tests.SearchTests#verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Ordinary Person</td><td>Anirudh Ravichander</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

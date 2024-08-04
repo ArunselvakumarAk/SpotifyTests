@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="classes" name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="3">
+<suite thread-count="4" parallel="classes" name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="3">
   <listeners>
     <listener class-name="com.spotify.web.listener.TestListener"/>
   </listeners>
-  <test thread-count="3" parallel="classes" name="Test(failed)" verbose="3">
+  <test thread-count="4" parallel="classes" name="Test(failed)" verbose="3">
     <classes>
-      <class name="com.spotify.web.tests.AlbumTests">
+      <class name="com.spotify.web.tests.LibraryTests">
         <methods>
-          <include name="addAlbumToLibraryTest" invocation-numbers="0 1"/>
           <include name="tearDown"/>
+          <include name="changePlaylistNameinLibraryTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.spotify.web.tests.AlbumTests -->
+      </class> <!-- com.spotify.web.tests.LibraryTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Regression] -->

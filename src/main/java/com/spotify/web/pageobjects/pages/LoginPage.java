@@ -5,6 +5,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import com.spotify.web.pageobjects.base.BasePage;
+import com.spotify.web.utils.EventLogger;
 import com.spotify.web.utils.ResourceUtils;
 
 public class LoginPage extends BasePage{
@@ -38,8 +39,8 @@ public class LoginPage extends BasePage{
 			utils.waitForVisibilityOfElement(web_player_btn);
 			driver.findElement(web_player_btn).click();
 		}catch(NoSuchElementException | TimeoutException e) {
-			ResourceUtils.log.info("Found captcha");
-			ResourceUtils.log.info("Failing test intentionally");
+			EventLogger.info("Found captcha");
+			EventLogger.info("Failing test intentionally");
 			throw new IllegalStateException("Human authentication is required");
 		}
 		return this;

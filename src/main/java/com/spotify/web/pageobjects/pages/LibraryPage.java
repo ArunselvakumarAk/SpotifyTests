@@ -1,14 +1,12 @@
 package com.spotify.web.pageobjects.pages;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
 import com.spotify.web.pageobjects.base.BasePage;
-import com.spotify.web.utils.ResourceUtils;
+import com.spotify.web.utils.EventLogger;
 
 public class LibraryPage extends BasePage{
 	
@@ -44,7 +42,7 @@ public class LibraryPage extends BasePage{
 		clickCreatePlaylistOrFolderBtn();
 		utils.waitForElementToBeClickable(createPlaylist_btn);
 		clickCreatePlaylistBtn();
-		ResourceUtils.log.info("Created new playlist in the library");
+		EventLogger.info("Created new playlist in the library");
 		return this;
 	}
 		
@@ -54,15 +52,14 @@ public class LibraryPage extends BasePage{
 			return isPresent;
 		}
 		List<WebElement> elements = driver.findElements(totalPlaylistsLocator);
-		ResourceUtils.log.info("Locating {} in the library", playlistTitle);
+		EventLogger.info("Locating "+playlistTitle+" in the library");
 		for(WebElement element: elements) {
 			isPresent = element.findElement(playlistTitleLocator).getText().trim().contains(playlistTitle);
 			if(isPresent) {
-				ResourceUtils.log.info("{} found in the library", playlistTitle);
+				EventLogger.info(playlistTitle+" found in the library");
 				break;
 			}	
 		}
-		ResourceUtils.log.info("{} not found in the library", playlistTitle);
 		return isPresent;
 	}
 	
@@ -73,7 +70,7 @@ public class LibraryPage extends BasePage{
 			isPresent = element.findElement(playlistTitleLocator).getText().trim().contains(playlistTitle);
 			if(isPresent) {
 				element.click();
-				ResourceUtils.log.info("Opening {}", playlistTitle);
+				EventLogger.info("Opening "+playlistTitle);
 				break;
 			}
 				

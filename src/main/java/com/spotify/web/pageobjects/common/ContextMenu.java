@@ -6,7 +6,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import com.spotify.web.pageobjects.base.BasePage;
-import com.spotify.web.utils.ResourceUtils;
+import com.spotify.web.utils.EventLogger;
 
 public class ContextMenu extends BasePage{
 	
@@ -35,7 +35,7 @@ public class ContextMenu extends BasePage{
 			Assert.assertTrue(driver.findElement(addToLibrary_btn).isDisplayed());
 		}catch(NoSuchElementException | TimeoutException e) {
 			if(driver.findElement(removeFromLibrary_btn).isDisplayed()) {
-				ResourceUtils.log.info("Album is already present in your library");
+				EventLogger.info("Album is already present in your library");
 			}
 			Assert.assertTrue(false);
 		}
@@ -48,7 +48,7 @@ public class ContextMenu extends BasePage{
 			Assert.assertTrue(driver.findElement(removeFromLibrary_btn).isDisplayed());
 		}catch(NoSuchElementException | TimeoutException e) {
 			if(driver.findElement(addToLibrary_btn).isDisplayed()) {
-				ResourceUtils.log.info("Album is not yet added to your library");
+				EventLogger.info("Album is not yet added to your library");
 			}
 			Assert.assertTrue(false);
 		}
