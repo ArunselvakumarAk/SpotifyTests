@@ -2,7 +2,6 @@ package com.spotify.web.driver;
 
 import java.util.Arrays;
 
-
 public enum Driver {
 	CHROME("chrome"),
 	FIREFOX("firefox"),

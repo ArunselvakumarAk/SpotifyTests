@@ -44,7 +44,7 @@ public class BaseTest {
 	public void tearDown(ITestResult result, Method method) {
 		EventLogger.info("Quitting the driver");		
 		DriverManager.getInstance().quitDriver();
-		EventLogger.info("Driver quitted successfully");
+		EventLogger.info("Driver has been closed successfully");
 		EventLogger.endTestCase(method.getName());
 	}
 	

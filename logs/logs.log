@@ -1,0 +1,81 @@
+[DEBUG] 2024-08-04 22:40:40.653 - suiteXmlPath: "C:\Users\aruns\AppData\Local\Temp\testng-eclipse--679543707\testng-customsuite.xml"
+[INFO ] 2024-08-04 22:40:40.931 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-08-04 22:40:40.933 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.937 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.938 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.938 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.938 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.939 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.939 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.946 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[TRACE] 2024-08-04 22:40:40.950 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-04 22:40:40.951 - [Graph] ================ SORTING
+[TRACE] 2024-08-04 22:40:40.953 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-04 22:40:40.953 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-04 22:40:40.953 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-04 22:40:40.953 - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+[INFO ] 2024-08-04 22:40:40.955 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[TRACE] 2024-08-04 22:40:40.955 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-04 22:40:40.955 - [Graph] ================ SORTING
+[TRACE] 2024-08-04 22:40:40.955 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-04 22:40:40.955 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-04 22:40:40.955 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-04 22:40:40.955 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.959 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.959 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.959 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.961 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.964 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[TRACE] 2024-08-04 22:40:40.964 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@62e6b5c8] 1824457523
+[TRACE] 2024-08-04 22:40:40.964 - [Graph] ================ SORTING
+[TRACE] 2024-08-04 22:40:40.964 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-04 22:40:40.965 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-04 22:40:40.965 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-04 22:40:40.965 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-04 22:40:40.974 - [TestNG] Running:
+  C:\Users\aruns\AppData\Local\Temp\testng-eclipse--679543707\testng-customsuite.xml
+
+[INFO ] 2024-08-04 22:40:40.989 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[INFO ] 2024-08-04 22:40:41.101 - Reading JSON data from file tracks.json
+[INFO ] 2024-08-04 22:40:41.159 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-04 22:40:41.163 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-04 22:40:42.636 - New CHROME driver created
+[INFO ] 2024-08-04 22:40:42.636 - Driver instantiated 
+[INFO ] 2024-08-04 22:40:42.675 - Browser window maximized
+[INFO ] 2024-08-04 22:40:42.686 - Opening search page
+[INFO ] 2024-08-04 22:40:51.081 - searching for Vaathi Coming song with artist name Anirudh Ravichander
+[INFO ] 2024-08-04 22:40:52.337 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-04 22:40:53.621 - Vaathi Coming found in top results
+[INFO ] 2024-08-04 22:40:53.627 - Quitting the driver
+[INFO ] 2024-08-04 22:40:53.845 - Driver quitted successfully
+[INFO ] 2024-08-04 22:40:53.845 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-04 22:40:53.845 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-04 22:40:53.845 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-04 22:40:54.836 - New CHROME driver created
+[INFO ] 2024-08-04 22:40:54.836 - Driver instantiated 
+[INFO ] 2024-08-04 22:40:54.874 - Browser window maximized
+[INFO ] 2024-08-04 22:40:54.877 - Opening search page
+[INFO ] 2024-08-04 22:41:04.029 - searching for Ordinary Person song with artist name Anirudh Ravichander
+[INFO ] 2024-08-04 22:41:05.548 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-04 22:41:06.852 - Ordinary Person found in top results
+[INFO ] 2024-08-04 22:41:06.852 - Quitting the driver
+[INFO ] 2024-08-04 22:41:07.071 - Driver quitted successfully
+[INFO ] 2024-08-04 22:41:07.071 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-04 22:41:07.139 - [TestNG] Time taken by org.testng.reporters.jq.Main@15d42ccb: 49 ms
+[INFO ] 2024-08-04 22:41:07.151 - [TestNG] Time taken by org.testng.reporters.FailedReporter@279dd959: 0 ms
+[INFO ] 2024-08-04 22:41:07.157 - [TestNG] Time taken by org.testng.reporters.XMLReporter@536d97f8: 6 ms
+[INFO ] 2024-08-04 22:41:07.157 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@12a14b74: 0 ms
+[INFO ] 2024-08-04 22:41:07.166 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@708f018e: 9 ms
+[INFO ] 2024-08-04 22:41:07.166 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@19a31b9d: 0 ms
