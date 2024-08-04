@@ -9,7 +9,7 @@ import com.spotify.web.driver.DriverManager;
 import com.spotify.web.pageobjects.common.ContextMenu;
 import com.spotify.web.pageobjects.pages.LibraryPage;
 import com.spotify.web.pageobjects.pages.PlaylistPage;
-import com.spotify.web.utils.ResourceUtils;
+import com.spotify.web.utils.EventLogger;
 
 public class LibraryTests extends BaseTest{
 	
@@ -45,7 +45,7 @@ public class LibraryTests extends BaseTest{
 				.clickSaveBtn();
 			Assert.assertTrue(libraryPage.isPlaylistpresent(newName));
 		}else {
-			ResourceUtils.log.info("{} is not found in your library");
+			EventLogger.info(originalName+" is not found in your library");
 		}
 	}
 	
@@ -65,7 +65,7 @@ public class LibraryTests extends BaseTest{
 				.clickConfirmationDeleteBtn();
 			Assert.assertTrue(contextMenu.verifyRemovedFromLibrarySuccessMsg());
 		}else {
-			ResourceUtils.log.info("{} is not found in your library");
+			EventLogger.info(playlistTitle+" is not found in your library");
 		}
 	}
 }

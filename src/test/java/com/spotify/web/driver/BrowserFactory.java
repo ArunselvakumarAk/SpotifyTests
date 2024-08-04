@@ -8,6 +8,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import com.spotify.web.utils.EventLogger;
 import com.spotify.web.utils.ResourceUtils;
 
 public class BrowserFactory {
@@ -23,10 +24,10 @@ public class BrowserFactory {
 					options.addArguments("--headless");
 					options.addArguments("window-size=1920x1080");
 					driver = new ChromeDriver(options);
-					ResourceUtils.log.info("New {} driver created in headless mode", browser);
+					EventLogger.info("New "+ browser +" driver created in headless mode");
 				} else {
 					driver = new ChromeDriver();
-					ResourceUtils.log.info("New {} driver created", browser);
+					EventLogger.info("New "+browser+" driver created");
 				}
                 break;
                 
@@ -35,10 +36,10 @@ public class BrowserFactory {
 					FirefoxOptions options = new FirefoxOptions();
 					options.addArguments("-headless");
 					driver = new FirefoxDriver(options);
-					ResourceUtils.log.info("New {} driver created in headless mode", browser);
+					EventLogger.info("New "+ browser +" driver created in headless mode");
 				} else {
 					driver = new FirefoxDriver();
-					ResourceUtils.log.info("New {} driver created", browser);
+					EventLogger.info("New "+browser+" driver created");
 				}
 				break;
 				
@@ -47,11 +48,12 @@ public class BrowserFactory {
             		EdgeOptions options = new EdgeOptions();
             		options.addArguments("-headless");
             		driver = new EdgeDriver(options);
-					ResourceUtils.log.info("New {} driver created in headless mode", browser);
+            		EventLogger.info("New "+ browser +" driver created in headless mode");
+				}else {
+					driver = new EdgeDriver();
+					EventLogger.info("New "+browser+" driver created");
 				}
-                driver = new EdgeDriver();
-                ResourceUtils.log.info("New {} driver created", browser);
-                break;
+            	break;
                 
             default:
             	throw new IllegalArgumentException("Unsupported or invalid browser name provided");

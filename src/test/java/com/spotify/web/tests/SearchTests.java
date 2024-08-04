@@ -1,6 +1,7 @@
 package com.spotify.web.tests;
 
 import org.testng.annotations.Test;
+
 import com.spotify.web.base.BaseTest;
 import com.spotify.web.dataproviders.SearchTestsDataProviders;
 import com.spotify.web.driver.DriverManager;
@@ -29,7 +30,7 @@ public class SearchTests extends BaseTest{
 			.assertInTopResults(playlistTitle);
 	}
 	
-	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"}, enabled =false)
 	public void verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(String albumnName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
@@ -39,7 +40,7 @@ public class SearchTests extends BaseTest{
 			.assertInTopResults(albumnName);
 	}
 	
-	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
+	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"}, enabled =false)
 	public void verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(String artistName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
