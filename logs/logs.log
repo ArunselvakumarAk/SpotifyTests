@@ -1,81 +1,143 @@
-[DEBUG] 2024-08-04 22:40:40.653 - suiteXmlPath: "C:\Users\aruns\AppData\Local\Temp\testng-eclipse--679543707\testng-customsuite.xml"
-[INFO ] 2024-08-04 22:40:40.931 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-[INFO ] 2024-08-04 22:40:40.933 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.935 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.937 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.938 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.938 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.938 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.939 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.939 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.940 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.946 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
-[TRACE] 2024-08-04 22:40:40.950 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
-[TRACE] 2024-08-04 22:40:40.951 - [Graph] ================ SORTING
-[TRACE] 2024-08-04 22:40:40.953 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-04 22:40:40.953 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-04 22:40:40.953 - [Graph] ====== END SORTED NODES
-[INFO ] 2024-08-04 22:40:40.953 - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-[INFO ] 2024-08-04 22:40:40.955 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[TRACE] 2024-08-04 22:40:40.955 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
-[TRACE] 2024-08-04 22:40:40.955 - [Graph] ================ SORTING
-[TRACE] 2024-08-04 22:40:40.955 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-04 22:40:40.955 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-04 22:40:40.955 - [Graph] ====== END SORTED NODES
-[INFO ] 2024-08-04 22:40:40.955 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.959 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.959 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.959 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.961 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.964 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
-[TRACE] 2024-08-04 22:40:40.964 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@62e6b5c8] 1824457523
-[TRACE] 2024-08-04 22:40:40.964 - [Graph] ================ SORTING
-[TRACE] 2024-08-04 22:40:40.964 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-04 22:40:40.965 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-04 22:40:40.965 - [Graph] ====== END SORTED NODES
-[INFO ] 2024-08-04 22:40:40.965 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.966 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-08-04 22:40:40.974 - [TestNG] Running:
-  C:\Users\aruns\AppData\Local\Temp\testng-eclipse--679543707\testng-customsuite.xml
-
-[INFO ] 2024-08-04 22:40:40.989 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-[INFO ] 2024-08-04 22:40:41.101 - Reading JSON data from file tracks.json
-[INFO ] 2024-08-04 22:40:41.159 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-04 22:40:41.163 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
-[INFO ] 2024-08-04 22:40:42.636 - New CHROME driver created
-[INFO ] 2024-08-04 22:40:42.636 - Driver instantiated 
-[INFO ] 2024-08-04 22:40:42.675 - Browser window maximized
-[INFO ] 2024-08-04 22:40:42.686 - Opening search page
-[INFO ] 2024-08-04 22:40:51.081 - searching for Vaathi Coming song with artist name Anirudh Ravichander
-[INFO ] 2024-08-04 22:40:52.337 - Clicked on Songs filter button successfully
-[INFO ] 2024-08-04 22:40:53.621 - Vaathi Coming found in top results
-[INFO ] 2024-08-04 22:40:53.627 - Quitting the driver
-[INFO ] 2024-08-04 22:40:53.845 - Driver quitted successfully
-[INFO ] 2024-08-04 22:40:53.845 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-04 22:40:53.845 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-04 22:40:53.845 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
-[INFO ] 2024-08-04 22:40:54.836 - New CHROME driver created
-[INFO ] 2024-08-04 22:40:54.836 - Driver instantiated 
-[INFO ] 2024-08-04 22:40:54.874 - Browser window maximized
-[INFO ] 2024-08-04 22:40:54.877 - Opening search page
-[INFO ] 2024-08-04 22:41:04.029 - searching for Ordinary Person song with artist name Anirudh Ravichander
-[INFO ] 2024-08-04 22:41:05.548 - Clicked on Songs filter button successfully
-[INFO ] 2024-08-04 22:41:06.852 - Ordinary Person found in top results
-[INFO ] 2024-08-04 22:41:06.852 - Quitting the driver
-[INFO ] 2024-08-04 22:41:07.071 - Driver quitted successfully
-[INFO ] 2024-08-04 22:41:07.071 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-04 22:41:07.139 - [TestNG] Time taken by org.testng.reporters.jq.Main@15d42ccb: 49 ms
-[INFO ] 2024-08-04 22:41:07.151 - [TestNG] Time taken by org.testng.reporters.FailedReporter@279dd959: 0 ms
-[INFO ] 2024-08-04 22:41:07.157 - [TestNG] Time taken by org.testng.reporters.XMLReporter@536d97f8: 6 ms
-[INFO ] 2024-08-04 22:41:07.157 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@12a14b74: 0 ms
-[INFO ] 2024-08-04 22:41:07.166 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@708f018e: 9 ms
-[INFO ] 2024-08-04 22:41:07.166 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@19a31b9d: 0 ms
+[DEBUG] 2024-08-05 19:20:58.423 - suiteXmlPath: "C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\testSuites\smokeSuite.xml"
+[TRACE] 2024-08-05 19:20:58.832 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-05 19:20:58.833 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:20:58.840 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:20:58.842 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:20:58.843 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-05 19:20:58.845 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-05 19:20:58.846 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:20:58.847 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:20:58.847 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:20:58.847 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-05 19:20:58.855 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-05 19:20:58.855 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:20:58.856 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:20:58.856 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:20:58.856 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-05 19:20:58.858 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-05 19:20:58.858 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:20:58.858 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:20:58.858 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:20:58.858 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-05 19:20:58.863 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-05 19:20:58.863 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:20:58.863 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:20:58.864 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:20:58.864 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-05 19:20:58.865 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-05 19:20:58.865 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:20:58.865 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:20:58.865 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:20:58.865 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@58fb7731] 1658045596
+[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@424fd310] 23775381
+[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -1846582242
+[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -528101126
+[TRACE] 2024-08-05 19:20:58.877 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:20:58.883 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:20:58.883 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:20:58.883 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-05 19:20:59.273 - ************** Execution started for createNewPlaylistInLibraryTest**************
+[INFO ] 2024-08-05 19:20:59.276 - Setting up the test: createNewPlaylistInLibraryTest
+[INFO ] 2024-08-05 19:20:59.421 - Reading JSON data from file albums.json
+[INFO ] 2024-08-05 19:20:59.421 - Reading JSON data from file tracks.json
+[INFO ] 2024-08-05 19:20:59.536 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-05 19:20:59.541 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-05 19:20:59.537 - ************** Execution started for addAlbumToLibraryTest**************
+[INFO ] 2024-08-05 19:20:59.543 - Setting up the test: addAlbumToLibraryTest
+[INFO ] 2024-08-05 19:21:02.646 - New CHROME driver created
+[INFO ] 2024-08-05 19:21:02.646 - New CHROME driver created
+[INFO ] 2024-08-05 19:21:02.646 - New CHROME driver created
+[INFO ] 2024-08-05 19:21:02.648 - Driver instantiated 
+[INFO ] 2024-08-05 19:21:02.648 - Driver instantiated 
+[INFO ] 2024-08-05 19:21:02.648 - Driver instantiated 
+[INFO ] 2024-08-05 19:21:02.738 - Browser window maximized
+[INFO ] 2024-08-05 19:21:02.740 - Authentication required for the test: addAlbumToLibraryTest
+[INFO ] 2024-08-05 19:21:02.741 - Performing login
+[INFO ] 2024-08-05 19:21:02.756 - Browser window maximized
+[INFO ] 2024-08-05 19:21:02.756 - Authentication required for the test: createNewPlaylistInLibraryTest
+[INFO ] 2024-08-05 19:21:02.756 - Performing login
+[INFO ] 2024-08-05 19:21:02.761 - Navigating to Login Page
+[INFO ] 2024-08-05 19:21:02.761 - Navigating to Login Page
+[INFO ] 2024-08-05 19:21:02.762 - Browser window maximized
+[INFO ] 2024-08-05 19:21:02.791 - Opening search page
+[INFO ] 2024-08-05 19:21:11.328 - Login handled successfully
+[INFO ] 2024-08-05 19:21:11.332 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
+[INFO ] 2024-08-05 19:21:16.398 - Album successfully added to the library
+[INFO ] 2024-08-05 19:21:16.408 - Quitting the driver
+[INFO ] 2024-08-05 19:21:16.502 - searching for Vaathi Coming song with artist name Anirudh Ravichander
+[INFO ] 2024-08-05 19:21:16.692 - Driver has been closed successfully
+[INFO ] 2024-08-05 19:21:16.693 - ************** Execution ended for addAlbumToLibraryTest**************
+[INFO ] 2024-08-05 19:21:16.695 - ************** Execution started for addAlbumToLibraryTest**************
+[INFO ] 2024-08-05 19:21:16.696 - Setting up the test: addAlbumToLibraryTest
+[INFO ] 2024-08-05 19:21:18.170 - New CHROME driver created
+[INFO ] 2024-08-05 19:21:18.171 - Driver instantiated 
+[INFO ] 2024-08-05 19:21:18.228 - Browser window maximized
+[INFO ] 2024-08-05 19:21:18.228 - Authentication required for the test: addAlbumToLibraryTest
+[INFO ] 2024-08-05 19:21:18.228 - Performing login
+[INFO ] 2024-08-05 19:21:18.228 - Navigating to Login Page
+[INFO ] 2024-08-05 19:21:18.761 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-05 19:21:18.784 - Login handled successfully
+[INFO ] 2024-08-05 19:21:20.984 - Vaathi Coming found in top results
+[INFO ] 2024-08-05 19:21:21.250 - Quitting the driver
+[INFO ] 2024-08-05 19:21:21.694 - Driver has been closed successfully
+[INFO ] 2024-08-05 19:21:21.695 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-05 19:21:21.697 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-05 19:21:21.697 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-05 19:21:22.202 - Created new playlist in the library
+[INFO ] 2024-08-05 19:21:23.094 - New CHROME driver created
+[INFO ] 2024-08-05 19:21:23.096 - Driver instantiated 
+[INFO ] 2024-08-05 19:21:23.160 - Browser window maximized
+[INFO ] 2024-08-05 19:21:23.162 - Opening search page
+[INFO ] 2024-08-05 19:21:24.501 - Quitting the driver
+[INFO ] 2024-08-05 19:21:24.765 - Driver has been closed successfully
+[INFO ] 2024-08-05 19:21:24.766 - ************** Execution ended for createNewPlaylistInLibraryTest**************
+[INFO ] 2024-08-05 19:21:27.010 - searching for Ordinary Person song with artist name Anirudh Ravichander
+[INFO ] 2024-08-05 19:21:29.368 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-05 19:21:31.091 - Ordinary Person found in top results
+[INFO ] 2024-08-05 19:21:33.598 - Quitting the driver
+[INFO ] 2024-08-05 19:21:33.858 - Driver has been closed successfully
+[INFO ] 2024-08-05 19:21:33.859 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-05 19:21:38.771 - Login handled successfully
+[INFO ] 2024-08-05 19:21:38.772 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
+[INFO ] 2024-08-05 19:21:42.799 - Album successfully added to the library
+[INFO ] 2024-08-05 19:21:42.801 - Quitting the driver
+[INFO ] 2024-08-05 19:21:43.032 - Driver has been closed successfully
+[INFO ] 2024-08-05 19:21:43.032 - ************** Execution ended for addAlbumToLibraryTest**************
+[INFO ] 2024-08-05 19:21:43.034 - Reading JSON data from file albums.json
+[INFO ] 2024-08-05 19:21:43.036 - ************** Execution started for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-05 19:21:43.040 - Setting up the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-05 19:21:44.182 - New CHROME driver created
+[INFO ] 2024-08-05 19:21:44.182 - Driver instantiated 
+[INFO ] 2024-08-05 19:21:44.228 - Browser window maximized
+[INFO ] 2024-08-05 19:21:44.228 - Authentication required for the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-05 19:21:44.228 - Performing login
+[INFO ] 2024-08-05 19:21:44.228 - Navigating to Login Page
+[INFO ] 2024-08-05 19:22:02.122 - Login handled successfully
+[INFO ] 2024-08-05 19:22:02.124 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
+[INFO ] 2024-08-05 19:22:05.908 - Album successfully removed from the library
+[INFO ] 2024-08-05 19:22:05.910 - Quitting the driver
+[INFO ] 2024-08-05 19:22:06.215 - Driver has been closed successfully
+[INFO ] 2024-08-05 19:22:06.215 - ************** Execution ended for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-05 19:22:06.216 - ************** Execution started for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-05 19:22:06.216 - Setting up the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-05 19:22:07.371 - New CHROME driver created
+[INFO ] 2024-08-05 19:22:07.371 - Driver instantiated 
+[INFO ] 2024-08-05 19:22:07.414 - Browser window maximized
+[INFO ] 2024-08-05 19:22:07.414 - Authentication required for the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-05 19:22:07.414 - Performing login
+[INFO ] 2024-08-05 19:22:07.416 - Navigating to Login Page
+[INFO ] 2024-08-05 19:22:20.105 - Login handled successfully
+[INFO ] 2024-08-05 19:22:20.106 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
+[INFO ] 2024-08-05 19:22:27.226 - Album successfully removed from the library
+[INFO ] 2024-08-05 19:22:27.228 - Quitting the driver
+[INFO ] 2024-08-05 19:22:27.501 - Driver has been closed successfully
+[INFO ] 2024-08-05 19:22:27.501 - ************** Execution ended for removeAlbumFromLibraryTest**************
+[TRACE] 2024-08-05 19:22:28.180 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -1846582242
+[TRACE] 2024-08-05 19:22:28.180 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -528101126
+[TRACE] 2024-08-05 19:22:28.180 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@424fd310] 23775381
+[TRACE] 2024-08-05 19:22:28.181 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@58fb7731] 1658045596
+[TRACE] 2024-08-05 19:22:28.181 - [Graph] ================ SORTING
+[TRACE] 2024-08-05 19:22:28.181 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-05 19:22:28.181 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-05 19:22:28.181 - [Graph] ====== END SORTED NODES

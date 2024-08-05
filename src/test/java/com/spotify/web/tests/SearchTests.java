@@ -1,5 +1,6 @@
 package com.spotify.web.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.spotify.web.base.BaseTest;
@@ -18,6 +19,7 @@ public class SearchTests extends BaseTest{
 			.enterSearchText(song, artist)
 			.clickFilterBtn("Songs")
 			.assertSongInTopResults(song, artist);
+		Assert.assertTrue(false);
 	}
 	
 	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
