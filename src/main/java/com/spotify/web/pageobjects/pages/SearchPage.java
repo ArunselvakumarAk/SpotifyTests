@@ -25,7 +25,7 @@ public class SearchPage extends BasePage{
 		super(driver);
 	}
 	
-	public SearchPage openSearchPage() {
+	public SearchPage openPage() {
 		EventLogger.info("Opening search page");
 		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl") + "/search");
 		return this;

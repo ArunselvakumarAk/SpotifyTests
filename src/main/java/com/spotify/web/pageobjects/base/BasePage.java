@@ -13,8 +13,8 @@ public class BasePage{
 		utils = new WebElementUtils(driver, 15);
 	}
 	
-	public BasePage openPage(String endPoint) {
-		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl") + endPoint);
+	public BasePage openPage() {
+		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl"));
 		return this;
 	}
 	

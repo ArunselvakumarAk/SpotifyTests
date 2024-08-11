@@ -1,143 +1,202 @@
-[DEBUG] 2024-08-05 19:20:58.423 - suiteXmlPath: "C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\testSuites\smokeSuite.xml"
-[TRACE] 2024-08-05 19:20:58.832 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
-[TRACE] 2024-08-05 19:20:58.833 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:20:58.840 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:20:58.842 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:20:58.843 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-05 19:20:58.845 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
-[TRACE] 2024-08-05 19:20:58.846 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:20:58.847 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:20:58.847 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:20:58.847 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-05 19:20:58.855 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
-[TRACE] 2024-08-05 19:20:58.855 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:20:58.856 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:20:58.856 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:20:58.856 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-05 19:20:58.858 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
-[TRACE] 2024-08-05 19:20:58.858 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:20:58.858 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:20:58.858 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:20:58.858 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-05 19:20:58.863 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
-[TRACE] 2024-08-05 19:20:58.863 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:20:58.863 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:20:58.864 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:20:58.864 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-05 19:20:58.865 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
-[TRACE] 2024-08-05 19:20:58.865 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:20:58.865 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:20:58.865 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:20:58.865 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@58fb7731] 1658045596
-[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@424fd310] 23775381
-[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -1846582242
-[TRACE] 2024-08-05 19:20:58.877 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -528101126
-[TRACE] 2024-08-05 19:20:58.877 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:20:58.883 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:20:58.883 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:20:58.883 - [Graph] ====== END SORTED NODES
-[INFO ] 2024-08-05 19:20:59.273 - ************** Execution started for createNewPlaylistInLibraryTest**************
-[INFO ] 2024-08-05 19:20:59.276 - Setting up the test: createNewPlaylistInLibraryTest
-[INFO ] 2024-08-05 19:20:59.421 - Reading JSON data from file albums.json
-[INFO ] 2024-08-05 19:20:59.421 - Reading JSON data from file tracks.json
-[INFO ] 2024-08-05 19:20:59.536 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-05 19:20:59.541 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
-[INFO ] 2024-08-05 19:20:59.537 - ************** Execution started for addAlbumToLibraryTest**************
-[INFO ] 2024-08-05 19:20:59.543 - Setting up the test: addAlbumToLibraryTest
-[INFO ] 2024-08-05 19:21:02.646 - New CHROME driver created
-[INFO ] 2024-08-05 19:21:02.646 - New CHROME driver created
-[INFO ] 2024-08-05 19:21:02.646 - New CHROME driver created
-[INFO ] 2024-08-05 19:21:02.648 - Driver instantiated 
-[INFO ] 2024-08-05 19:21:02.648 - Driver instantiated 
-[INFO ] 2024-08-05 19:21:02.648 - Driver instantiated 
-[INFO ] 2024-08-05 19:21:02.738 - Browser window maximized
-[INFO ] 2024-08-05 19:21:02.740 - Authentication required for the test: addAlbumToLibraryTest
-[INFO ] 2024-08-05 19:21:02.741 - Performing login
-[INFO ] 2024-08-05 19:21:02.756 - Browser window maximized
-[INFO ] 2024-08-05 19:21:02.756 - Authentication required for the test: createNewPlaylistInLibraryTest
-[INFO ] 2024-08-05 19:21:02.756 - Performing login
-[INFO ] 2024-08-05 19:21:02.761 - Navigating to Login Page
-[INFO ] 2024-08-05 19:21:02.761 - Navigating to Login Page
-[INFO ] 2024-08-05 19:21:02.762 - Browser window maximized
-[INFO ] 2024-08-05 19:21:02.791 - Opening search page
-[INFO ] 2024-08-05 19:21:11.328 - Login handled successfully
-[INFO ] 2024-08-05 19:21:11.332 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
-[INFO ] 2024-08-05 19:21:16.398 - Album successfully added to the library
-[INFO ] 2024-08-05 19:21:16.408 - Quitting the driver
-[INFO ] 2024-08-05 19:21:16.502 - searching for Vaathi Coming song with artist name Anirudh Ravichander
-[INFO ] 2024-08-05 19:21:16.692 - Driver has been closed successfully
-[INFO ] 2024-08-05 19:21:16.693 - ************** Execution ended for addAlbumToLibraryTest**************
-[INFO ] 2024-08-05 19:21:16.695 - ************** Execution started for addAlbumToLibraryTest**************
-[INFO ] 2024-08-05 19:21:16.696 - Setting up the test: addAlbumToLibraryTest
-[INFO ] 2024-08-05 19:21:18.170 - New CHROME driver created
-[INFO ] 2024-08-05 19:21:18.171 - Driver instantiated 
-[INFO ] 2024-08-05 19:21:18.228 - Browser window maximized
-[INFO ] 2024-08-05 19:21:18.228 - Authentication required for the test: addAlbumToLibraryTest
-[INFO ] 2024-08-05 19:21:18.228 - Performing login
-[INFO ] 2024-08-05 19:21:18.228 - Navigating to Login Page
-[INFO ] 2024-08-05 19:21:18.761 - Clicked on Songs filter button successfully
-[INFO ] 2024-08-05 19:21:18.784 - Login handled successfully
-[INFO ] 2024-08-05 19:21:20.984 - Vaathi Coming found in top results
-[INFO ] 2024-08-05 19:21:21.250 - Quitting the driver
-[INFO ] 2024-08-05 19:21:21.694 - Driver has been closed successfully
-[INFO ] 2024-08-05 19:21:21.695 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-05 19:21:21.697 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-05 19:21:21.697 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
-[INFO ] 2024-08-05 19:21:22.202 - Created new playlist in the library
-[INFO ] 2024-08-05 19:21:23.094 - New CHROME driver created
-[INFO ] 2024-08-05 19:21:23.096 - Driver instantiated 
-[INFO ] 2024-08-05 19:21:23.160 - Browser window maximized
-[INFO ] 2024-08-05 19:21:23.162 - Opening search page
-[INFO ] 2024-08-05 19:21:24.501 - Quitting the driver
-[INFO ] 2024-08-05 19:21:24.765 - Driver has been closed successfully
-[INFO ] 2024-08-05 19:21:24.766 - ************** Execution ended for createNewPlaylistInLibraryTest**************
-[INFO ] 2024-08-05 19:21:27.010 - searching for Ordinary Person song with artist name Anirudh Ravichander
-[INFO ] 2024-08-05 19:21:29.368 - Clicked on Songs filter button successfully
-[INFO ] 2024-08-05 19:21:31.091 - Ordinary Person found in top results
-[INFO ] 2024-08-05 19:21:33.598 - Quitting the driver
-[INFO ] 2024-08-05 19:21:33.858 - Driver has been closed successfully
-[INFO ] 2024-08-05 19:21:33.859 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-05 19:21:38.771 - Login handled successfully
-[INFO ] 2024-08-05 19:21:38.772 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
-[INFO ] 2024-08-05 19:21:42.799 - Album successfully added to the library
-[INFO ] 2024-08-05 19:21:42.801 - Quitting the driver
-[INFO ] 2024-08-05 19:21:43.032 - Driver has been closed successfully
-[INFO ] 2024-08-05 19:21:43.032 - ************** Execution ended for addAlbumToLibraryTest**************
-[INFO ] 2024-08-05 19:21:43.034 - Reading JSON data from file albums.json
-[INFO ] 2024-08-05 19:21:43.036 - ************** Execution started for removeAlbumFromLibraryTest**************
-[INFO ] 2024-08-05 19:21:43.040 - Setting up the test: removeAlbumFromLibraryTest
-[INFO ] 2024-08-05 19:21:44.182 - New CHROME driver created
-[INFO ] 2024-08-05 19:21:44.182 - Driver instantiated 
-[INFO ] 2024-08-05 19:21:44.228 - Browser window maximized
-[INFO ] 2024-08-05 19:21:44.228 - Authentication required for the test: removeAlbumFromLibraryTest
-[INFO ] 2024-08-05 19:21:44.228 - Performing login
-[INFO ] 2024-08-05 19:21:44.228 - Navigating to Login Page
-[INFO ] 2024-08-05 19:22:02.122 - Login handled successfully
-[INFO ] 2024-08-05 19:22:02.124 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
-[INFO ] 2024-08-05 19:22:05.908 - Album successfully removed from the library
-[INFO ] 2024-08-05 19:22:05.910 - Quitting the driver
-[INFO ] 2024-08-05 19:22:06.215 - Driver has been closed successfully
-[INFO ] 2024-08-05 19:22:06.215 - ************** Execution ended for removeAlbumFromLibraryTest**************
-[INFO ] 2024-08-05 19:22:06.216 - ************** Execution started for removeAlbumFromLibraryTest**************
-[INFO ] 2024-08-05 19:22:06.216 - Setting up the test: removeAlbumFromLibraryTest
-[INFO ] 2024-08-05 19:22:07.371 - New CHROME driver created
-[INFO ] 2024-08-05 19:22:07.371 - Driver instantiated 
-[INFO ] 2024-08-05 19:22:07.414 - Browser window maximized
-[INFO ] 2024-08-05 19:22:07.414 - Authentication required for the test: removeAlbumFromLibraryTest
-[INFO ] 2024-08-05 19:22:07.414 - Performing login
-[INFO ] 2024-08-05 19:22:07.416 - Navigating to Login Page
-[INFO ] 2024-08-05 19:22:20.105 - Login handled successfully
-[INFO ] 2024-08-05 19:22:20.106 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
-[INFO ] 2024-08-05 19:22:27.226 - Album successfully removed from the library
-[INFO ] 2024-08-05 19:22:27.228 - Quitting the driver
-[INFO ] 2024-08-05 19:22:27.501 - Driver has been closed successfully
-[INFO ] 2024-08-05 19:22:27.501 - ************** Execution ended for removeAlbumFromLibraryTest**************
-[TRACE] 2024-08-05 19:22:28.180 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -1846582242
-[TRACE] 2024-08-05 19:22:28.180 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@1a45193b] -528101126
-[TRACE] 2024-08-05 19:22:28.180 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@424fd310] 23775381
-[TRACE] 2024-08-05 19:22:28.181 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@58fb7731] 1658045596
-[TRACE] 2024-08-05 19:22:28.181 - [Graph] ================ SORTING
-[TRACE] 2024-08-05 19:22:28.181 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-05 19:22:28.181 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-05 19:22:28.181 - [Graph] ====== END SORTED NODES
+[DEBUG] 2024-08-11 18:34:50.787 - suiteXmlPath: "C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\testSuites\regressionSuite.xml"
+[TRACE] 2024-08-11 18:34:51.059 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-11 18:34:51.059 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:34:51.064 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:34:51.064 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:34:51.064 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-11 18:34:51.065 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-11 18:34:51.065 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:34:51.065 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:34:51.066 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:34:51.066 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-11 18:34:51.070 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-11 18:34:51.070 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:34:51.070 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:34:51.070 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:34:51.070 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-11 18:34:51.071 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-11 18:34:51.071 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:34:51.071 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:34:51.071 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:34:51.071 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-11 18:34:51.075 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-11 18:34:51.075 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:34:51.075 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:34:51.075 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:34:51.075 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-11 18:34:51.076 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-11 18:34:51.076 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:34:51.076 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:34:51.076 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:34:51.076 - [Graph] ====== END SORTED NODES
+[TRACE] 2024-08-11 18:34:51.083 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@5ddea849] 1740043700
+[TRACE] 2024-08-11 18:34:51.083 - [Graph] ADDING NODE SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@5ddea849] 110326076
+[TRACE] 2024-08-11 18:34:51.084 - [Graph] ADDING NODE LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@2374d36a] -1479170314
+[TRACE] 2024-08-11 18:34:51.084 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@2374d36a] -493893393
+[TRACE] 2024-08-11 18:34:51.084 - [Graph] ADDING NODE LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@2374d36a] 477704550
+[TRACE] 2024-08-11 18:34:51.084 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@54d18072] -864302251
+[TRACE] 2024-08-11 18:34:51.084 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@54d18072] 454178865
+[TRACE] 2024-08-11 18:34:51.084 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:34:51.089 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:34:51.090 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:34:51.090 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-11 18:34:51.384 - ************** Execution started for changePlaylistNameinLibraryTest**************
+[INFO ] 2024-08-11 18:34:51.386 - Setting up the test: changePlaylistNameinLibraryTest
+[INFO ] 2024-08-11 18:34:51.497 - Reading JSON data from file playlists.json
+[INFO ] 2024-08-11 18:34:51.497 - Reading JSON data from file albums.json
+[INFO ] 2024-08-11 18:34:51.569 - ************** Execution started for addAlbumToLibraryTest**************
+[INFO ] 2024-08-11 18:34:51.571 - Setting up the test: addAlbumToLibraryTest
+[INFO ] 2024-08-11 18:34:51.569 - ************** Execution started for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-11 18:34:51.574 - Setting up the test: verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
+[INFO ] 2024-08-11 18:34:55.533 - New CHROME driver created
+[INFO ] 2024-08-11 18:34:55.533 - New CHROME driver created
+[INFO ] 2024-08-11 18:34:55.533 - Driver instantiated 
+[INFO ] 2024-08-11 18:34:55.533 - Driver instantiated 
+[INFO ] 2024-08-11 18:34:55.591 - Browser window maximized
+[INFO ] 2024-08-11 18:34:55.592 - Authentication required for the test: addAlbumToLibraryTest
+[INFO ] 2024-08-11 18:34:55.592 - Performing login
+[INFO ] 2024-08-11 18:34:55.600 - Browser window maximized
+[INFO ] 2024-08-11 18:34:55.606 - Navigating to Login Page
+[INFO ] 2024-08-11 18:34:55.622 - Opening search page
+[INFO ] 2024-08-11 18:34:56.103 - New CHROME driver created
+[INFO ] 2024-08-11 18:34:56.104 - Driver instantiated 
+[INFO ] 2024-08-11 18:34:56.170 - Browser window maximized
+[INFO ] 2024-08-11 18:34:56.170 - Authentication required for the test: changePlaylistNameinLibraryTest
+[INFO ] 2024-08-11 18:34:56.170 - Performing login
+[INFO ] 2024-08-11 18:34:56.172 - Navigating to Login Page
+[INFO ] 2024-08-11 18:35:00.381 - searching for Jailer
+[INFO ] 2024-08-11 18:35:01.797 - Clicked on Playlists filter button successfully
+[INFO ] 2024-08-11 18:35:03.027 - Jailer found in top results
+[INFO ] 2024-08-11 18:35:03.037 - Quitting the driver
+[INFO ] 2024-08-11 18:35:03.291 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:03.292 - ************** Execution ended for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-11 18:35:03.294 - ************** Execution started for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-11 18:35:03.294 - Setting up the test: verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
+[INFO ] 2024-08-11 18:35:03.880 - Login handled successfully
+[INFO ] 2024-08-11 18:35:03.908 - Login handled successfully
+[INFO ] 2024-08-11 18:35:03.911 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
+[INFO ] 2024-08-11 18:35:04.466 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:04.466 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:04.554 - Browser window maximized
+[INFO ] 2024-08-11 18:35:04.556 - Opening search page
+[INFO ] 2024-08-11 18:35:08.686 - Album successfully added to the library
+[INFO ] 2024-08-11 18:35:08.688 - Quitting the driver
+[INFO ] 2024-08-11 18:35:08.960 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:08.960 - ************** Execution ended for addAlbumToLibraryTest**************
+[INFO ] 2024-08-11 18:35:08.961 - ************** Execution started for addAlbumToLibraryTest**************
+[INFO ] 2024-08-11 18:35:08.962 - Setting up the test: addAlbumToLibraryTest
+[INFO ] 2024-08-11 18:35:09.206 - searching for Beast
+[INFO ] 2024-08-11 18:35:10.143 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:10.144 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:10.193 - Browser window maximized
+[INFO ] 2024-08-11 18:35:10.193 - Authentication required for the test: addAlbumToLibraryTest
+[INFO ] 2024-08-11 18:35:10.193 - Performing login
+[INFO ] 2024-08-11 18:35:10.194 - Navigating to Login Page
+[INFO ] 2024-08-11 18:35:10.950 - Clicked on Playlists filter button successfully
+[INFO ] 2024-08-11 18:35:12.265 - Beast found in top results
+[INFO ] 2024-08-11 18:35:12.267 - Quitting the driver
+[INFO ] 2024-08-11 18:35:12.501 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:12.501 - ************** Execution ended for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-11 18:35:12.506 - Reading JSON data from file tracks.json
+[INFO ] 2024-08-11 18:35:12.509 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-11 18:35:12.512 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-11 18:35:13.645 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:13.645 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:13.717 - Browser window maximized
+[INFO ] 2024-08-11 18:35:13.719 - Opening search page
+[INFO ] 2024-08-11 18:35:18.451 - Login handled successfully
+[INFO ] 2024-08-11 18:35:18.451 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
+[INFO ] 2024-08-11 18:35:18.986 - Locating My Playlist #1 in the library
+[INFO ] 2024-08-11 18:35:19.188 - My Playlist #1 is not found in your library
+[INFO ] 2024-08-11 18:35:19.190 - Quitting the driver
+[INFO ] 2024-08-11 18:35:19.312 - searching for Vaathi Coming song with artist name Anirudh Ravichander
+[INFO ] 2024-08-11 18:35:19.515 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:19.515 - ************** Execution ended for changePlaylistNameinLibraryTest**************
+[INFO ] 2024-08-11 18:35:19.517 - ************** Execution started for createNewPlaylistInLibraryTest**************
+[INFO ] 2024-08-11 18:35:19.520 - Setting up the test: createNewPlaylistInLibraryTest
+[INFO ] 2024-08-11 18:35:20.736 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:20.737 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:20.796 - Browser window maximized
+[INFO ] 2024-08-11 18:35:20.796 - Authentication required for the test: createNewPlaylistInLibraryTest
+[INFO ] 2024-08-11 18:35:20.796 - Performing login
+[INFO ] 2024-08-11 18:35:20.796 - Navigating to Login Page
+[INFO ] 2024-08-11 18:35:21.713 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-11 18:35:22.702 - Album successfully added to the library
+[INFO ] 2024-08-11 18:35:22.702 - Quitting the driver
+[INFO ] 2024-08-11 18:35:22.915 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:22.915 - ************** Execution ended for addAlbumToLibraryTest**************
+[INFO ] 2024-08-11 18:35:22.915 - Reading JSON data from file albums.json
+[INFO ] 2024-08-11 18:35:22.915 - ************** Execution started for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-11 18:35:22.915 - Setting up the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-11 18:35:23.533 - Vaathi Coming found in top results
+[INFO ] 2024-08-11 18:35:23.801 - Quitting the driver
+[INFO ] 2024-08-11 18:35:24.095 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:24.095 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-11 18:35:24.097 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-11 18:35:24.097 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-11 18:35:24.114 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:24.114 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:24.166 - Browser window maximized
+[INFO ] 2024-08-11 18:35:24.166 - Authentication required for the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-11 18:35:24.166 - Performing login
+[INFO ] 2024-08-11 18:35:24.166 - Navigating to Login Page
+[INFO ] 2024-08-11 18:35:25.277 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:25.278 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:25.329 - Browser window maximized
+[INFO ] 2024-08-11 18:35:25.332 - Opening search page
+[INFO ] 2024-08-11 18:35:29.673 - Login handled successfully
+[INFO ] 2024-08-11 18:35:30.798 - searching for Ordinary Person song with artist name Anirudh Ravichander
+[INFO ] 2024-08-11 18:35:32.405 - Created new playlist in the library
+[INFO ] 2024-08-11 18:35:32.742 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-11 18:35:33.940 - Login handled successfully
+[INFO ] 2024-08-11 18:35:33.942 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
+[INFO ] 2024-08-11 18:35:34.244 - Quitting the driver
+[INFO ] 2024-08-11 18:35:34.525 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:34.525 - ************** Execution ended for createNewPlaylistInLibraryTest**************
+[INFO ] 2024-08-11 18:35:34.528 - ************** Execution started for deletePlaylistInLibraryTest**************
+[INFO ] 2024-08-11 18:35:34.531 - Setting up the test: deletePlaylistInLibraryTest
+[INFO ] 2024-08-11 18:35:34.629 - Ordinary Person found in top results
+[INFO ] 2024-08-11 18:35:34.779 - Quitting the driver
+[INFO ] 2024-08-11 18:35:34.989 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:34.989 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-11 18:35:35.670 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:35.670 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:35.707 - Browser window maximized
+[INFO ] 2024-08-11 18:35:35.708 - Authentication required for the test: deletePlaylistInLibraryTest
+[INFO ] 2024-08-11 18:35:35.708 - Performing login
+[INFO ] 2024-08-11 18:35:35.708 - Navigating to Login Page
+[INFO ] 2024-08-11 18:35:38.624 - Album successfully removed from the library
+[INFO ] 2024-08-11 18:35:38.625 - Quitting the driver
+[INFO ] 2024-08-11 18:35:38.848 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:38.848 - ************** Execution ended for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-11 18:35:38.849 - ************** Execution started for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-11 18:35:38.849 - Setting up the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-11 18:35:39.949 - New CHROME driver created
+[INFO ] 2024-08-11 18:35:39.949 - Driver instantiated 
+[INFO ] 2024-08-11 18:35:39.997 - Browser window maximized
+[INFO ] 2024-08-11 18:35:39.998 - Authentication required for the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-11 18:35:39.998 - Performing login
+[INFO ] 2024-08-11 18:35:39.998 - Navigating to Login Page
+[INFO ] 2024-08-11 18:35:44.311 - Login handled successfully
+[INFO ] 2024-08-11 18:35:47.393 - Login handled successfully
+[INFO ] 2024-08-11 18:35:47.394 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
+[INFO ] 2024-08-11 18:35:51.021 - Album successfully removed from the library
+[INFO ] 2024-08-11 18:35:51.021 - Quitting the driver
+[INFO ] 2024-08-11 18:35:51.205 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:51.205 - ************** Execution ended for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-11 18:35:59.369 - Locating Updated Playlist in the library
+[INFO ] 2024-08-11 18:35:59.496 - Updated Playlist is not found in your library
+[INFO ] 2024-08-11 18:35:59.496 - Quitting the driver
+[INFO ] 2024-08-11 18:35:59.721 - Driver has been closed successfully
+[INFO ] 2024-08-11 18:35:59.721 - ************** Execution ended for deletePlaylistInLibraryTest**************
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@54d18072] -864302251
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@54d18072] 454178865
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ADDING NODE LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@2374d36a] -1479170314
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@2374d36a] -493893393
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ADDING NODE LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@2374d36a] 477704550
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ADDING NODE SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@5ddea849] 110326076
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@5ddea849] 1740043700
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ================ SORTING
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-11 18:36:00.170 - [Graph] ====== END SORTED NODES

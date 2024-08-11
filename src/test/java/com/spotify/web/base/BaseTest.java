@@ -58,7 +58,7 @@ public class BaseTest {
 		String password = ResourceUtils.getProperty("configuration//authentication_config.properties", "password");
 		
 		login
-			.navigateToLoginPage()
+			.openPage()
 			.handleLogin(username, password);
 		
 		EventLogger.info("Login handled successfully");

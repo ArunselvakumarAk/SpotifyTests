@@ -10,8 +10,8 @@ public class HomePage extends BasePage{
 		super(driver);
 	}
 	
-	public HomePage navigateToHomePage() {
-		openPage("");
+	public HomePage openPage() {
+		openPage();
 		return this;
 	}
 }

@@ -1,8 +1,6 @@
 package com.spotify.web.tests;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.spotify.web.base.BaseTest;
 import com.spotify.web.dataproviders.SearchTestsDataProviders;
 import com.spotify.web.driver.DriverManager;
@@ -15,18 +13,17 @@ public class SearchTests extends BaseTest{
 	public void verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(String song, String artist) {	
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
-			.openSearchPage()
+			.openPage()
 			.enterSearchText(song, artist)
 			.clickFilterBtn("Songs")
 			.assertSongInTopResults(song, artist);
-		Assert.assertTrue(false);
 	}
 	
 	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
 	public void verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(String playlistTitle) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
-			.openSearchPage()
+			.openPage()
 			.enterSearchText(playlistTitle)
 			.clickFilterBtn("Playlists")
 			.assertInTopResults(playlistTitle);
@@ -36,7 +33,7 @@ public class SearchTests extends BaseTest{
 	public void verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(String albumnName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
-			.openSearchPage()
+			.openPage()
 			.enterSearchText(albumnName)
 			.clickFilterBtn("Albums")
 			.assertInTopResults(albumnName);
@@ -46,7 +43,7 @@ public class SearchTests extends BaseTest{
 	public void verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(String artistName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
-			.openSearchPage()
+			.openPage()
 			.enterSearchText(artistName)
 			.clickFilterBtn("Artists")
 			.assertInTopResults(artistName);
