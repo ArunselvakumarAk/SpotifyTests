@@ -1,15 +1,10 @@
 package com.spotify.web.pojo;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Artist {
 	private String artistName;
-
-	public String getArtistName() {
-		return artistName;
-	}
-
-	public void setArtistName(String artistName) {
-		this.artistName = artistName;
-	}
-	
-	
 }
