@@ -50,6 +50,11 @@
 			<version>1.18.34</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.5.0</version>
+		</dependency>
   </dependencies>
   
   	<properties>
@@ -68,6 +73,18 @@
             <id>smoke</id>
             <properties>
                 <testng.xml>testSuites/smokeSuite.xml</testng.xml>
+            </properties>
+        </profile>
+        <profile>
+            <id>api</id>
+            <properties>
+                <testng.xml>testSuites/apiTestSuite.xml</testng.xml>
+            </properties>
+        </profile>
+        <profile>
+            <id>web</id>
+            <properties>
+                <testng.xml>testSuites/webTestSuite.xml</testng.xml>
             </properties>
         </profile>
     </profiles>

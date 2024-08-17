@@ -21,8 +21,8 @@ public class BaseTest {
 		EventLogger.startTestCase(method.getName());
 		EventLogger.info("Setting up the test: " + method.getName());
 		
-		String browserNameFromConfig = ResourceUtils.getProperty("configuration//browser_config.properties", "browserName");
-		String headlessValueFromCongif = ResourceUtils.getProperty("configuration//browser_config.properties", "headlessEnabled");
+		String browserNameFromConfig = ResourceUtils.getProperty("webConfiguration//browser_config.properties", "browserName");
+		String headlessValueFromCongif = ResourceUtils.getProperty("webConfiguration//browser_config.properties", "headlessEnabled");
 		
 		Driver browserName = Driver.getDriverByName(System.getProperty("browser", browserNameFromConfig));
 		boolean isHeadlessEnabled = Boolean.parseBoolean(System.getProperty("isHeadlessEnabled", headlessValueFromCongif));
@@ -54,8 +54,8 @@ public class BaseTest {
 		LoginPage login = new LoginPage(DriverManager.getInstance().getDriver());
 		EventLogger.info("Navigating to Login Page");
 		
-		String username = ResourceUtils.getProperty("configuration//authentication_config.properties", "username");
-		String password = ResourceUtils.getProperty("configuration//authentication_config.properties", "password");
+		String username = ResourceUtils.getProperty("webConfiguration//authentication_config.properties", "username");
+		String password = ResourceUtils.getProperty("webConfiguration//authentication_config.properties", "password");
 		
 		login
 			.openPage()

@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Regression" parallel="classes" thread-count="3" verbose="3" >
 	<listeners>
-		<listener class-name="com.spotify.web.listener.TestListener"></listener>
+		<listener class-name="com.spotify.commonUtils.listener.TestListener"></listener>
 	</listeners>
-	<test name="Test">
+	<test name="WebTest">
 		<classes>
 			<class name="com.spotify.web.tests.SearchTests">
 				<methods>
@@ -19,6 +19,21 @@
 			<class name="com.spotify.web.tests.AlbumTests" />
 		</classes>
 	</test>
+	<test name="ApiTest">
+	<classes>
+		<class name="com.spotify.api.tests.ArtistTests">
+			<methods>
+				<include
+					name="getMultipleArtistsTest" />
+			</methods>
+		</class>
+		<class name="com.spotify.api.tests.PlaylistTests">
+			<methods>
+				<include name="changePlaylistDetailsTest" />
+			</methods>
+		</class>
+	</classes>
+</test>
 </suite>
 
 

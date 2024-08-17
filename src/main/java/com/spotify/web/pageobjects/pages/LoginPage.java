@@ -54,7 +54,7 @@ public class LoginPage extends BasePage{
 	}
 	
 	public LoginPage openPage() {
-		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "accountsUrl"));
+		driver.get(ResourceUtils.getProperty("webConfiguration//web_config.properties", "accountsUrl"));
 		return this;
 	}
 		

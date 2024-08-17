@@ -14,7 +14,7 @@ public class AlbumPage extends BasePage{
 	
 	public AlbumPage openPage(String albumID) {
 		EventLogger.info("Opening Album page with "+albumID);
-		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl") +"/album/" + albumID);
+		driver.get(ResourceUtils.getProperty("webConfiguration//web_config.properties", "baseUrl") +"/album/" + albumID);
 		return this;
 	}
 	

@@ -14,7 +14,7 @@ public class BasePage{
 	}
 	
 	public BasePage openPage() {
-		driver.get(ResourceUtils.getProperty("configuration//web_config.properties", "baseUrl"));
+		driver.get(ResourceUtils.getProperty("webConfiguration//web_config.properties", "baseUrl"));
 		return this;
 	}
 	
