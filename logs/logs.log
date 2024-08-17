@@ -1,261 +1,203 @@
-[DEBUG] 2024-08-17 21:54:43.570 - suiteXmlPath: "C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\testSuites\regressionSuite.xml"
-[TRACE] 2024-08-17 21:54:43.883 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
-[TRACE] 2024-08-17 21:54:43.883 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.887 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.887 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.887 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-17 21:54:43.888 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
-[TRACE] 2024-08-17 21:54:43.888 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.888 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.889 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.889 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-17 21:54:43.893 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
-[TRACE] 2024-08-17 21:54:43.893 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.894 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.894 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.894 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-17 21:54:43.894 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
-[TRACE] 2024-08-17 21:54:43.895 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.895 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.895 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.895 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-17 21:54:43.899 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
-[TRACE] 2024-08-17 21:54:43.899 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.899 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.899 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.899 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-17 21:54:43.900 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
-[TRACE] 2024-08-17 21:54:43.900 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.900 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.900 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.900 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-17 21:54:43.909 - [Graph] ADDING NODE SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] -1273598233
-[TRACE] 2024-08-17 21:54:43.909 - [Graph] ADDING NODE SearchTests.verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] -1013468393
-[TRACE] 2024-08-17 21:54:43.909 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] 1853953455
-[TRACE] 2024-08-17 21:54:43.909 - [Graph] ADDING NODE SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] 224235831
-[TRACE] 2024-08-17 21:54:43.909 - [Graph] ADDING NODE LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@7ce97ee5] 21647985
-[TRACE] 2024-08-17 21:54:43.911 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@7ce97ee5] 1006924906
-[TRACE] 2024-08-17 21:54:43.911 - [Graph] ADDING NODE LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@7ce97ee5] 1978522849
-[TRACE] 2024-08-17 21:54:43.911 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@32c8e539] -1435291620
-[TRACE] 2024-08-17 21:54:43.911 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@32c8e539] -116810504
-[TRACE] 2024-08-17 21:54:43.911 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.915 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.915 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.915 - [Graph] ====== END SORTED NODES
-[TRACE] 2024-08-17 21:54:43.935 - [Graph] ADDING NODE ArtistTests.getMultipleArtistsTest(java.util.List)[pri:0, instance:com.spotify.api.tests.ArtistTests@c1bd0be] -1528491553
-[TRACE] 2024-08-17 21:54:43.935 - [Graph] ADDING NODE ArtistTests.getArtistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.ArtistTests@c1bd0be] -316361784
-[TRACE] 2024-08-17 21:54:43.935 - [Graph] ADDING NODE PlaylistTests.removeTracksFromPlaylistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@476b0ae6] 1590888752
-[TRACE] 2024-08-17 21:54:43.935 - [Graph] ADDING NODE PlaylistTests.changePlaylistDetailsTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@476b0ae6] -589038520
-[TRACE] 2024-08-17 21:54:43.935 - [Graph] ADDING NODE PlaylistTests.addTracksToPlaylistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@476b0ae6] 561303298
-[TRACE] 2024-08-17 21:54:43.935 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:54:43.936 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:54:43.936 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:54:43.936 - [Graph] ====== END SORTED NODES
-[INFO ] 2024-08-17 21:54:44.248 - ************** Execution started for changePlaylistNameinLibraryTest**************
-[INFO ] 2024-08-17 21:54:44.251 - Setting up the test: changePlaylistNameinLibraryTest
-[INFO ] 2024-08-17 21:54:44.385 - Reading JSON data from file albums.json
-[INFO ] 2024-08-17 21:54:44.385 - Reading JSON data from file albums.json
-[INFO ] 2024-08-17 21:54:44.495 - ************** Execution started for addAlbumToLibraryTest**************
-[INFO ] 2024-08-17 21:54:44.500 - Setting up the test: addAlbumToLibraryTest
-[INFO ] 2024-08-17 21:54:44.498 - ************** Execution started for verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched**************
-[INFO ] 2024-08-17 21:54:44.502 - Setting up the test: verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched
-[INFO ] 2024-08-17 21:54:46.649 - New CHROME driver created
-[INFO ] 2024-08-17 21:54:46.649 - New CHROME driver created
-[INFO ] 2024-08-17 21:54:46.649 - New CHROME driver created
-[INFO ] 2024-08-17 21:54:46.649 - Driver instantiated 
-[INFO ] 2024-08-17 21:54:46.649 - Driver instantiated 
-[INFO ] 2024-08-17 21:54:46.649 - Driver instantiated 
-[INFO ] 2024-08-17 21:54:46.757 - Browser window maximized
-[INFO ] 2024-08-17 21:54:46.764 - Browser window maximized
-[INFO ] 2024-08-17 21:54:46.764 - Authentication required for the test: addAlbumToLibraryTest
-[INFO ] 2024-08-17 21:54:46.765 - Performing login
-[INFO ] 2024-08-17 21:54:46.769 - Browser window maximized
-[INFO ] 2024-08-17 21:54:46.769 - Authentication required for the test: changePlaylistNameinLibraryTest
-[INFO ] 2024-08-17 21:54:46.769 - Performing login
-[INFO ] 2024-08-17 21:54:46.776 - Navigating to Login Page
-[INFO ] 2024-08-17 21:54:46.776 - Navigating to Login Page
-[INFO ] 2024-08-17 21:54:46.782 - Opening search page
-[INFO ] 2024-08-17 21:54:51.924 - searching for Dangal
-[INFO ] 2024-08-17 21:54:53.333 - Clicked on Albums filter button successfully
-[INFO ] 2024-08-17 21:54:54.690 - Dangal found in top results
-[INFO ] 2024-08-17 21:54:54.709 - Quitting the driver
-[INFO ] 2024-08-17 21:54:55.075 - Login handled successfully
-[INFO ] 2024-08-17 21:54:55.120 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:54:55.121 - ************** Execution ended for verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched**************
-[INFO ] 2024-08-17 21:54:55.126 - ************** Execution started for verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched**************
-[INFO ] 2024-08-17 21:54:55.126 - Setting up the test: verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched
-[INFO ] 2024-08-17 21:54:55.173 - Login handled successfully
-[INFO ] 2024-08-17 21:54:55.176 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
-[INFO ] 2024-08-17 21:54:56.582 - New CHROME driver created
-[INFO ] 2024-08-17 21:54:56.583 - Driver instantiated 
-[INFO ] 2024-08-17 21:54:56.662 - Browser window maximized
-[INFO ] 2024-08-17 21:54:56.666 - Opening search page
-[INFO ] 2024-08-17 21:55:02.920 - searching for Billa
-[INFO ] 2024-08-17 21:55:04.406 - Clicked on Albums filter button successfully
-[INFO ] 2024-08-17 21:55:05.719 - Billa found in top results
-[INFO ] 2024-08-17 21:55:05.719 - Quitting the driver
-[INFO ] 2024-08-17 21:55:05.969 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:05.969 - ************** Execution ended for verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched**************
-[INFO ] 2024-08-17 21:55:05.969 - Reading JSON data from file artists.json
-[INFO ] 2024-08-17 21:55:05.969 - ************** Execution started for verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched**************
-[INFO ] 2024-08-17 21:55:05.982 - Setting up the test: verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched
-[INFO ] 2024-08-17 21:55:07.112 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:07.113 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:07.167 - Browser window maximized
-[INFO ] 2024-08-17 21:55:07.168 - Opening search page
-[INFO ] 2024-08-17 21:55:10.437 - Locating My Playlist #1 in the library
-[INFO ] 2024-08-17 21:55:10.669 - My Playlist #1 is not found in your library
-[INFO ] 2024-08-17 21:55:10.671 - Quitting the driver
-[INFO ] 2024-08-17 21:55:11.157 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:11.157 - ************** Execution ended for changePlaylistNameinLibraryTest**************
-[INFO ] 2024-08-17 21:55:11.159 - ************** Execution started for createNewPlaylistInLibraryTest**************
-[INFO ] 2024-08-17 21:55:11.161 - Setting up the test: createNewPlaylistInLibraryTest
-[INFO ] 2024-08-17 21:55:11.634 - searching for Anirudh
-[INFO ] 2024-08-17 21:55:12.319 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:12.320 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:12.364 - Browser window maximized
-[INFO ] 2024-08-17 21:55:12.364 - Authentication required for the test: createNewPlaylistInLibraryTest
-[INFO ] 2024-08-17 21:55:12.364 - Performing login
-[INFO ] 2024-08-17 21:55:12.365 - Navigating to Login Page
-[INFO ] 2024-08-17 21:55:13.213 - Clicked on Artists filter button successfully
-[INFO ] 2024-08-17 21:55:14.758 - Anirudh found in top results
-[INFO ] 2024-08-17 21:55:14.760 - Quitting the driver
-[INFO ] 2024-08-17 21:55:15.039 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:15.040 - ************** Execution ended for verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched**************
-[INFO ] 2024-08-17 21:55:15.041 - ************** Execution started for verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched**************
-[INFO ] 2024-08-17 21:55:15.041 - Setting up the test: verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched
-[INFO ] 2024-08-17 21:55:15.466 - Album is already present in your library
-[INFO ] 2024-08-17 21:55:15.939 - Quitting the driver
-[INFO ] 2024-08-17 21:55:16.218 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:16.219 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:16.288 - Browser window maximized
-[INFO ] 2024-08-17 21:55:16.290 - Opening search page
-[INFO ] 2024-08-17 21:55:16.408 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:16.409 - ************** Execution ended for addAlbumToLibraryTest**************
-[INFO ] 2024-08-17 21:55:16.411 - ************** Execution started for addAlbumToLibraryTest**************
-[INFO ] 2024-08-17 21:55:16.411 - Setting up the test: addAlbumToLibraryTest
-[INFO ] 2024-08-17 21:55:17.485 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:17.485 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:17.544 - Browser window maximized
-[INFO ] 2024-08-17 21:55:17.544 - Authentication required for the test: addAlbumToLibraryTest
-[INFO ] 2024-08-17 21:55:17.544 - Performing login
-[INFO ] 2024-08-17 21:55:17.544 - Navigating to Login Page
-[INFO ] 2024-08-17 21:55:20.995 - searching for Yuvan
-[INFO ] 2024-08-17 21:55:22.621 - Clicked on Artists filter button successfully
-[INFO ] 2024-08-17 21:55:22.887 - Login handled successfully
-[INFO ] 2024-08-17 21:55:24.071 - Yuvan found in top results
-[INFO ] 2024-08-17 21:55:24.074 - Quitting the driver
-[INFO ] 2024-08-17 21:55:24.366 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:24.366 - ************** Execution ended for verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched**************
-[INFO ] 2024-08-17 21:55:24.370 - Reading JSON data from file playlists.json
-[INFO ] 2024-08-17 21:55:24.373 - ************** Execution started for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
-[INFO ] 2024-08-17 21:55:24.376 - Setting up the test: verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
-[INFO ] 2024-08-17 21:55:24.804 - Created new playlist in the library
-[INFO ] 2024-08-17 21:55:25.392 - Login handled successfully
-[INFO ] 2024-08-17 21:55:25.395 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
-[INFO ] 2024-08-17 21:55:25.569 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:25.569 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:25.637 - Browser window maximized
-[INFO ] 2024-08-17 21:55:25.638 - Opening search page
-[INFO ] 2024-08-17 21:55:26.670 - Quitting the driver
-[INFO ] 2024-08-17 21:55:27.008 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:27.009 - ************** Execution ended for createNewPlaylistInLibraryTest**************
-[INFO ] 2024-08-17 21:55:27.011 - ************** Execution started for deletePlaylistInLibraryTest**************
-[INFO ] 2024-08-17 21:55:27.014 - Setting up the test: deletePlaylistInLibraryTest
-[INFO ] 2024-08-17 21:55:28.415 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:28.415 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:28.522 - Browser window maximized
-[INFO ] 2024-08-17 21:55:28.523 - Authentication required for the test: deletePlaylistInLibraryTest
-[INFO ] 2024-08-17 21:55:28.523 - Performing login
-[INFO ] 2024-08-17 21:55:28.523 - Navigating to Login Page
-[INFO ] 2024-08-17 21:55:30.208 - searching for Jailer
-[INFO ] 2024-08-17 21:55:31.673 - Clicked on Playlists filter button successfully
-[INFO ] 2024-08-17 21:55:33.015 - Jailer found in top results
-[INFO ] 2024-08-17 21:55:33.016 - Quitting the driver
-[INFO ] 2024-08-17 21:55:33.230 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:33.230 - ************** Execution ended for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
-[INFO ] 2024-08-17 21:55:33.231 - ************** Execution started for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
-[INFO ] 2024-08-17 21:55:33.231 - Setting up the test: verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
-[INFO ] 2024-08-17 21:55:34.333 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:34.334 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:34.381 - Browser window maximized
-[INFO ] 2024-08-17 21:55:34.383 - Opening search page
-[INFO ] 2024-08-17 21:55:36.690 - Login handled successfully
-[INFO ] 2024-08-17 21:55:41.065 - searching for Beast
-[INFO ] 2024-08-17 21:55:42.350 - Clicked on Playlists filter button successfully
-[INFO ] 2024-08-17 21:55:43.630 - Beast found in top results
-[INFO ] 2024-08-17 21:55:43.630 - Quitting the driver
-[INFO ] 2024-08-17 21:55:43.913 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:43.913 - ************** Execution ended for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
-[INFO ] 2024-08-17 21:55:43.916 - Reading JSON data from file tracks.json
-[INFO ] 2024-08-17 21:55:43.919 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-17 21:55:43.919 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
-[INFO ] 2024-08-17 21:55:45.002 - Album is already present in your library
-[INFO ] 2024-08-17 21:55:45.042 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:45.042 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:45.119 - Browser window maximized
-[INFO ] 2024-08-17 21:55:45.119 - Opening search page
-[INFO ] 2024-08-17 21:55:45.553 - Quitting the driver
-[INFO ] 2024-08-17 21:55:45.893 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:45.893 - ************** Execution ended for addAlbumToLibraryTest**************
-[INFO ] 2024-08-17 21:55:45.895 - Reading JSON data from file albums.json
-[INFO ] 2024-08-17 21:55:45.897 - ************** Execution started for removeAlbumFromLibraryTest**************
-[INFO ] 2024-08-17 21:55:45.899 - Setting up the test: removeAlbumFromLibraryTest
-[INFO ] 2024-08-17 21:55:47.080 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:47.080 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:47.138 - Browser window maximized
-[INFO ] 2024-08-17 21:55:47.138 - Authentication required for the test: removeAlbumFromLibraryTest
-[INFO ] 2024-08-17 21:55:47.138 - Performing login
-[INFO ] 2024-08-17 21:55:47.140 - Navigating to Login Page
-[INFO ] 2024-08-17 21:55:49.646 - searching for Vaathi Coming song with artist name Anirudh Ravichander
-[INFO ] 2024-08-17 21:55:51.191 - Clicked on Songs filter button successfully
-[INFO ] 2024-08-17 21:55:51.999 - Locating Updated Playlist in the library
-[INFO ] 2024-08-17 21:55:52.178 - Updated Playlist is not found in your library
-[INFO ] 2024-08-17 21:55:52.178 - Quitting the driver
-[INFO ] 2024-08-17 21:55:52.521 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:52.522 - ************** Execution ended for deletePlaylistInLibraryTest**************
-[INFO ] 2024-08-17 21:55:52.564 - Vaathi Coming found in top results
-[INFO ] 2024-08-17 21:55:52.565 - Quitting the driver
-[INFO ] 2024-08-17 21:55:52.771 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:55:52.771 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-17 21:55:52.774 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-17 21:55:52.774 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
-[INFO ] 2024-08-17 21:55:53.807 - New CHROME driver created
-[INFO ] 2024-08-17 21:55:53.808 - Driver instantiated 
-[INFO ] 2024-08-17 21:55:53.860 - Browser window maximized
-[INFO ] 2024-08-17 21:55:53.861 - Opening search page
-[INFO ] 2024-08-17 21:55:59.131 - searching for Ordinary Person song with artist name Anirudh Ravichander
-[INFO ] 2024-08-17 21:56:00.724 - Clicked on Songs filter button successfully
-[INFO ] 2024-08-17 21:56:01.953 - Ordinary Person found in top results
-[INFO ] 2024-08-17 21:56:01.953 - Quitting the driver
-[INFO ] 2024-08-17 21:56:02.216 - Driver has been closed successfully
-[INFO ] 2024-08-17 21:56:02.218 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
-[INFO ] 2024-08-17 21:56:06.768 - Found captcha
-[INFO ] 2024-08-17 21:56:06.768 - Failing test intentionally
-[INFO ] 2024-08-17 21:56:07.146 - Reading JSON data from file playlistsConfig.json
-[INFO ] 2024-08-17 21:56:07.146 - Reading JSON data from file artistsConfig.json
-[INFO ] 2024-08-17 21:56:07.176 - Reading JSON data from file tracksConfig.json
-[INFO ] 2024-08-17 21:56:07.208 - Reading JSON data from file artistsConfig.json
-[INFO ] 2024-08-17 21:56:10.515 - Reading JSON data from file artistsConfig.json
-[INFO ] 2024-08-17 21:56:10.673 - Reading JSON data from file tracksConfig.json
-[INFO ] 2024-08-17 21:56:10.765 - Reading JSON data from file artistsConfig.json
-[INFO ] 2024-08-17 21:56:10.942 - Reading JSON data from file tracksConfig.json
-[INFO ] 2024-08-17 21:56:10.989 - Reading JSON data from file artistsConfig.json
-[INFO ] 2024-08-17 21:56:10.999 - Reading JSON data from file artistsConfig.json
-[INFO ] 2024-08-17 21:56:11.460 - Reading JSON data from file playlistsConfig.json
-[INFO ] 2024-08-17 21:56:11.462 - Reading JSON data from file tracksConfig.json
-[INFO ] 2024-08-17 21:56:11.760 - Reading JSON data from file tracksConfig.json
-[INFO ] 2024-08-17 21:56:12.037 - Reading JSON data from file tracksConfig.json
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@32c8e539] -1435291620
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@32c8e539] -116810504
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@7ce97ee5] 21647985
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@7ce97ee5] 1006924906
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@7ce97ee5] 1978522849
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] -1273598233
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE SearchTests.verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] -1013468393
-[TRACE] 2024-08-17 21:56:12.446 - [Graph] ADDING NODE SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] 224235831
-[TRACE] 2024-08-17 21:56:12.454 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@64a8c844] 1853953455
-[TRACE] 2024-08-17 21:56:12.454 - [Graph] ================ SORTING
-[TRACE] 2024-08-17 21:56:12.454 - [Graph] =============== DONE SORTING
-[TRACE] 2024-08-17 21:56:12.454 - [Graph] ====== SORTED NODES
-[TRACE] 2024-08-17 21:56:12.454 - [Graph] ====== END SORTED NODES
+[DEBUG] 2024-08-17 22:31:32.116 - suiteXmlPath: "C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\testSuites\apiTestSuite.xml"
+[INFO ] 2024-08-17 22:31:32.355 - [TestRunner] Running the tests in 'APITest' with parallel mode:classes
+[INFO ] 2024-08-17 22:31:32.357 - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@e84a8e1 priority: 10
+[INFO ] 2024-08-17 22:31:32.422 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.web.tests.SearchTests]
+[INFO ] 2024-08-17 22:31:32.452 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-08-17 22:31:32.455 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-08-17 22:31:32.457 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.457 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.457 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.459 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.459 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.459 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.460 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.460 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.460 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.461 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.461 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.461 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.461 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.462 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.467 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ] 2024-08-17 22:31:32.467 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.468 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-08-17 22:31:32.468 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.468 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.web.tests.LibraryTests]
+[INFO ] 2024-08-17 22:31:32.476 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.476 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.477 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.477 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.477 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.477 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.477 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.478 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.478 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.478 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.478 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.478 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.478 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.479 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.479 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.479 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.480 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.480 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.480 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.480 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.480 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.web.tests.AlbumTests]
+[INFO ] 2024-08-17 22:31:32.482 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.482 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.483 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.483 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.483 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.483 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.483 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.483 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.484 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.484 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.484 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.484 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.485 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.485 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.485 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.486 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-08-17 22:31:32.486 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.486 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.487 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.487 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.487 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.api.tests.ArtistTests]
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.490 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.491 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.492 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.492 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.492 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.492 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.api.tests.PlaylistTests]
+[INFO ] 2024-08-17 22:31:32.493 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.494 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.496 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.496 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.496 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.496 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.496 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.496 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.496 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.497 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.500 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.500 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.500 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.500 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.503 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[TRACE] 2024-08-17 22:31:32.507 - [Graph] ADDING NODE ArtistTests.getMultipleArtistsTest(java.util.List)[pri:0, instance:com.spotify.api.tests.ArtistTests@a776e] -1730955121
+[TRACE] 2024-08-17 22:31:32.507 - [Graph] ADDING NODE ArtistTests.getArtistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.ArtistTests@a776e] -518825352
+[TRACE] 2024-08-17 22:31:32.507 - [Graph] ADDING NODE PlaylistTests.removeTracksFromPlaylistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@792bbc74] -1869366594
+[TRACE] 2024-08-17 22:31:32.507 - [Graph] ADDING NODE PlaylistTests.changePlaylistDetailsTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@792bbc74] 245673430
+[TRACE] 2024-08-17 22:31:32.507 - [Graph] ADDING NODE PlaylistTests.addTracksToPlaylistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@792bbc74] 1396015248
+[TRACE] 2024-08-17 22:31:32.508 - [Graph] ================ SORTING
+[TRACE] 2024-08-17 22:31:32.518 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-17 22:31:32.519 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-17 22:31:32.519 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-17 22:31:32.519 - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+[INFO ] 2024-08-17 22:31:32.521 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.521 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.521 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.521 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-17 22:31:32.533 - [TestNG] Running:
+  C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\testSuites\apiTestSuite.xml
+
+[INFO ] 2024-08-17 22:31:32.543 - [SuiteRunner] Created 1 TestRunners
+[INFO ] 2024-08-17 22:31:32.547 - [TestRunner] Running test APITest on 5  classes,  included groups:[api] excluded groups:[]
+[INFO ] 2024-08-17 22:31:32.547 - ===== Test class
+com.spotify.web.tests.SearchTests
+[INFO ] 2024-08-17 22:31:32.547 -     @Test SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@25e2a451]
+[INFO ] 2024-08-17 22:31:32.547 -     @Test SearchTests.verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@25e2a451]
+[INFO ] 2024-08-17 22:31:32.547 -     @Test SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@25e2a451]
+[INFO ] 2024-08-17 22:31:32.548 -     @Test SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@25e2a451]
+[INFO ] 2024-08-17 22:31:32.548 - ======
+[INFO ] 2024-08-17 22:31:32.548 - ===== Test class
+com.spotify.web.tests.LibraryTests
+[INFO ] 2024-08-17 22:31:32.548 -     @Test LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@cb191ca]
+[INFO ] 2024-08-17 22:31:32.548 -     @Test LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@cb191ca]
+[INFO ] 2024-08-17 22:31:32.548 -     @Test LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@cb191ca]
+[INFO ] 2024-08-17 22:31:32.548 - ======
+[INFO ] 2024-08-17 22:31:32.548 - ===== Test class
+com.spotify.web.tests.AlbumTests
+[INFO ] 2024-08-17 22:31:32.548 -     @Test AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@42f48531]
+[INFO ] 2024-08-17 22:31:32.548 -     @Test AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@42f48531]
+[INFO ] 2024-08-17 22:31:32.548 - ======
+[INFO ] 2024-08-17 22:31:32.548 - ===== Test class
+com.spotify.api.tests.ArtistTests
+[INFO ] 2024-08-17 22:31:32.548 -     @Test ArtistTests.getMultipleArtistsTest(java.util.List)[pri:0, instance:com.spotify.api.tests.ArtistTests@a776e]
+[INFO ] 2024-08-17 22:31:32.548 -     @Test ArtistTests.getArtistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.ArtistTests@a776e]
+[INFO ] 2024-08-17 22:31:32.548 - ======
+[INFO ] 2024-08-17 22:31:32.548 - ===== Test class
+com.spotify.api.tests.PlaylistTests
+[INFO ] 2024-08-17 22:31:32.548 -     @Test PlaylistTests.removeTracksFromPlaylistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@792bbc74]
+[INFO ] 2024-08-17 22:31:32.548 -     @Test PlaylistTests.changePlaylistDetailsTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@792bbc74]
+[INFO ] 2024-08-17 22:31:32.548 -     @Test PlaylistTests.addTracksToPlaylistTest(java.lang.String)[pri:0, instance:com.spotify.api.tests.PlaylistTests@792bbc74]
+[INFO ] 2024-08-17 22:31:32.548 - ======
+[INFO ] 2024-08-17 22:31:32.741 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+[INFO ] 2024-08-17 22:31:32.752 - [TestTaskExecutor] Starting executor test 2147483647 with time out: 2147483647 milliseconds.
+[INFO ] 2024-08-17 22:31:32.839 - Reading JSON data from file artistsConfig.json
+[INFO ] 2024-08-17 22:31:32.839 - Reading JSON data from file playlistsConfig.json
+[INFO ] 2024-08-17 22:31:32.951 - [Invoker 827579900] Invoking com.spotify.api.tests.ArtistTests.getArtistTest
+[INFO ] 2024-08-17 22:31:32.951 - [Invoker 681747431] Invoking com.spotify.api.tests.PlaylistTests.addTracksToPlaylistTest
+[INFO ] 2024-08-17 22:31:32.953 - Reading JSON data from file artistsConfig.json
+[INFO ] 2024-08-17 22:31:32.957 - Reading JSON data from file tracksConfig.json
+[INFO ] 2024-08-17 22:31:36.348 - [Invoker 827579900] Invoking com.spotify.api.tests.ArtistTests.getArtistTest
+[INFO ] 2024-08-17 22:31:36.349 - Reading JSON data from file artistsConfig.json
+[INFO ] 2024-08-17 22:31:36.367 - [Invoker 681747431] Invoking com.spotify.api.tests.PlaylistTests.addTracksToPlaylistTest
+[INFO ] 2024-08-17 22:31:36.368 - Reading JSON data from file tracksConfig.json
+[INFO ] 2024-08-17 22:31:36.616 - [Invoker 827579900] Invoking com.spotify.api.tests.ArtistTests.getArtistTest
+[INFO ] 2024-08-17 22:31:36.618 - Reading JSON data from file artistsConfig.json
+[INFO ] 2024-08-17 22:31:36.656 - [Invoker 681747431] Invoking com.spotify.api.tests.PlaylistTests.addTracksToPlaylistTest
+[INFO ] 2024-08-17 22:31:36.657 - Reading JSON data from file tracksConfig.json
+[INFO ] 2024-08-17 22:31:36.843 - Reading JSON data from file artistsConfig.json
+[INFO ] 2024-08-17 22:31:36.852 - [Invoker 827579900] Invoking com.spotify.api.tests.ArtistTests.getMultipleArtistsTest
+[INFO ] 2024-08-17 22:31:36.853 - Reading JSON data from file artistsConfig.json
+[INFO ] 2024-08-17 22:31:36.965 - [Invoker 681747431] Invoking com.spotify.api.tests.PlaylistTests.changePlaylistDetailsTest
+[INFO ] 2024-08-17 22:31:37.209 - Reading JSON data from file playlistsConfig.json
+[INFO ] 2024-08-17 22:31:37.212 - [Invoker 681747431] Invoking com.spotify.api.tests.PlaylistTests.removeTracksFromPlaylistTest
+[INFO ] 2024-08-17 22:31:37.213 - Reading JSON data from file tracksConfig.json
+[INFO ] 2024-08-17 22:31:37.507 - [Invoker 681747431] Invoking com.spotify.api.tests.PlaylistTests.removeTracksFromPlaylistTest
+[INFO ] 2024-08-17 22:31:37.508 - Reading JSON data from file tracksConfig.json
+[INFO ] 2024-08-17 22:31:37.781 - [Invoker 681747431] Invoking com.spotify.api.tests.PlaylistTests.removeTracksFromPlaylistTest
+[INFO ] 2024-08-17 22:31:37.782 - Reading JSON data from file tracksConfig.json
+[INFO ] 2024-08-17 22:31:38.315 - [[Utils]] Attempting to create C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\ApiTestSuite\APITest.xml
+[INFO ] 2024-08-17 22:31:38.315 - [[Utils]]   Directory C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\ApiTestSuite exists: true
+[INFO ] 2024-08-17 22:31:38.316 - Creating C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\ApiTestSuite\APITest.xml
+[INFO ] 2024-08-17 22:31:38.416 - [TestNG] Time taken by org.testng.reporters.jq.Main@705202d1: 86 ms
+[INFO ] 2024-08-17 22:31:38.417 - [TestNG] Time taken by org.testng.reporters.FailedReporter@3c443976: 1 ms
+[INFO ] 2024-08-17 22:31:38.434 - [TestNG] Time taken by org.testng.reporters.XMLReporter@412c995d: 16 ms
+[INFO ] 2024-08-17 22:31:38.446 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@27ead29e: 12 ms
+[INFO ] 2024-08-17 22:31:38.452 - [[Utils]] Attempting to create C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\junitreports\TEST-com.spotify.api.tests.PlaylistTests.xml
+[INFO ] 2024-08-17 22:31:38.453 - [[Utils]]   Directory C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\junitreports exists: true
+[INFO ] 2024-08-17 22:31:38.454 - Creating C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\junitreports\TEST-com.spotify.api.tests.PlaylistTests.xml
+[INFO ] 2024-08-17 22:31:38.457 - [[Utils]] Attempting to create C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\junitreports\TEST-com.spotify.api.tests.ArtistTests.xml
+[INFO ] 2024-08-17 22:31:38.457 - [[Utils]]   Directory C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\junitreports exists: true
+[INFO ] 2024-08-17 22:31:38.458 - Creating C:\Users\aruns\GitHubWorkSpace\SpotifyE2ETests\test-output\junitreports\TEST-com.spotify.api.tests.ArtistTests.xml
+[INFO ] 2024-08-17 22:31:38.459 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2424686b: 13 ms
+[INFO ] 2024-08-17 22:31:38.459 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6ea94d6a: 0 ms

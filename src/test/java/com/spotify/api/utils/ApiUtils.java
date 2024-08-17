@@ -19,23 +19,26 @@ public class ApiUtils {
 	                .filter(header -> !header.getName().equalsIgnoreCase("Authorization"))
 	                .collect(Collectors.toList());
 			
-			ExtentManager.getInstance().addInfoLogs("EndPoint : " + query.getBaseUri());
-			ExtentManager.getInstance().addInfoLogs("ContentType " + query.getContentType());
-			ExtentManager.getInstance().addInfoLogs("Request Headers: " + filteredHeaders.toString());
-			ExtentManager.getInstance()
-					.addInfoLogs("Request Body: " + (query.getBody() == null ? "No Body" : query.getBody().toString()));
+			ExtentManager.getInstance().logInfo("EndPoint : " + query.getBaseUri());
+			ExtentManager.getInstance().logInfo("ContentType " + query.getContentType());
+			ExtentManager.getInstance().logInfo("Request Headers: ");
+			ExtentManager.getInstance().logHeaders(filteredHeaders);
+			ExtentManager.getInstance().logInfo("Request Body: ");
+			ExtentManager.getInstance().logJson((query.getBody() == null ? "No Body" : query.getBody()));
 		} else {
-			ExtentManager.getInstance().addInfoLogs("Request : Null");
+			ExtentManager.getInstance().logInfo("Request : Null");
 		}
 	}
 	
 	public static void addResponseLogs(Response response) {
 		if (response != null) {
-			ExtentManager.getInstance().addInfoLogs("Response Status Code: " + response.getStatusCode());
-			ExtentManager.getInstance().addInfoLogs("Response Headers: " + response.getHeaders().asList().toString());
-			ExtentManager.getInstance().addInfoLogs("Response Body: " + response.asString());
+			ExtentManager.getInstance().logInfo("Response Status Code: " + response.getStatusCode());
+			ExtentManager.getInstance().logInfo("Response Headers: ");
+			ExtentManager.getInstance().logHeaders(response.getHeaders().asList());
+			ExtentManager.getInstance().logInfo("Response Body: ");
+			ExtentManager.getInstance().logJson(response.getBody().asString());
 		} else {
-			ExtentManager.getInstance().addInfoLogs("Response : Null");
+			ExtentManager.getInstance().logInfo("Response : Null");
 		}
 	}
 }
