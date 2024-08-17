@@ -11,11 +11,11 @@ public class EventLogger {
     public static void startTestCase(String testCaseName) {
     	String logFileName = testCaseName.replaceAll("[^a-zA-Z0-9]", "_").replaceAll("_+", "_");
         ThreadContext.put("logFilename", logFileName);
-        info("************** Execution Started for " + testCaseName + "**************");
+        info("************** Execution started for " + testCaseName + "**************");
     }
 
     public static void endTestCase(String testCaseName) {
-        info("************** Execution End for " + testCaseName + "**************");
+        info("************** Execution ended for " + testCaseName + "**************");
     }
 
     public static void error(Object message) {

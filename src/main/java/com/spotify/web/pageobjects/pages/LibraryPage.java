@@ -54,7 +54,7 @@ public class LibraryPage extends BasePage{
 		List<WebElement> elements = driver.findElements(totalPlaylistsLocator);
 		EventLogger.info("Locating "+playlistTitle+" in the library");
 		for(WebElement element: elements) {
-			isPresent = element.findElement(playlistTitleLocator).getText().trim().contains(playlistTitle);
+			isPresent = element.findElement(playlistTitleLocator).getText().trim().equalsIgnoreCase(playlistTitle);
 			if(isPresent) {
 				EventLogger.info(playlistTitle+" found in the library");
 				break;
@@ -67,15 +67,13 @@ public class LibraryPage extends BasePage{
 		List<WebElement> elements = driver.findElements(totalPlaylistsLocator);
 		boolean isPresent = false;
 		for(WebElement element: elements) {
-			isPresent = element.findElement(playlistTitleLocator).getText().trim().contains(playlistTitle);
+			isPresent = element.findElement(playlistTitleLocator).getText().trim().equalsIgnoreCase(playlistTitle);
 			if(isPresent) {
 				element.click();
 				EventLogger.info("Opening "+playlistTitle);
 				break;
-			}
-				
+			}	
 		}
 		return new PlaylistPage(driver);
 	}	
-
 }

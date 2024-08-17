@@ -29,7 +29,6 @@ public class AlbumTests extends BaseTest{
 			.clickAddToLibraryBtn();
 		
 		Assert.assertTrue(contextMenu.verifyAddedToLibrarySuccessMsg());
-		Assert.assertTrue(false);
 		EventLogger.info("Album successfully added to the library");
 	}
 	

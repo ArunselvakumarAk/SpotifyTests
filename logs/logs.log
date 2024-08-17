@@ -1,0 +1,348 @@
+[DEBUG] 2024-08-16 21:40:15.041 - suiteXmlPath: "C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\testSuites\regressionSuite.xml"
+[INFO ] 2024-08-16 21:40:15.324 - [TestRunner] Running the tests in 'Test' with parallel mode:classes
+[INFO ] 2024-08-16 21:40:15.327 - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@f001896 priority: 10
+[INFO ] 2024-08-16 21:40:15.399 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.web.tests.SearchTests]
+[INFO ] 2024-08-16 21:40:15.439 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.442 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-08-16 21:40:15.444 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.444 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.445 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.445 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.446 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.446 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.447 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.447 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.448 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.448 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.449 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.449 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.450 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.450 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.462 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+[TRACE] 2024-08-16 21:40:15.479 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-16 21:40:15.480 - [Graph] ================ SORTING
+[TRACE] 2024-08-16 21:40:15.483 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-16 21:40:15.483 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-16 21:40:15.483 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-16 21:40:15.483 - [Utils] MethodGroupsHelper.sortMethods() took 21 ms.
+[INFO ] 2024-08-16 21:40:15.485 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[TRACE] 2024-08-16 21:40:15.486 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-16 21:40:15.486 - [Graph] ================ SORTING
+[TRACE] 2024-08-16 21:40:15.487 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-16 21:40:15.487 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-16 21:40:15.487 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-16 21:40:15.487 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.488 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.web.tests.LibraryTests]
+[INFO ] 2024-08-16 21:40:15.494 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.495 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.495 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.496 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.496 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.496 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.497 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.498 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.499 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.499 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.500 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.501 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.502 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.502 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.503 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.504 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.504 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[TRACE] 2024-08-16 21:40:15.505 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-16 21:40:15.505 - [Graph] ================ SORTING
+[TRACE] 2024-08-16 21:40:15.505 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-16 21:40:15.505 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-16 21:40:15.506 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-16 21:40:15.506 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-08-16 21:40:15.507 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[TRACE] 2024-08-16 21:40:15.507 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-16 21:40:15.508 - [Graph] ================ SORTING
+[TRACE] 2024-08-16 21:40:15.508 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-16 21:40:15.508 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-16 21:40:15.509 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-16 21:40:15.509 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-08-16 21:40:15.510 - [TestClass] Creating TestClass for [ClassImpl class=com.spotify.web.tests.AlbumTests]
+[INFO ] 2024-08-16 21:40:15.513 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.514 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.516 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.516 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.517 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.517 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.518 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.518 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.518 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.519 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.519 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.519 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.520 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.520 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.521 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.521 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.522 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[TRACE] 2024-08-16 21:40:15.523 - [Graph] ADDING NODE BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:null] 286956247
+[TRACE] 2024-08-16 21:40:15.523 - [Graph] ================ SORTING
+[TRACE] 2024-08-16 21:40:15.524 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-16 21:40:15.524 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-16 21:40:15.524 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-16 21:40:15.525 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-08-16 21:40:15.526 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[TRACE] 2024-08-16 21:40:15.527 - [Graph] ADDING NODE BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -1957399008
+[TRACE] 2024-08-16 21:40:15.527 - [Graph] ================ SORTING
+[TRACE] 2024-08-16 21:40:15.528 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-16 21:40:15.528 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-16 21:40:15.528 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-16 21:40:15.528 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-08-16 21:40:15.533 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.534 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.534 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.534 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.538 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[TRACE] 2024-08-16 21:40:15.539 - [Graph] ADDING NODE SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b] 896414198
+[TRACE] 2024-08-16 21:40:15.540 - [Graph] ADDING NODE SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b] -733303426
+[TRACE] 2024-08-16 21:40:15.540 - [Graph] ADDING NODE LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed] -1721005959
+[TRACE] 2024-08-16 21:40:15.541 - [Graph] ADDING NODE LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed] -735729038
+[TRACE] 2024-08-16 21:40:15.541 - [Graph] ADDING NODE LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed] 235868905
+[TRACE] 2024-08-16 21:40:15.542 - [Graph] ADDING NODE AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123] -1276273658
+[TRACE] 2024-08-16 21:40:15.542 - [Graph] ADDING NODE AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123] 42207458
+[TRACE] 2024-08-16 21:40:15.542 - [Graph] ================ SORTING
+[TRACE] 2024-08-16 21:40:15.549 - [Graph] =============== DONE SORTING
+[TRACE] 2024-08-16 21:40:15.549 - [Graph] ====== SORTED NODES
+[TRACE] 2024-08-16 21:40:15.549 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-08-16 21:40:15.549 - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[INFO ] 2024-08-16 21:40:15.552 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.552 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.552 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-08-16 21:40:15.553 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-08-16 21:40:15.572 - [TestNG] Running:
+  C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\testSuites\regressionSuite.xml
+
+[INFO ] 2024-08-16 21:40:15.584 - [SuiteRunner] Created 1 TestRunners
+[INFO ] 2024-08-16 21:40:15.597 - [TestRunner] Running test Test on 3  classes,  included groups:[] excluded groups:[]
+[INFO ] 2024-08-16 21:40:15.598 - ===== Test class
+com.spotify.web.tests.SearchTests
+[INFO ] 2024-08-16 21:40:15.599 -   @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:15.599 -     @Test SearchTests.verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:15.600 -     @Test SearchTests.verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:15.600 -     @Test SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:15.600 -     @Test SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(java.lang.String)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:15.601 -   @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:15.601 - ======
+[INFO ] 2024-08-16 21:40:15.602 - ===== Test class
+com.spotify.web.tests.LibraryTests
+[INFO ] 2024-08-16 21:40:15.603 -   @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:15.603 -     @Test LibraryTests.changePlaylistNameinLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:15.603 -     @Test LibraryTests.createNewPlaylistInLibraryTest()[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:15.603 -     @Test LibraryTests.deletePlaylistInLibraryTest(java.lang.String)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:15.604 -   @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:15.604 - ======
+[INFO ] 2024-08-16 21:40:15.604 - ===== Test class
+com.spotify.web.tests.AlbumTests
+[INFO ] 2024-08-16 21:40:15.605 -   @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:15.605 -     @Test AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:15.605 -     @Test AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.String)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:15.606 -   @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:15.606 - ======
+[INFO ] 2024-08-16 21:40:15.901 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+[INFO ] 2024-08-16 21:40:15.919 - [TestTaskExecutor] Starting executor test 2147483647 with time out: 2147483647 milliseconds.
+[INFO ] 2024-08-16 21:40:15.982 - [Invoker 1851522556] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:15.994 - ************** Execution started for changePlaylistNameinLibraryTest**************
+[INFO ] 2024-08-16 21:40:15.999 - Setting up the test: changePlaylistNameinLibraryTest
+[INFO ] 2024-08-16 21:40:16.169 - Reading JSON data from file albums.json
+[INFO ] 2024-08-16 21:40:16.169 - Reading JSON data from file playlists.json
+[INFO ] 2024-08-16 21:40:16.297 - [Invoker 1511180072] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:16.297 - [Invoker 1902455960] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:16.298 - ************** Execution started for addAlbumToLibraryTest**************
+[INFO ] 2024-08-16 21:40:16.303 - Setting up the test: addAlbumToLibraryTest
+[INFO ] 2024-08-16 21:40:16.298 - ************** Execution started for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-16 21:40:16.306 - Setting up the test: verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
+[INFO ] 2024-08-16 21:40:21.714 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:21.714 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:21.812 - Browser window maximized
+[INFO ] 2024-08-16 21:40:21.859 - [Invoker 1511180072] Invoking com.spotify.web.tests.SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
+[INFO ] 2024-08-16 21:40:21.874 - Opening search page
+[INFO ] 2024-08-16 21:40:22.224 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:22.224 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:22.302 - Browser window maximized
+[INFO ] 2024-08-16 21:40:22.302 - Authentication required for the test: addAlbumToLibraryTest
+[INFO ] 2024-08-16 21:40:22.302 - Performing login
+[INFO ] 2024-08-16 21:40:22.304 - Navigating to Login Page
+[INFO ] 2024-08-16 21:40:22.521 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:22.521 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:22.577 - Browser window maximized
+[INFO ] 2024-08-16 21:40:22.577 - Authentication required for the test: changePlaylistNameinLibraryTest
+[INFO ] 2024-08-16 21:40:22.577 - Performing login
+[INFO ] 2024-08-16 21:40:22.577 - Navigating to Login Page
+[INFO ] 2024-08-16 21:40:29.930 - searching for Jailer
+[INFO ] 2024-08-16 21:40:30.878 - Login handled successfully
+[INFO ] 2024-08-16 21:40:30.881 - [Invoker 1902455960] Invoking com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest
+[INFO ] 2024-08-16 21:40:30.888 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
+[INFO ] 2024-08-16 21:40:31.079 - Login handled successfully
+[INFO ] 2024-08-16 21:40:31.083 - [Invoker 1851522556] Invoking com.spotify.web.tests.LibraryTests.changePlaylistNameinLibraryTest
+[INFO ] 2024-08-16 21:40:31.886 - Clicked on Playlists filter button successfully
+[INFO ] 2024-08-16 21:40:33.726 - Jailer found in top results
+[INFO ] 2024-08-16 21:40:33.737 - [Invoker 1511180072] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:33.740 - Quitting the driver
+[INFO ] 2024-08-16 21:40:34.049 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:40:34.049 - ************** Execution ended for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-16 21:40:34.053 - [Invoker 1511180072] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:34.054 - ************** Execution started for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-16 21:40:34.055 - Setting up the test: verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
+[INFO ] 2024-08-16 21:40:35.434 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:35.434 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:35.486 - Browser window maximized
+[INFO ] 2024-08-16 21:40:35.488 - [Invoker 1511180072] Invoking com.spotify.web.tests.SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched
+[INFO ] 2024-08-16 21:40:35.488 - Opening search page
+[INFO ] 2024-08-16 21:40:35.862 - Album successfully added to the library
+[INFO ] 2024-08-16 21:40:35.865 - [Invoker 1902455960] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:35.867 - Quitting the driver
+[INFO ] 2024-08-16 21:40:36.093 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:40:36.093 - ************** Execution ended for addAlbumToLibraryTest**************
+[INFO ] 2024-08-16 21:40:36.096 - [Invoker 1902455960] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:36.097 - ************** Execution started for addAlbumToLibraryTest**************
+[INFO ] 2024-08-16 21:40:36.097 - Setting up the test: addAlbumToLibraryTest
+[INFO ] 2024-08-16 21:40:37.296 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:37.298 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:37.352 - Browser window maximized
+[INFO ] 2024-08-16 21:40:37.352 - Authentication required for the test: addAlbumToLibraryTest
+[INFO ] 2024-08-16 21:40:37.352 - Performing login
+[INFO ] 2024-08-16 21:40:37.353 - Navigating to Login Page
+[INFO ] 2024-08-16 21:40:41.271 - searching for Beast
+[INFO ] 2024-08-16 21:40:42.782 - Clicked on Playlists filter button successfully
+[INFO ] 2024-08-16 21:40:44.133 - Beast found in top results
+[INFO ] 2024-08-16 21:40:44.137 - [Invoker 1511180072] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:44.138 - Quitting the driver
+[INFO ] 2024-08-16 21:40:44.380 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:40:44.380 - ************** Execution ended for verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched**************
+[INFO ] 2024-08-16 21:40:44.383 - Reading JSON data from file tracks.json
+[INFO ] 2024-08-16 21:40:44.388 - [Invoker 1511180072] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:44.389 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-16 21:40:44.391 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-16 21:40:44.959 - Login handled successfully
+[INFO ] 2024-08-16 21:40:44.961 - [Invoker 1902455960] Invoking com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest
+[INFO ] 2024-08-16 21:40:44.961 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
+[INFO ] 2024-08-16 21:40:45.527 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:45.527 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:45.575 - Browser window maximized
+[INFO ] 2024-08-16 21:40:45.578 - [Invoker 1511180072] Invoking com.spotify.web.tests.SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-16 21:40:45.582 - Opening search page
+[INFO ] 2024-08-16 21:40:46.166 - Locating My Playlist #1 in the library
+[INFO ] 2024-08-16 21:40:46.419 - My Playlist #1 is not found in your library
+[INFO ] 2024-08-16 21:40:46.422 - [Invoker 1851522556] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:46.423 - Quitting the driver
+[INFO ] 2024-08-16 21:40:46.746 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:40:46.746 - ************** Execution ended for changePlaylistNameinLibraryTest**************
+[INFO ] 2024-08-16 21:40:46.747 - [Invoker 1851522556] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:40:46.748 - ************** Execution started for createNewPlaylistInLibraryTest**************
+[INFO ] 2024-08-16 21:40:46.751 - Setting up the test: createNewPlaylistInLibraryTest
+[INFO ] 2024-08-16 21:40:47.939 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:47.939 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:47.989 - Browser window maximized
+[INFO ] 2024-08-16 21:40:47.989 - Authentication required for the test: createNewPlaylistInLibraryTest
+[INFO ] 2024-08-16 21:40:47.989 - Performing login
+[INFO ] 2024-08-16 21:40:47.990 - Navigating to Login Page
+[INFO ] 2024-08-16 21:40:49.660 - Album successfully added to the library
+[INFO ] 2024-08-16 21:40:49.662 - [Invoker 1902455960] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:49.663 - Quitting the driver
+[INFO ] 2024-08-16 21:40:49.967 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:40:49.968 - ************** Execution ended for addAlbumToLibraryTest**************
+[INFO ] 2024-08-16 21:40:49.974 - Reading JSON data from file albums.json
+[INFO ] 2024-08-16 21:40:49.979 - [Invoker 1902455960] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:40:49.981 - ************** Execution started for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-16 21:40:49.984 - Setting up the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-16 21:40:51.144 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:51.144 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:51.199 - Browser window maximized
+[INFO ] 2024-08-16 21:40:51.199 - Authentication required for the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-16 21:40:51.199 - Performing login
+[INFO ] 2024-08-16 21:40:51.199 - Navigating to Login Page
+[INFO ] 2024-08-16 21:40:51.289 - searching for Vaathi Coming song with artist name Anirudh Ravichander
+[INFO ] 2024-08-16 21:40:53.128 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-16 21:40:54.819 - Vaathi Coming found in top results
+[INFO ] 2024-08-16 21:40:54.821 - [Invoker 1511180072] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:54.822 - Quitting the driver
+[INFO ] 2024-08-16 21:40:55.044 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:40:55.044 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-16 21:40:55.044 - [Invoker 1511180072] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:40:55.045 - ************** Execution started for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-16 21:40:55.045 - Setting up the test: verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-16 21:40:55.681 - Login handled successfully
+[INFO ] 2024-08-16 21:40:55.683 - [Invoker 1851522556] Invoking com.spotify.web.tests.LibraryTests.createNewPlaylistInLibraryTest
+[INFO ] 2024-08-16 21:40:56.255 - New CHROME driver created
+[INFO ] 2024-08-16 21:40:56.255 - Driver instantiated 
+[INFO ] 2024-08-16 21:40:56.295 - Browser window maximized
+[INFO ] 2024-08-16 21:40:56.297 - [Invoker 1511180072] Invoking com.spotify.web.tests.SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched
+[INFO ] 2024-08-16 21:40:56.298 - Opening search page
+[INFO ] 2024-08-16 21:40:58.884 - Login handled successfully
+[INFO ] 2024-08-16 21:40:58.886 - [Invoker 1902455960] Invoking com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest
+[INFO ] 2024-08-16 21:40:58.886 - Opening Album page with 354TJOapvmkc4JCxi9vJHh
+[INFO ] 2024-08-16 21:40:59.666 - Created new playlist in the library
+[INFO ] 2024-08-16 21:41:01.142 - searching for Ordinary Person song with artist name Anirudh Ravichander
+[INFO ] 2024-08-16 21:41:01.612 - [Invoker 1851522556] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:41:01.613 - Quitting the driver
+[INFO ] 2024-08-16 21:41:01.902 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:41:01.903 - ************** Execution ended for createNewPlaylistInLibraryTest**************
+[INFO ] 2024-08-16 21:41:01.904 - [Invoker 1851522556] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:41:01.905 - ************** Execution started for deletePlaylistInLibraryTest**************
+[INFO ] 2024-08-16 21:41:01.908 - Setting up the test: deletePlaylistInLibraryTest
+[INFO ] 2024-08-16 21:41:03.288 - Clicked on Songs filter button successfully
+[INFO ] 2024-08-16 21:41:03.293 - New CHROME driver created
+[INFO ] 2024-08-16 21:41:03.293 - Driver instantiated 
+[INFO ] 2024-08-16 21:41:03.351 - Browser window maximized
+[INFO ] 2024-08-16 21:41:03.352 - Authentication required for the test: deletePlaylistInLibraryTest
+[INFO ] 2024-08-16 21:41:03.352 - Performing login
+[INFO ] 2024-08-16 21:41:03.352 - Navigating to Login Page
+[INFO ] 2024-08-16 21:41:04.103 - Album successfully removed from the library
+[INFO ] 2024-08-16 21:41:04.105 - [Invoker 1902455960] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:41:04.106 - Quitting the driver
+[INFO ] 2024-08-16 21:41:04.363 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:41:04.363 - ************** Execution ended for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-16 21:41:04.366 - [Invoker 1902455960] Invoking @BeforeMethod BaseTest.setUp(java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:41:04.366 - ************** Execution started for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-16 21:41:04.366 - Setting up the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-16 21:41:04.911 - Ordinary Person found in top results
+[INFO ] 2024-08-16 21:41:04.915 - [Invoker 1511180072] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.SearchTests@2b95e48b]
+[INFO ] 2024-08-16 21:41:04.915 - Quitting the driver
+[INFO ] 2024-08-16 21:41:05.233 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:41:05.234 - ************** Execution ended for verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched**************
+[INFO ] 2024-08-16 21:41:05.817 - New CHROME driver created
+[INFO ] 2024-08-16 21:41:05.817 - Driver instantiated 
+[INFO ] 2024-08-16 21:41:05.860 - Browser window maximized
+[INFO ] 2024-08-16 21:41:05.860 - Authentication required for the test: removeAlbumFromLibraryTest
+[INFO ] 2024-08-16 21:41:05.860 - Performing login
+[INFO ] 2024-08-16 21:41:05.860 - Navigating to Login Page
+[INFO ] 2024-08-16 21:41:10.794 - Login handled successfully
+[INFO ] 2024-08-16 21:41:10.797 - [Invoker 1851522556] Invoking com.spotify.web.tests.LibraryTests.deletePlaylistInLibraryTest
+[INFO ] 2024-08-16 21:41:13.349 - Login handled successfully
+[INFO ] 2024-08-16 21:41:13.351 - [Invoker 1902455960] Invoking com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest
+[INFO ] 2024-08-16 21:41:13.351 - Opening Album page with 0EzDV9L2TAYuQNO5NVos5F
+[INFO ] 2024-08-16 21:41:17.605 - Album successfully removed from the library
+[INFO ] 2024-08-16 21:41:17.608 - [Invoker 1902455960] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.AlbumTests@3c435123]
+[INFO ] 2024-08-16 21:41:17.608 - Quitting the driver
+[INFO ] 2024-08-16 21:41:17.821 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:41:17.821 - ************** Execution ended for removeAlbumFromLibraryTest**************
+[INFO ] 2024-08-16 21:41:26.296 - Locating Updated Playlist in the library
+[INFO ] 2024-08-16 21:41:26.524 - Updated Playlist is not found in your library
+[INFO ] 2024-08-16 21:41:26.527 - [Invoker 1851522556] Invoking @AfterMethod BaseTest.tearDown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.spotify.web.tests.LibraryTests@150ab4ed]
+[INFO ] 2024-08-16 21:41:26.527 - Quitting the driver
+[INFO ] 2024-08-16 21:41:26.966 - Driver has been closed successfully
+[INFO ] 2024-08-16 21:41:26.967 - ************** Execution ended for deletePlaylistInLibraryTest**************
+[INFO ] 2024-08-16 21:41:27.471 - [[Utils]] Attempting to create C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\Regression\Test.xml
+[INFO ] 2024-08-16 21:41:27.472 - [[Utils]]   Directory C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\Regression exists: true
+[INFO ] 2024-08-16 21:41:27.474 - Creating C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\Regression\Test.xml
+[INFO ] 2024-08-16 21:41:27.616 - [TestNG] Time taken by org.testng.reporters.jq.Main@9d1a267: 126 ms
+[INFO ] 2024-08-16 21:41:27.618 - [TestNG] Time taken by org.testng.reporters.FailedReporter@58a4a74d: 1 ms
+[INFO ] 2024-08-16 21:41:27.650 - [TestNG] Time taken by org.testng.reporters.XMLReporter@6441c486: 32 ms
+[INFO ] 2024-08-16 21:41:27.657 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@68dcfd52: 6 ms
+[INFO ] 2024-08-16 21:41:27.663 - [[Utils]] Attempting to create C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports\TEST-com.spotify.web.tests.AlbumTests.xml
+[INFO ] 2024-08-16 21:41:27.664 - [[Utils]]   Directory C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports exists: true
+[INFO ] 2024-08-16 21:41:27.665 - Creating C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports\TEST-com.spotify.web.tests.AlbumTests.xml
+[INFO ] 2024-08-16 21:41:27.668 - [[Utils]] Attempting to create C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports\TEST-com.spotify.web.tests.SearchTests.xml
+[INFO ] 2024-08-16 21:41:27.668 - [[Utils]]   Directory C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports exists: true
+[INFO ] 2024-08-16 21:41:27.669 - Creating C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports\TEST-com.spotify.web.tests.SearchTests.xml
+[INFO ] 2024-08-16 21:41:27.672 - [[Utils]] Attempting to create C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports\TEST-com.spotify.web.tests.LibraryTests.xml
+[INFO ] 2024-08-16 21:41:27.672 - [[Utils]]   Directory C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports exists: true
+[INFO ] 2024-08-16 21:41:27.673 - Creating C:\Users\aruns\GitHubWorkSpace\SpotifyWebTests\test-output\junitreports\TEST-com.spotify.web.tests.LibraryTests.xml
+[INFO ] 2024-08-16 21:41:27.674 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3162743f: 17 ms
+[INFO ] 2024-08-16 21:41:27.674 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2c708440: 0 ms

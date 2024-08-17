@@ -44,7 +44,7 @@ public class BaseTest {
 	public void tearDown(ITestResult result, Method method) {
 		EventLogger.info("Quitting the driver");		
 		DriverManager.getInstance().quitDriver();
-		EventLogger.info("Driver quitted successfully");
+		EventLogger.info("Driver has been closed successfully");
 		EventLogger.endTestCase(method.getName());
 	}
 	
@@ -58,7 +58,7 @@ public class BaseTest {
 		String password = ResourceUtils.getProperty("configuration//authentication_config.properties", "password");
 		
 		login
-			.navigateToLoginPage()
+			.openPage()
 			.handleLogin(username, password);
 		
 		EventLogger.info("Login handled successfully");
