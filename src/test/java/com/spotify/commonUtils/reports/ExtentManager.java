@@ -1,6 +1,8 @@
-package com.spotify.web.reports;
+package com.spotify.commonUtils.reports;
 
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.spotify.web.driver.DriverManager;
 
 public class ExtentManager {
@@ -30,5 +32,9 @@ public class ExtentManager {
 	
 	public void closeExtent() {
 		extent.remove();
+	}
+	
+	public void addInfoLogs(String infoLog) {
+		extent.get().info(MarkupHelper.createLabel(infoLog, ExtentColor.GREY));
 	}
 }

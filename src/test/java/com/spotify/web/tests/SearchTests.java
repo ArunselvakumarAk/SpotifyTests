@@ -9,7 +9,7 @@ import com.spotify.web.pageobjects.pages.SearchPage;
 
 public class SearchTests extends BaseTest{
 	
-	@Test(dataProvider="getTracksTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression", "smoke"})
+	@Test(dataProvider="getTracksTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"web"})
 	public void verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(String song, String artist) {	
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
@@ -19,7 +19,7 @@ public class SearchTests extends BaseTest{
 			.assertSongInTopResults(song, artist);
 	}
 	
-	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"})
+	@Test(dataProvider = "getPlaylistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"web"})
 	public void verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(String playlistTitle) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
@@ -29,7 +29,7 @@ public class SearchTests extends BaseTest{
 			.assertInTopResults(playlistTitle);
 	}
 	
-	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"}, enabled =false)
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"web"})
 	public void verifyAlbumIsDisplayedInSearchResults_WhenAlbumIsSearched(String albumnName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage
@@ -39,7 +39,7 @@ public class SearchTests extends BaseTest{
 			.assertInTopResults(albumnName);
 	}
 	
-	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"regression"}, enabled =false)
+	@Test(dataProvider="getartistsTestData", dataProviderClass=SearchTestsDataProviders.class, groups= {"web"})
 	public void verifyArtistIsDisplayedInSearchResults_WhenArtistIsSearched(String artistName) {
 		SearchPage searchPage = new SearchPage(DriverManager.getInstance().getDriver());
 		searchPage

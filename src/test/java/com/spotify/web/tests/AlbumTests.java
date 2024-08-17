@@ -12,7 +12,7 @@ import com.spotify.web.utils.EventLogger;
 
 public class AlbumTests extends BaseTest{
 	
-	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class, groups= {"regression", "smoke"})
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class, groups= {"web"})
 	@AuthenticationRequired
 	public void addAlbumToLibraryTest(String albumId, String albumName){
 		AlbumPage albumPage = new AlbumPage(DriverManager.getInstance().getDriver());
@@ -32,7 +32,7 @@ public class AlbumTests extends BaseTest{
 		EventLogger.info("Album successfully added to the library");
 	}
 	
-	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class, groups= {"regression", "smoke"})
+	@Test(dataProvider="getAlbumsTestData", dataProviderClass=AlbumTestsDataProviders.class, groups= {"web"})
 	@AuthenticationRequired
 	public void removeAlbumFromLibraryTest(String albumId, String albumName){
 		AlbumPage albumPage = new AlbumPage(DriverManager.getInstance().getDriver());

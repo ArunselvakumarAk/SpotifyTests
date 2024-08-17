@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Regression" class="navigator-link">
-              <span class="suite-name border-passed">Regression</span>
+              <span class="suite-name border-failed">Regression</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Regression" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">22 methods, 2 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods failed suite-Regression"> (hide)</a> <!-- hide-methods failed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods failed suite-Regression"> (show)</a> <!-- show-methods failed suite-Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.AlbumTests" class="method navigator-link" hash-for-method="addAlbumToLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)">addAlbumToLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.AlbumTests" class="method navigator-link" hash-for-method="addAlbumToLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)">addAlbumToLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +122,22 @@
                     <div class="method-list-content passed suite-Regression">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.AlbumTests" class="method navigator-link" hash-for-method="addAlbumToLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)">addAlbumToLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.PlaylistTests" class="method navigator-link" hash-for-method="addTracksToPlaylistTest(2kksH47NRUdyGRzKUyrtMc)">addTracksToPlaylistTest(2kksH47NRUdyGRzKUyrtMc)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.AlbumTests" class="method navigator-link" hash-for-method="addAlbumToLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)">addAlbumToLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.PlaylistTests" class="method navigator-link" hash-for-method="addTracksToPlaylistTest(2y2FON76N3tjoxgn1a59Pv)">addTracksToPlaylistTest(2y2FON76N3tjoxgn1a59Pv)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.PlaylistTests" class="method navigator-link" hash-for-method="addTracksToPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)">addTracksToPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.PlaylistTests" class="method navigator-link" hash-for-method="changePlaylistDetailsTest(1IiPoqtRuyDvpheP2t7wFB)">changePlaylistDetailsTest(1IiPoqtRuyDvpheP2t7wFB)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -128,7 +157,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.AlbumTests" class="method navigator-link" hash-for-method="removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)">removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.ArtistTests" class="method navigator-link" hash-for-method="getArtistTest(1mYsTxnqsietFxj1OgoGbG)">getArtistTest(1mYsTxnqsietFxj1OgoGbG)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.ArtistTests" class="method navigator-link" hash-for-method="getArtistTest(6AiX12wXdXFoGJ2vk8zBjy)">getArtistTest(6AiX12wXdXFoGJ2vk8zBjy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.ArtistTests" class="method navigator-link" hash-for-method="getArtistTest(4zCH9qm4R2DADamUHMCa6O)">getArtistTest(4zCH9qm4R2DADamUHMCa6O)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.ArtistTests" class="method navigator-link" hash-for-method="getMultipleArtistsTest([4zCH9qm4R2DADamUHMCa6O, 1mYsTxnqsietFxj1OgoGbG, 6AiX12wXdXFoGJ2vk8zBjy])">getMultipleArtistsTest([4zCH9qm4R2DADamUHMCa6O, 1mYsTxnqsietFxj1OgoGbG, 6AiX12wXdXFoGJ2vk8zBjy])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,12 +182,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.SearchTests" class="method navigator-link" hash-for-method="verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast)">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.AlbumTests" class="method navigator-link" hash-for-method="removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)">removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.PlaylistTests" class="method navigator-link" hash-for-method="removeTracksFromPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)">removeTracksFromPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.PlaylistTests" class="method navigator-link" hash-for-method="removeTracksFromPlaylistTest(2kksH47NRUdyGRzKUyrtMc)">removeTracksFromPlaylistTest(2kksH47NRUdyGRzKUyrtMc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.api.tests.PlaylistTests" class="method navigator-link" hash-for-method="removeTracksFromPlaylistTest(2y2FON76N3tjoxgn1a59Pv)">removeTracksFromPlaylistTest(2y2FON76N3tjoxgn1a59Pv)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.SearchTests" class="method navigator-link" hash-for-method="verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Jailer)">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Jailer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.spotify.web.tests.SearchTests" class="method navigator-link" hash-for-method="verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast)">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -168,9 +232,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression" class="panel Regression">
-          <div class="suite-Regression-class-passed">
+          <div class="suite-Regression-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.spotify.web.tests.AlbumTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -180,6 +244,33 @@
                   </a> <!-- addAlbumToLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa) -->
                   <span class="method-name">addAlbumToLibraryTest</span>
                   <span class="parameters">(0EzDV9L2TAYuQNO5NVos5F,Billa)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.spotify.web.pageobjects.common.ContextMenu.verifyAddToLibraryBtn(ContextMenu.java:40)
+	at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -188,26 +279,37 @@
                   </a> <!-- addAlbumToLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal) -->
                   <span class="method-name">addAlbumToLibraryTest</span>
                   <span class="parameters">(354TJOapvmkc4JCxi9vJHh,Dangal)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)">
-                  </a> <!-- removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal) -->
-                  <span class="method-name">removeAlbumFromLibraryTest</span>
-                  <span class="parameters">(354TJOapvmkc4JCxi9vJHh,Dangal)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="removeAlbumFromLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)">
-                  </a> <!-- removeAlbumFromLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa) -->
-                  <span class="method-name">removeAlbumFromLibraryTest</span>
-                  <span class="parameters">(0EzDV9L2TAYuQNO5NVos5F,Billa)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.spotify.web.pageobjects.common.ContextMenu.verifyAddToLibraryBtn(ContextMenu.java:40)
+	at com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(AlbumTests.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
+          </div> <!-- suite-Regression-class-failed -->
           <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -216,18 +318,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast)">
-                  </a> <!-- verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast) -->
-                  <span class="method-name">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched</span>
-                  <span class="parameters">(Beast)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Jailer)">
                   </a> <!-- verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Jailer) -->
                   <span class="method-name">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched</span>
                   <span class="parameters">(Jailer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast)">
+                  </a> <!-- verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast) -->
+                  <span class="method-name">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched</span>
+                  <span class="parameters">(Beast)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -279,6 +381,134 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.spotify.api.tests.PlaylistTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTracksToPlaylistTest(2kksH47NRUdyGRzKUyrtMc)">
+                  </a> <!-- addTracksToPlaylistTest(2kksH47NRUdyGRzKUyrtMc) -->
+                  <span class="method-name">addTracksToPlaylistTest</span>
+                  <span class="parameters">(2kksH47NRUdyGRzKUyrtMc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTracksToPlaylistTest(2y2FON76N3tjoxgn1a59Pv)">
+                  </a> <!-- addTracksToPlaylistTest(2y2FON76N3tjoxgn1a59Pv) -->
+                  <span class="method-name">addTracksToPlaylistTest</span>
+                  <span class="parameters">(2y2FON76N3tjoxgn1a59Pv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTracksToPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)">
+                  </a> <!-- addTracksToPlaylistTest(2BOpAwR7MGzE09FFSA7ovU) -->
+                  <span class="method-name">addTracksToPlaylistTest</span>
+                  <span class="parameters">(2BOpAwR7MGzE09FFSA7ovU)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePlaylistDetailsTest(1IiPoqtRuyDvpheP2t7wFB)">
+                  </a> <!-- changePlaylistDetailsTest(1IiPoqtRuyDvpheP2t7wFB) -->
+                  <span class="method-name">changePlaylistDetailsTest</span>
+                  <span class="parameters">(1IiPoqtRuyDvpheP2t7wFB)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeTracksFromPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)">
+                  </a> <!-- removeTracksFromPlaylistTest(2BOpAwR7MGzE09FFSA7ovU) -->
+                  <span class="method-name">removeTracksFromPlaylistTest</span>
+                  <span class="parameters">(2BOpAwR7MGzE09FFSA7ovU)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeTracksFromPlaylistTest(2kksH47NRUdyGRzKUyrtMc)">
+                  </a> <!-- removeTracksFromPlaylistTest(2kksH47NRUdyGRzKUyrtMc) -->
+                  <span class="method-name">removeTracksFromPlaylistTest</span>
+                  <span class="parameters">(2kksH47NRUdyGRzKUyrtMc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeTracksFromPlaylistTest(2y2FON76N3tjoxgn1a59Pv)">
+                  </a> <!-- removeTracksFromPlaylistTest(2y2FON76N3tjoxgn1a59Pv) -->
+                  <span class="method-name">removeTracksFromPlaylistTest</span>
+                  <span class="parameters">(2y2FON76N3tjoxgn1a59Pv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.spotify.web.tests.AlbumTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeAlbumFromLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)">
+                  </a> <!-- removeAlbumFromLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa) -->
+                  <span class="method-name">removeAlbumFromLibraryTest</span>
+                  <span class="parameters">(0EzDV9L2TAYuQNO5NVos5F,Billa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)">
+                  </a> <!-- removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal) -->
+                  <span class="method-name">removeAlbumFromLibraryTest</span>
+                  <span class="parameters">(354TJOapvmkc4JCxi9vJHh,Dangal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.spotify.api.tests.ArtistTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getArtistTest(1mYsTxnqsietFxj1OgoGbG)">
+                  </a> <!-- getArtistTest(1mYsTxnqsietFxj1OgoGbG) -->
+                  <span class="method-name">getArtistTest</span>
+                  <span class="parameters">(1mYsTxnqsietFxj1OgoGbG)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getArtistTest(6AiX12wXdXFoGJ2vk8zBjy)">
+                  </a> <!-- getArtistTest(6AiX12wXdXFoGJ2vk8zBjy) -->
+                  <span class="method-name">getArtistTest</span>
+                  <span class="parameters">(6AiX12wXdXFoGJ2vk8zBjy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getArtistTest(4zCH9qm4R2DADamUHMCa6O)">
+                  </a> <!-- getArtistTest(4zCH9qm4R2DADamUHMCa6O) -->
+                  <span class="method-name">getArtistTest</span>
+                  <span class="parameters">(4zCH9qm4R2DADamUHMCa6O)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMultipleArtistsTest([4zCH9qm4R2DADamUHMCa6O, 1mYsTxnqsietFxj1OgoGbG, 6AiX12wXdXFoGJ2vk8zBjy])">
+                  </a> <!-- getMultipleArtistsTest([4zCH9qm4R2DADamUHMCa6O, 1mYsTxnqsietFxj1OgoGbG, 6AiX12wXdXFoGJ2vk8zBjy]) -->
+                  <span class="method-name">getMultipleArtistsTest</span>
+                  <span class="parameters">([4zCH9qm4R2DADamUHMCa6O, 1mYsTxnqsietFxj1OgoGbG, 6AiX12wXdXFoGJ2vk8zBjy])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
         </div> <!-- panel Regression -->
         <div panel-name="test-xml-Regression" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -290,15 +520,21 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.spotify.web.listener.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.spotify.commonUtils.listener.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Test&quot; verbose=&quot;3&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;WebTest&quot; verbose=&quot;3&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.spotify.web.tests.SearchTests&quot;/&gt;
       &lt;class name=&quot;com.spotify.web.tests.LibraryTests&quot;/&gt;
       &lt;class name=&quot;com.spotify.web.tests.AlbumTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- WebTest --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;ApiTest&quot; verbose=&quot;3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.spotify.api.tests.ArtistTests&quot;/&gt;
+      &lt;class name=&quot;com.spotify.api.tests.PlaylistTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ApiTest --&gt;
 &lt;/suite&gt; &lt;!-- Regression --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -310,7 +546,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">WebTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ApiTest (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -388,56 +627,100 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(22);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'deletePlaylistInLibraryTest')
-data.setCell(0, 2, 'com.spotify.web.tests.LibraryTests')
-data.setCell(0, 3, 15731);
+data.setCell(0, 1, 'addAlbumToLibraryTest')
+data.setCell(0, 2, 'com.spotify.web.tests.AlbumTests')
+data.setCell(0, 3, 19647);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'changePlaylistNameinLibraryTest')
-data.setCell(1, 2, 'com.spotify.web.tests.LibraryTests')
-data.setCell(1, 3, 15339);
+data.setCell(1, 1, 'addAlbumToLibraryTest')
+data.setCell(1, 2, 'com.spotify.web.tests.AlbumTests')
+data.setCell(1, 3, 18343);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched')
-data.setCell(2, 2, 'com.spotify.web.tests.SearchTests')
-data.setCell(2, 3, 11910);
+data.setCell(2, 1, 'changePlaylistNameinLibraryTest')
+data.setCell(2, 2, 'com.spotify.web.tests.LibraryTests')
+data.setCell(2, 3, 15672);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched')
-data.setCell(3, 2, 'com.spotify.web.tests.SearchTests')
-data.setCell(3, 3, 9243);
+data.setCell(3, 1, 'deletePlaylistInLibraryTest')
+data.setCell(3, 2, 'com.spotify.web.tests.LibraryTests')
+data.setCell(3, 3, 15595);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched')
+data.setCell(4, 1, 'verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched')
 data.setCell(4, 2, 'com.spotify.web.tests.SearchTests')
-data.setCell(4, 3, 8647);
+data.setCell(4, 3, 9647);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched')
 data.setCell(5, 2, 'com.spotify.web.tests.SearchTests')
-data.setCell(5, 3, 8616);
+data.setCell(5, 3, 8559);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'createNewPlaylistInLibraryTest')
-data.setCell(6, 2, 'com.spotify.web.tests.LibraryTests')
-data.setCell(6, 3, 5927);
+data.setCell(6, 1, 'verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched')
+data.setCell(6, 2, 'com.spotify.web.tests.SearchTests')
+data.setCell(6, 3, 8124);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'removeAlbumFromLibraryTest')
-data.setCell(7, 2, 'com.spotify.web.tests.AlbumTests')
-data.setCell(7, 3, 5219);
+data.setCell(7, 1, 'verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched')
+data.setCell(7, 2, 'com.spotify.web.tests.SearchTests')
+data.setCell(7, 3, 7711);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'addAlbumToLibraryTest')
-data.setCell(8, 2, 'com.spotify.web.tests.AlbumTests')
-data.setCell(8, 3, 4983);
+data.setCell(8, 1, 'createNewPlaylistInLibraryTest')
+data.setCell(8, 2, 'com.spotify.web.tests.LibraryTests')
+data.setCell(8, 3, 4863);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'addAlbumToLibraryTest')
+data.setCell(9, 1, 'removeAlbumFromLibraryTest')
 data.setCell(9, 2, 'com.spotify.web.tests.AlbumTests')
-data.setCell(9, 3, 4701);
+data.setCell(9, 3, 4372);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'removeAlbumFromLibraryTest')
 data.setCell(10, 2, 'com.spotify.web.tests.AlbumTests')
-data.setCell(10, 3, 4257);
+data.setCell(10, 3, 4357);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addTracksToPlaylistTest')
+data.setCell(11, 2, 'com.spotify.api.tests.PlaylistTests')
+data.setCell(11, 3, 3660);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getArtistTest')
+data.setCell(12, 2, 'com.spotify.api.tests.ArtistTests')
+data.setCell(12, 3, 3572);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'removeTracksFromPlaylistTest')
+data.setCell(13, 2, 'com.spotify.api.tests.PlaylistTests')
+data.setCell(13, 3, 304);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addTracksToPlaylistTest')
+data.setCell(14, 2, 'com.spotify.api.tests.PlaylistTests')
+data.setCell(14, 3, 295);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'removeTracksFromPlaylistTest')
+data.setCell(15, 2, 'com.spotify.api.tests.PlaylistTests')
+data.setCell(15, 3, 289);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'addTracksToPlaylistTest')
+data.setCell(16, 2, 'com.spotify.api.tests.PlaylistTests')
+data.setCell(16, 3, 284);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'removeTracksFromPlaylistTest')
+data.setCell(17, 2, 'com.spotify.api.tests.PlaylistTests')
+data.setCell(17, 3, 273);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getMultipleArtistsTest')
+data.setCell(18, 2, 'com.spotify.api.tests.ArtistTests')
+data.setCell(18, 3, 264);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getArtistTest')
+data.setCell(19, 2, 'com.spotify.api.tests.ArtistTests')
+data.setCell(19, 3, 258);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getArtistTest')
+data.setCell(20, 2, 'com.spotify.api.tests.ArtistTests')
+data.setCell(20, 3, 256);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'changePlaylistDetailsTest')
+data.setCell(21, 2, 'com.spotify.api.tests.PlaylistTests')
+data.setCell(21, 3, 238);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Regression">
               </div> <!-- times-div-Regression -->
             </div> <!-- times-div -->
@@ -482,195 +765,255 @@ return data;
               <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.spotify.web.tests.SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistI...)</span>
-                <span class="method-start">321 ms</span>
+                <span class="method-start">211 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String...)</span>
-                <span class="method-start">321 ms</span>
+                <span class="method-start">211 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Jailer)</span>
-                <span class="method-start">5841 ms</span>
+                <span class="method-start">2254 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addAlbumToLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</span>
-                <span class="method-start">14903 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched status=SUCCESS meth...)</span>
+                <span class="method-start">9980 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.LibraryTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">changePlaylistNameinLibraryTest(My Playlist #1, Updated Playlist)</span>
-                <span class="method-start">15104 ms</span>
+                <span class="method-start">10154 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched status=SUCCESS meth...)</span>
-                <span class="method-start">17760 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.spotify.web.tests.SearchTests.verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistI...)</span>
-                <span class="method-start">18077 ms</span>
+                <span class="method-start">10325 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched(Beast)</span>
-                <span class="method-start">19510 ms</span>
+                <span class="method-start">11801 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addAlbumToLibraryTest status=SUCCESS method=AlbumTests.addAlbumToLibraryTest(java.l...)</span>
-                <span class="method-start">19889 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String...)</span>
-                <span class="method-start">20118 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addAlbumToLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</span>
+                <span class="method-start">11972 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyPlaylistIsDisplayedInSearchResults_WhenPlaylistIsSearched status=SUCCESS meth...)</span>
-                <span class="method-start">28161 ms</span>
+                <span class="method-start">19925 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.spotify.web.tests.SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearc...)</span>
-                <span class="method-start">28412 ms</span>
+                <span class="method-start">20208 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addAlbumToLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)</span>
-                <span class="method-start">28983 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(Vaathi Coming, Anirudh Ravichander)</span>
-                <span class="method-start">29600 ms</span>
+                <span class="method-start">21365 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.LibraryTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=changePlaylistNameinLibraryTest status=SUCCESS method=LibraryTests.changePlaylistNa...)</span>
-                <span class="method-start">30446 ms</span>
+                <span class="method-start">25826 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.spotify.web.tests.LibraryTests.createNewPlaylistInLibraryTest() throws java.lang.Int...)</span>
-                <span class="method-start">30771 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addAlbumToLibraryTest status=SUCCESS method=AlbumTests.addAlbumToLibraryTest(java.l...)</span>
-                <span class="method-start">33686 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.S...)</span>
-                <span class="method-start">34003 ms</span>
+                <span class="method-start">26134 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=Sea...)</span>
-                <span class="method-start">38845 ms</span>
+                <span class="method-start">31013 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.spotify.web.tests.SearchTests.verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearc...)</span>
-                <span class="method-start">39068 ms</span>
+                <span class="method-start">31264 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addAlbumToLibraryTest status=FAILURE method=AlbumTests.addAlbumToLibraryTest(java.l...)</span>
+                <span class="method-start">32078 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(Ordinary Person, Anirudh Ravichander)</span>
+                <span class="method-start">32447 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.spotify.web.tests.AlbumTests.addAlbumToLibraryTest(java.lang.String,java.lang.String...)</span>
+                <span class="method-start">32518 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.LibraryTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createNewPlaylistInLibraryTest</span>
-                <span class="method-start">39706 ms</span>
+                <span class="method-start">35726 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched(Ordinary Person, Anirudh Ravichander)</span>
-                <span class="method-start">40320 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</span>
-                <span class="method-start">42908 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.LibraryTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=createNewPlaylistInLibraryTest status=SUCCESS method=LibraryTests.createNewPlaylist...)</span>
-                <span class="method-start">45636 ms</span>
+                <span class="method-start">40591 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.spotify.web.tests.LibraryTests.deletePlaylistInLibraryTest(java.lang.String))</span>
-                <span class="method-start">45928 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryT...)</span>
-                <span class="method-start">48129 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.S...)</span>
-                <span class="method-start">48389 ms</span>
+                <span class="method-start">40886 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.SearchTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyTrackIsDisplayedInSearchResults_WhenTrackIsSearched status=SUCCESS method=Sea...)</span>
-                <span class="method-start">48937 ms</span>
+                <span class="method-start">41008 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addAlbumToLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)</span>
+                <span class="method-start">41581 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.LibraryTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deletePlaylistInLibraryTest(Updated Playlist)</span>
-                <span class="method-start">54818 ms</span>
+                <span class="method-start">50911 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">removeAlbumFromLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)</span>
-                <span class="method-start">57373 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryT...)</span>
-                <span class="method-start">61632 ms</span>
+                <span class="method-name">tearDown([TestResult name=addAlbumToLibraryTest status=FAILURE method=AlbumTests.addAlbumToLibraryTest(java.l...)</span>
+                <span class="method-start">60334 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.S...)</span>
+                <span class="method-start">60628 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.web.tests.LibraryTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=deletePlaylistInLibraryTest status=SUCCESS method=LibraryTests.deletePlaylistInLibr...)</span>
-                <span class="method-start">70550 ms</span>
+                <span class="method-start">66506 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.web.tests.AlbumTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeAlbumFromLibraryTest(354TJOapvmkc4JCxi9vJHh, Dangal)</span>
+                <span class="method-start">69044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryT...)</span>
+                <span class="method-start">73402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.spotify.web.tests.AlbumTests.removeAlbumFromLibraryTest(java.lang.String,java.lang.S...)</span>
+                <span class="method-start">73590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeAlbumFromLibraryTest(0EzDV9L2TAYuQNO5NVos5F, Billa)</span>
+                <span class="method-start">81537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeAlbumFromLibraryTest status=SUCCESS method=AlbumTests.removeAlbumFromLibraryT...)</span>
+                <span class="method-start">85909 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.api.tests.PlaylistTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTracksToPlaylistTest(2kksH47NRUdyGRzKUyrtMc)</span>
+                <span class="method-start">86552 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.api.tests.ArtistTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getArtistTest(4zCH9qm4R2DADamUHMCa6O)</span>
+                <span class="method-start">86583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getArtistTest(1mYsTxnqsietFxj1OgoGbG)</span>
+                <span class="method-start">90155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.api.tests.PlaylistTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTracksToPlaylistTest(2y2FON76N3tjoxgn1a59Pv)</span>
+                <span class="method-start">90213 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.api.tests.ArtistTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getArtistTest(6AiX12wXdXFoGJ2vk8zBjy)</span>
+                <span class="method-start">90415 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.api.tests.PlaylistTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTracksToPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)</span>
+                <span class="method-start">90508 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.api.tests.ArtistTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getMultipleArtistsTest([4zCH9qm4R2DADamUHMCa6O, 1mYsTxnqsietFxj1OgoGbG, 6AiX12wXdXFoGJ2vk8zBjy])</span>
+                <span class="method-start">90682 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spotify.api.tests.PlaylistTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">changePlaylistDetailsTest(1IiPoqtRuyDvpheP2t7wFB)</span>
+                <span class="method-start">90792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeTracksFromPlaylistTest(2kksH47NRUdyGRzKUyrtMc)</span>
+                <span class="method-start">91034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeTracksFromPlaylistTest(2y2FON76N3tjoxgn1a59Pv)</span>
+                <span class="method-start">91339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeTracksFromPlaylistTest(2BOpAwR7MGzE09FFSA7ovU)</span>
+                <span class="method-start">91612 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
