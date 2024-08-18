@@ -38,8 +38,29 @@ public class ExtentManager {
 		extent.remove();
 	}
 	
+	public void logPassDetails(String log) {
+		extent.get().pass(MarkupHelper.createLabel(log, ExtentColor.GREEN));
+	}
+	
+	public void logFailureDetails(String log) {
+		extent.get().fail(MarkupHelper.createLabel(log, ExtentColor.RED));
+	}
+	
+	public void logExceptionDetails(String stackTrace) {
+		stackTrace = stackTrace.replaceAll(",", "<br>");
+		String formattedStackTrace = "<details>\r\n"
+				+ "  <summary>Detailed Exception Logs</summary>\r\n"
+				+ "  "+stackTrace+"\r\n"
+				+ "</details>";
+		extent.get().info(formattedStackTrace);
+	}
+	
 	public void logInfo(String infoLog) {
 		extent.get().info(MarkupHelper.createLabel(infoLog, ExtentColor.GREY));
+	}
+	
+	public void logSkippedDetails(String infoLog) {
+		extent.get().skip(MarkupHelper.createLabel(infoLog, ExtentColor.GREY));
 	}
 	
 	public void logJson(String json) {

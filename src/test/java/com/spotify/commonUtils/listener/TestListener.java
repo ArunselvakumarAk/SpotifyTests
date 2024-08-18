@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -12,9 +13,6 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.spotify.commonUtils.reports.ExtentManager;
 import com.spotify.commonUtils.reports.ExtentReport;
 import com.spotify.web.driver.DriverManager;
@@ -31,13 +29,14 @@ public class TestListener implements ITestListener{
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		ExtentManager.getInstance().getExtent().pass(MarkupHelper.createLabel(Status.PASS.toString(), ExtentColor.GREEN));
+		ExtentManager.getInstance().logPassDetails("Test Case Passed Successfully");
 		ExtentManager.getInstance().closeExtent();
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		ExtentManager.getInstance().getExtent().fail(MarkupHelper.createLabel(Status.FAIL.toString(), ExtentColor.RED));
+		ExtentManager.getInstance().logFailureDetails(result.getThrowable().getMessage());
+		ExtentManager.getInstance().logExceptionDetails(Arrays.toString(result.getThrowable().getStackTrace()));
 		if (result.getTestClass().getName().startsWith("com.spotify.web")) {
 
 			File scrFile = ((TakesScreenshot) DriverManager.getInstance().getDriver()).getScreenshotAs(OutputType.FILE);
@@ -60,7 +59,7 @@ public class TestListener implements ITestListener{
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		ExtentManager.getInstance().getExtent().skip(MarkupHelper.createLabel(Status.SKIP.toString(), ExtentColor.YELLOW));
+		ExtentManager.getInstance().logSkippedDetails("Test Case Skipped");
 		ExtentManager.getInstance().closeExtent();
 	}
 
