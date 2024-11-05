@@ -1,0 +1,1671 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Spotify Test Results Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Spotify Test Suite Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 26, 2024 12:43:52 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addTracksToPlaylistTest</p>
+            <p class="text-sm">
+              <span>12:43:52 pm</span> / <span>00:00:03:276</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addTracksToPlaylistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:52 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-default'>00:00:03:276</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({"uris":["spotify:track:4tHdVbionAnDm4LN17MDIl","spotify:track:66N9OkT3uarJxuzD7iU4BP"],"position":0}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>private, max-age=0</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:41 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create({"snapshot_id":"AAAA2RTobdB04zDgHXlFJQ3aX0Mn3m2F"}); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getArtistTest</p>
+            <p class="text-sm">
+              <span>12:43:52 pm</span> / <span>00:00:03:137</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getArtistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:52 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-default'>00:00:03:137</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create(No Body); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>public, max-age=0</td></tr><tr><td>etag</td><td>"MC-IjMzZWQyYzJkZWI2ZjAzMjJmZWRiYzhiZTk3OGMzYzNkIg=="</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:41 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({"external_urls":{"spotify":"https://open.spotify.com/artist/4zCH9qm4R2DADamUHMCa6O"},"followers":{"href":null,"total":33381685},"genres":["desi hip hop","filmi","tamil hip hop"],"href":"https://api.spotify.com/v1/artists/4zCH9qm4R2DADamUHMCa6O","id":"4zCH9qm4R2DADamUHMCa6O","images":[{"url":"https://i.scdn.co/image/ab6761610000e5eb0f0be2054fe9594026a6b843","height":640,"width":640},{"url":"https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843","height":320,"width":320},{"url":"https://i.scdn.co/image/ab6761610000f1780f0be2054fe9594026a6b843","height":160,"width":160}],"name":"Anirudh Ravichander","popularity":86,"type":"artist","uri":"spotify:artist:4zCH9qm4R2DADamUHMCa6O"}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getArtistTest</p>
+            <p class="text-sm">
+              <span>12:43:55 pm</span> / <span>00:00:00:319</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getArtistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-default'>00:00:00:319</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create(No Body); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>public, max-age=0</td></tr><tr><td>etag</td><td>"MC-ImYzYjAzMDhjOTE5OWM1MzZhYjMzMjI4N2QwZDM0N2FlIg=="</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:41 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-6'></div>
+ <script>
+  function jsonTreeCreate6() { 
+   document.getElementById('code-block-json-6').innerHTML = JSONTree.create({"external_urls":{"spotify":"https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG"},"followers":{"href":null,"total":54164771},"genres":["filmi"],"href":"https://api.spotify.com/v1/artists/1mYsTxnqsietFxj1OgoGbG","id":"1mYsTxnqsietFxj1OgoGbG","images":[{"url":"https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c","height":640,"width":640},{"url":"https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c","height":320,"width":320},{"url":"https://i.scdn.co/image/ab6761610000f178b19af0ea736c6228d6eb539c","height":160,"width":160}],"name":"A.R. Rahman","popularity":81,"type":"artist","uri":"spotify:artist:1mYsTxnqsietFxj1OgoGbG"}); 
+  }
+  jsonTreeCreate6();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addTracksToPlaylistTest</p>
+            <p class="text-sm">
+              <span>12:43:55 pm</span> / <span>00:00:00:301</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addTracksToPlaylistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-default'>00:00:00:301</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-5'></div>
+ <script>
+  function jsonTreeCreate5() { 
+   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({"uris":["spotify:track:4tHdVbionAnDm4LN17MDIl","spotify:track:66N9OkT3uarJxuzD7iU4BP"],"position":0}); 
+  }
+  jsonTreeCreate5();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>private, max-age=0</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:42 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-8'></div>
+ <script>
+  function jsonTreeCreate8() { 
+   document.getElementById('code-block-json-8').innerHTML = JSONTree.create({"snapshot_id":"AAAArMp8sfZK381NeSWJg+szE1ZCFrI4"}); 
+  }
+  jsonTreeCreate8();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getArtistTest</p>
+            <p class="text-sm">
+              <span>12:43:55 pm</span> / <span>00:00:00:280</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getArtistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-default'>00:00:00:280</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-7'></div>
+ <script>
+  function jsonTreeCreate7() { 
+   document.getElementById('code-block-json-7').innerHTML = JSONTree.create(No Body); 
+  }
+  jsonTreeCreate7();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>public, max-age=0</td></tr><tr><td>etag</td><td>"MC-ImRkYTdjZmU0MzVlZDRjMDA1N2RjYzRmZmI3YjFkYjYyIg=="</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:42 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-10'></div>
+ <script>
+  function jsonTreeCreate10() { 
+   document.getElementById('code-block-json-10').innerHTML = JSONTree.create({"external_urls":{"spotify":"https://open.spotify.com/artist/6AiX12wXdXFoGJ2vk8zBjy"},"followers":{"href":null,"total":14621930},"genres":["filmi","kollywood"],"href":"https://api.spotify.com/v1/artists/6AiX12wXdXFoGJ2vk8zBjy","id":"6AiX12wXdXFoGJ2vk8zBjy","images":[{"url":"https://i.scdn.co/image/ab6761610000e5ebe60d7a790ebea50d205bda93","height":640,"width":640},{"url":"https://i.scdn.co/image/ab67616100005174e60d7a790ebea50d205bda93","height":320,"width":320},{"url":"https://i.scdn.co/image/ab6761610000f178e60d7a790ebea50d205bda93","height":160,"width":160}],"name":"Yuvan Shankar Raja","popularity":78,"type":"artist","uri":"spotify:artist:6AiX12wXdXFoGJ2vk8zBjy"}); 
+  }
+  jsonTreeCreate10();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addTracksToPlaylistTest</p>
+            <p class="text-sm">
+              <span>12:43:55 pm</span> / <span>00:00:00:282</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addTracksToPlaylistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:55 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-default'>00:00:00:282</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:55 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-9'></div>
+ <script>
+  function jsonTreeCreate9() { 
+   document.getElementById('code-block-json-9').innerHTML = JSONTree.create({"uris":["spotify:track:4tHdVbionAnDm4LN17MDIl","spotify:track:66N9OkT3uarJxuzD7iU4BP"],"position":0}); 
+  }
+  jsonTreeCreate9();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>private, max-age=0</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:42 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-12'></div>
+ <script>
+  function jsonTreeCreate12() { 
+   document.getElementById('code-block-json-12').innerHTML = JSONTree.create({"snapshot_id":"AAAArs+tt6f9SJDF0TrFCS5ohkIxl/Dv"}); 
+  }
+  jsonTreeCreate12();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getMultipleArtistsTest</p>
+            <p class="text-sm">
+              <span>12:43:56 pm</span> / <span>00:00:00:295</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getMultipleArtistsTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-default'>00:00:00:295</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-11'></div>
+ <script>
+  function jsonTreeCreate11() { 
+   document.getElementById('code-block-json-11').innerHTML = JSONTree.create(No Body); 
+  }
+  jsonTreeCreate11();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>public, max-age=0</td></tr><tr><td>etag</td><td>"MC-ImNkNGVlMzNmZGMxYmFhNGU0M2M4MWU2NDE3ZDk3ODg5Ig=="</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:42 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-14'></div>
+ <script>
+  function jsonTreeCreate14() { 
+   document.getElementById('code-block-json-14').innerHTML = JSONTree.create({"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/4zCH9qm4R2DADamUHMCa6O"},"followers":{"href":null,"total":33381685},"genres":["desi hip hop","filmi","tamil hip hop"],"href":"https://api.spotify.com/v1/artists/4zCH9qm4R2DADamUHMCa6O","id":"4zCH9qm4R2DADamUHMCa6O","images":[{"url":"https://i.scdn.co/image/ab6761610000e5eb0f0be2054fe9594026a6b843","height":640,"width":640},{"url":"https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843","height":320,"width":320},{"url":"https://i.scdn.co/image/ab6761610000f1780f0be2054fe9594026a6b843","height":160,"width":160}],"name":"Anirudh Ravichander","popularity":86,"type":"artist","uri":"spotify:artist:4zCH9qm4R2DADamUHMCa6O"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG"},"followers":{"href":null,"total":54164771},"genres":["filmi"],"href":"https://api.spotify.com/v1/artists/1mYsTxnqsietFxj1OgoGbG","id":"1mYsTxnqsietFxj1OgoGbG","images":[{"url":"https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c","height":640,"width":640},{"url":"https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c","height":320,"width":320},{"url":"https://i.scdn.co/image/ab6761610000f178b19af0ea736c6228d6eb539c","height":160,"width":160}],"name":"A.R. Rahman","popularity":81,"type":"artist","uri":"spotify:artist:1mYsTxnqsietFxj1OgoGbG"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6AiX12wXdXFoGJ2vk8zBjy"},"followers":{"href":null,"total":14621930},"genres":["filmi","kollywood"],"href":"https://api.spotify.com/v1/artists/6AiX12wXdXFoGJ2vk8zBjy","id":"6AiX12wXdXFoGJ2vk8zBjy","images":[{"url":"https://i.scdn.co/image/ab6761610000e5ebe60d7a790ebea50d205bda93","height":640,"width":640},{"url":"https://i.scdn.co/image/ab67616100005174e60d7a790ebea50d205bda93","height":320,"width":320},{"url":"https://i.scdn.co/image/ab6761610000f178e60d7a790ebea50d205bda93","height":160,"width":160}],"name":"Yuvan Shankar Raja","popularity":78,"type":"artist","uri":"spotify:artist:6AiX12wXdXFoGJ2vk8zBjy"}]}); 
+  }
+  jsonTreeCreate14();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">changePlaylistDetailsTest</p>
+            <p class="text-sm">
+              <span>12:43:56 pm</span> / <span>00:00:00:257</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">changePlaylistDetailsTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-default'>00:00:00:257</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-13'></div>
+ <script>
+  function jsonTreeCreate13() { 
+   document.getElementById('code-block-json-13').innerHTML = JSONTree.create(ChangePlaylistDetailsModel.builder().name("Playlist Name").description("Playlist Descripton").isPublic(false).build()); 
+  }
+  jsonTreeCreate13();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>cache-control</td><td>private, max-age=0</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>Content-Length</td><td>0</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:42 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-15'></div>
+ <script>
+  function jsonTreeCreate15() { 
+   document.getElementById('code-block-json-15').innerHTML = JSONTree.create(); 
+  }
+  jsonTreeCreate15();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">removeTracksFromPlaylistTest</p>
+            <p class="text-sm">
+              <span>12:43:56 pm</span> / <span>00:00:00:343</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">removeTracksFromPlaylistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-default'>00:00:00:343</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-16'></div>
+ <script>
+  function jsonTreeCreate16() { 
+   document.getElementById('code-block-json-16').innerHTML = JSONTree.create({"tracks":[{"uri":"spotify:track:4tHdVbionAnDm4LN17MDIl"},{"uri":"spotify:track:66N9OkT3uarJxuzD7iU4BP"}],"snapshot_id":null}); 
+  }
+  jsonTreeCreate16();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>private, max-age=0</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:42 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-17'></div>
+ <script>
+  function jsonTreeCreate17() { 
+   document.getElementById('code-block-json-17').innerHTML = JSONTree.create({"snapshot_id":"AAAA2kBkqv3oxTEdy5/gbHAy2vDK+HQO"}); 
+  }
+  jsonTreeCreate17();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">removeTracksFromPlaylistTest</p>
+            <p class="text-sm">
+              <span>12:43:56 pm</span> / <span>00:00:00:292</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">removeTracksFromPlaylistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-default'>00:00:00:292</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-18'></div>
+ <script>
+  function jsonTreeCreate18() { 
+   document.getElementById('code-block-json-18').innerHTML = JSONTree.create({"tracks":[{"uri":"spotify:track:4tHdVbionAnDm4LN17MDIl"},{"uri":"spotify:track:66N9OkT3uarJxuzD7iU4BP"}],"snapshot_id":null}); 
+  }
+  jsonTreeCreate18();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>private, max-age=0</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:43 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-19'></div>
+ <script>
+  function jsonTreeCreate19() { 
+   document.getElementById('code-block-json-19').innerHTML = JSONTree.create({"snapshot_id":"AAAArTZ6pbtwWvGJOMI0/Q7bdjBIxjDG"}); 
+  }
+  jsonTreeCreate19();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:56 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">removeTracksFromPlaylistTest</p>
+            <p class="text-sm">
+              <span>12:43:56 pm</span> / <span>00:00:00:314</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">removeTracksFromPlaylistTest</h5>
+<span class='badge badge-success'>10.26.2024 12:43:56 pm</span>
+<span class='badge badge-danger'>10.26.2024 12:43:57 pm</span>
+<span class='badge badge-default'>00:00:00:314</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text grey'>EndPoint : https://api.spotify.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text grey'>ContentType null</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <table class='markup-table table '></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text grey'>Request Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-20'></div>
+ <script>
+  function jsonTreeCreate20() { 
+   document.getElementById('code-block-json-20').innerHTML = JSONTree.create({"tracks":[{"uri":"spotify:track:4tHdVbionAnDm4LN17MDIl"},{"uri":"spotify:track:66N9OkT3uarJxuzD7iU4BP"}],"snapshot_id":null}); 
+  }
+  jsonTreeCreate20();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Status Code: 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Headers: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <table class='markup-table table '><tr><td>content-type</td><td>application/json; charset=utf-8</td></tr><tr><td>cache-control</td><td>private, max-age=0</td></tr><tr><td>x-robots-tag</td><td>noindex, nofollow</td></tr><tr><td>access-control-allow-origin</td><td>*</td></tr><tr><td>access-control-allow-headers</td><td>Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token</td></tr><tr><td>access-control-allow-methods</td><td>GET, POST, OPTIONS, PUT, DELETE, PATCH</td></tr><tr><td>access-control-allow-credentials</td><td>true</td></tr><tr><td>access-control-max-age</td><td>604800</td></tr><tr><td>content-encoding</td><td>gzip</td></tr><tr><td>strict-transport-security</td><td>max-age=31536000</td></tr><tr><td>x-content-type-options</td><td>nosniff</td></tr><tr><td>date</td><td>Sat, 26 Oct 2024 07:14:43 GMT</td></tr><tr><td>server</td><td>envoy</td></tr><tr><td>Via</td><td>HTTP/2 edgeproxy, 1.1 google</td></tr><tr><td>Alt-Svc</td><td>h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text grey'>Response Body: </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-21'></div>
+ <script>
+  function jsonTreeCreate21() { 
+   document.getElementById('code-block-json-21').innerHTML = JSONTree.create({"snapshot_id":"AAAAr7ManC31X1oLLxH/M/sl9xzdT+p7"}); 
+  }
+  jsonTreeCreate21();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:43:57 pm</td>
+        <td>
+          <span class='badge white-text green'>Test Case Passed Successfully</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 26, 2024 12:43:52 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 26, 2024 12:43:57 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>11</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>11</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='8%'><b>11</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>121</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"addTracksToPlaylistTest":3.276,"getArtistTest":3.137,"getArtistTest":0.319,"addTracksToPlaylistTest":0.301,"getArtistTest":0.28,"addTracksToPlaylistTest":0.282,"getMultipleArtistsTest":0.295,"changePlaylistDetailsTest":0.257,"removeTracksFromPlaylistTest":0.343,"removeTracksFromPlaylistTest":0.292,"removeTracksFromPlaylistTest":0.314
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Executed on operating system: </td>
+<td>Windows 11</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 11,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 11,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 121
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
