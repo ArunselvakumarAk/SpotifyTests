@@ -22,3 +22,4 @@
 	</Loggers>
 </Configuration>
 <!-- fileName="logs/${ctx:logFilename}.log" -->
+<!-- fileName="logs/logs.log" -->
